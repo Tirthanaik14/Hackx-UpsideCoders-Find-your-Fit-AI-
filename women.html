@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Fit</title>
+    <link rel="stylesheet" href="stylewomen.css">
+</head>
+<body>
+    <header>
+        <div class="logo">👗 Find Your Fit AI</div>
+    </header>
+
+    <section class="fit-selection">
+        <h1>Find Your Perfect Fit</h1>
+        <form>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" required placeholder="Enter your height">
+
+            <label>Body Type:</label>
+            <div class="body-types">
+                <label>
+                    <input type="radio" name="bodyType" value="inverted-triangle">
+                    <img src="invertedwomen.jpg" alt="Inverted Triangle">
+                    <span>Inverted Triangle</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyType" value="rectangle">
+                    <img src="recwomen.jpg" alt="Rectangle">
+                    <span>Rectangle</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyType" value="apple">
+                    <img src="apple.jpg" alt="Apple">
+                    <span>Apple</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyType" value="peach">
+                    <img src="peach.jpg" alt="Peach">
+                    <span>Peach</span>
+                </label>
+                <label>
+                    <input type="radio" name="bodyType" value="hourglass">
+                    <img src="hourglass.jpg" alt="Hourglass">
+                    <span>Hourglass</span>
+                </label>
+            </div>
+
+            <label for="clothingType">Clothing Type:</label>
+            <select id="clothingType" onchange="updateBrands()">
+                <option value="" disabled selected>Select an option</option>
+                <option value="tops">Tops</option>
+                <option value="shirts">Shirts</option>
+                <option value="pants">Pants</option>
+            </select>
+
+            <label for="brand">Brand Preference:</label>
+            <select id="brand">
+                <option value="" disabled selected>Select an option</option>
+            </select>
+
+            <label for="fit">Preferred Fit:</label>
+            <select id="fit">
+                <option value="" disabled selected>Select an option</option>
+                <option>Slim Fit</option>
+                <option>Regular Fit</option>
+                <option>Loose Fit</option>
+            </select>
+
+            <button type="submit" class="animated-button">Find My Fit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Find Your Fit AI | Smart Shopping for Women</p>
+    </footer>
+
+    <script>
+        function updateBrands() {
+            const clothingType = document.getElementById("clothingType").value;
+            const brandDropdown = document.getElementById("brand");
+            brandDropdown.innerHTML = `<option value="" disabled selected>Select an option</option>`;
+
+            let brands = [];
+            if (clothingType === "tops") {
+                brands = ["Sassfaras", "Calvin Klein", "Forever 21"];
+            } else if (clothingType === "shirts") {
+                brands = ["H&M", "Zara", "Vero Moda"];
+            } else if (clothingType === "pants") {
+                brands = ["Only", "Kotty", "Marks & Spencer"];
+            }
+
+            brands.forEach(brand => {
+                let option = document.createElement("option");
+                option.textContent = brand;
+                brandDropdown.appendChild(option);
+            });
+        }
+    </script>
+</body>
+</html>
