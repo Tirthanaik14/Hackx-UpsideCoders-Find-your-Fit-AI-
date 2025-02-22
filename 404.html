@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        var path = window.location.pathname;
+        var basePath = "/UpsideCoders/";
+        var newPath = basePath + path.split("/").pop() + ".html";
+        window.location.replace(newPath);
+    </script>
+</head>
+<body>
+    <h2>Redirecting...</h2>
+</body>
+</html>
