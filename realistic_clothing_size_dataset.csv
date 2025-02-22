@@ -1,0 +1,2001 @@
+body_type,brand,clothing_type,shoulder_width,bust,waist,hip,size
+Triangle,Marks & Spencers,Oversized T-Shirt,35.9,84.1,84.1,98.9,S
+Hourglass,Forever 21,Oversized Pants,49.5,85.5,64.1,81.2,M
+Triangle,VeroModa,Oversized Shirt,39.6,84.6,84.6,99.6,L
+Hourglass,Mango,Regular Fit Shirt,37.1,100.3,75.2,95.3,M
+Triangle,Calvin Klein,Slim Fit Jeans,35.7,93.3,93.3,109.8,L
+Pear,Only,Oversized T-Shirt,49.2,82.1,65.7,96.6,XS
+Triangle,H&M,Regular Fit Jeans,38.5,81.1,81.1,95.4,XS
+Triangle,Only,Slim Fit Jeans,37.6,98.5,98.5,115.8,XL
+Apple,Forever 21,Oversized Shirt,42.8,99.4,99.4,99.4,L
+Rectangle,Forever 21,Slim Fit T-Shirt,46.6,99.4,99.4,99.4,XL
+Rectangle,Forever 21,Oversized Pants,39.9,80.9,80.9,80.9,L
+Hourglass,H&M,Oversized T-Shirt,44.1,109.1,81.8,103.7,S
+Hourglass,Mango,Regular Fit Shirt,46.6,109.7,82.3,104.2,XS
+Triangle,Marks & Spencers,Oversized Pants,45.7,85.0,85.0,100.0,M
+Pear,SaasFaras,Oversized Jeans,44.8,100.4,80.3,118.2,XL
+Triangle,Only,Slim Fit Pants,36.0,87.8,87.8,103.3,L
+Hourglass,Calvin Klein,Slim Fit Jeans,40.7,99.0,74.3,94.1,M
+Pear,SaasFaras,Oversized T-Shirt,38.8,85.8,68.6,100.9,S
+Pear,Mango,Regular Fit Jeans,38.0,90.1,72.1,106.0,S
+Apple,Forever 21,Regular Fit T-Shirt,41.2,97.5,97.5,97.5,XL
+Pear,Forever 21,Regular Fit Pants,48.2,95.5,76.4,112.4,M
+Rectangle,Mango,Oversized T-Shirt,37.8,96.1,96.1,96.1,L
+Pear,Only,Slim Fit Jeans,36.7,87.5,70.0,103.0,XS
+Apple,Mango,Regular Fit T-Shirt,35.1,115.8,115.8,115.8,XL
+Pear,Mango,Oversized T-Shirt,40.1,83.3,66.6,98.0,XS
+Pear,VeroModa,Oversized Pants,36.0,89.3,71.5,105.1,XS
+Rectangle,Forever 21,Slim Fit Jeans,37.2,94.2,94.2,94.2,S
+Apple,SaasFaras,Oversized Shirt,35.5,102.3,102.3,102.3,S
+Apple,SaasFaras,Slim Fit Shirt,41.7,105.9,105.9,105.9,S
+Triangle,Only,Oversized Jeans,47.0,85.9,85.9,101.1,M
+Hourglass,Forever 21,Oversized Shirt,47.0,105.4,79.1,100.1,M
+Apple,VeroModa,Slim Fit Shirt,38.3,99.8,99.8,99.8,L
+Rectangle,Calvin Klein,Slim Fit Shirt,37.6,92.9,92.9,92.9,L
+Apple,Marks & Spencers,Regular Fit Pants,45.1,115.1,115.1,115.1,S
+Apple,Mango,Oversized Shirt,44.9,97.7,97.7,97.7,S
+Rectangle,Mango,Regular Fit T-Shirt,49.9,85.2,85.2,85.2,L
+Triangle,Zara,Oversized T-Shirt,39.2,84.8,84.8,99.7,M
+Pear,Calvin Klein,Regular Fit T-Shirt,36.3,94.4,75.5,111.1,XS
+Triangle,VeroModa,Oversized Pants,40.6,93.1,93.1,109.5,L
+Apple,Calvin Klein,Slim Fit Pants,39.6,98.5,98.5,98.5,XL
+Rectangle,VeroModa,Slim Fit Shirt,45.7,84.5,84.5,84.5,XL
+Apple,Zara,Regular Fit T-Shirt,43.5,109.7,109.7,109.7,M
+Triangle,Calvin Klein,Slim Fit T-Shirt,48.6,91.1,91.1,107.2,XL
+Pear,H&M,Oversized T-Shirt,42.4,93.0,74.4,109.4,XS
+Hourglass,Calvin Klein,Regular Fit T-Shirt,35.7,104.2,78.2,99.0,M
+Triangle,Zara,Slim Fit T-Shirt,49.3,96.6,96.6,113.7,M
+Hourglass,SaasFaras,Oversized T-Shirt,36.1,109.5,82.1,104.0,M
+Hourglass,Zara,Regular Fit Pants,37.5,92.9,69.7,88.3,XS
+Apple,VeroModa,Regular Fit Jeans,36.5,107.1,107.1,107.1,M
+Rectangle,H&M,Regular Fit Jeans,37.0,97.0,97.0,97.0,XS
+Hourglass,Only,Regular Fit Jeans,44.2,91.4,68.6,86.8,M
+Triangle,Only,Slim Fit Pants,44.7,97.7,97.7,115.0,L
+Triangle,Calvin Klein,Regular Fit Pants,41.6,93.1,93.1,109.5,L
+Pear,Mango,Regular Fit Jeans,47.9,98.6,78.9,116.0,XL
+Apple,Forever 21,Regular Fit Jeans,42.8,93.8,93.8,93.8,M
+Hourglass,Zara,Regular Fit Pants,37.9,106.1,79.5,100.7,L
+Pear,Only,Oversized Pants,49.5,83.6,66.9,98.3,L
+Rectangle,Calvin Klein,Regular Fit Shirt,36.2,88.8,88.8,88.8,M
+Hourglass,Zara,Regular Fit Pants,35.9,102.2,76.7,97.1,XS
+Rectangle,SaasFaras,Oversized Shirt,39.2,93.2,93.2,93.2,XS
+Hourglass,Only,Oversized T-Shirt,38.7,95.5,71.6,90.7,XL
+Pear,Zara,Slim Fit T-Shirt,36.4,88.0,70.4,103.5,XS
+Apple,Forever 21,Oversized T-Shirt,46.5,90.5,90.5,90.5,L
+Hourglass,Only,Regular Fit T-Shirt,44.7,96.6,72.5,91.8,XS
+Rectangle,VeroModa,Oversized T-Shirt,40.6,80.9,80.9,80.9,L
+Rectangle,Calvin Klein,Regular Fit Jeans,45.3,90.8,90.8,90.8,XS
+Rectangle,SaasFaras,Slim Fit Jeans,45.2,96.0,96.0,96.0,M
+Pear,SaasFaras,Regular Fit Shirt,49.1,92.3,73.9,108.6,XL
+Pear,SaasFaras,Regular Fit Shirt,39.1,85.1,68.1,100.2,S
+Triangle,H&M,Slim Fit Shirt,36.1,95.3,95.3,112.1,S
+Hourglass,H&M,Slim Fit Shirt,45.4,97.4,73.1,92.5,XS
+Rectangle,Marks & Spencers,Regular Fit T-Shirt,39.2,96.1,96.1,96.1,XS
+Rectangle,Zara,Slim Fit Pants,41.2,99.8,99.8,99.8,M
+Rectangle,SaasFaras,Regular Fit Pants,45.2,84.8,84.8,84.8,XL
+Apple,Calvin Klein,Slim Fit Pants,42.4,106.0,106.0,106.0,XS
+Apple,VeroModa,Oversized Jeans,35.2,101.7,101.7,101.7,M
+Apple,Calvin Klein,Slim Fit Jeans,49.3,99.6,99.6,99.6,XS
+Triangle,Calvin Klein,Regular Fit Jeans,44.0,82.7,82.7,97.3,XL
+Triangle,Zara,Regular Fit T-Shirt,46.8,97.6,97.6,114.8,XL
+Hourglass,Zara,Regular Fit Jeans,43.2,86.4,64.8,82.1,S
+Hourglass,Calvin Klein,Regular Fit Pants,36.8,93.8,70.3,89.1,XL
+Triangle,Mango,Regular Fit Jeans,36.5,93.9,93.9,110.5,S
+Hourglass,Marks & Spencers,Regular Fit Jeans,45.6,105.5,79.2,100.3,XS
+Hourglass,Zara,Slim Fit T-Shirt,47.9,99.5,74.6,94.6,M
+Triangle,SaasFaras,Regular Fit Pants,40.3,93.3,93.3,109.8,XS
+Triangle,Calvin Klein,Slim Fit Jeans,40.0,86.0,86.0,101.2,M
+Pear,H&M,Slim Fit Jeans,46.5,96.5,77.2,113.5,S
+Apple,Only,Regular Fit Shirt,49.4,107.5,107.5,107.5,M
+Triangle,SaasFaras,Slim Fit Pants,49.4,85.5,85.5,100.6,XS
+Triangle,Zara,Slim Fit T-Shirt,36.1,101.9,101.9,119.8,XL
+Pear,Calvin Klein,Regular Fit T-Shirt,44.4,91.9,73.5,108.1,XS
+Apple,Zara,Slim Fit T-Shirt,35.7,117.0,117.0,117.0,M
+Triangle,Marks & Spencers,Slim Fit T-Shirt,40.0,83.0,83.0,97.7,L
+Rectangle,Forever 21,Regular Fit Jeans,39.0,84.6,84.6,84.6,S
+Hourglass,Mango,Regular Fit T-Shirt,43.0,102.5,76.8,97.3,M
+Apple,Zara,Regular Fit T-Shirt,37.4,110.5,110.5,110.5,XL
+Pear,VeroModa,Oversized Shirt,44.2,96.2,76.9,113.1,M
+Rectangle,Marks & Spencers,Oversized Shirt,35.4,80.9,80.9,80.9,M
+Apple,VeroModa,Regular Fit Shirt,37.3,119.6,119.6,119.6,S
+Hourglass,Mango,Slim Fit T-Shirt,47.6,106.1,79.5,100.8,M
+Rectangle,Mango,Slim Fit Shirt,36.1,80.3,80.3,80.3,XS
+Triangle,SaasFaras,Oversized T-Shirt,43.3,101.9,101.9,119.9,XL
+Hourglass,Zara,Oversized T-Shirt,38.7,106.2,79.7,100.9,S
+Apple,SaasFaras,Slim Fit Shirt,38.4,108.2,108.2,108.2,XL
+Apple,Marks & Spencers,Oversized Shirt,35.3,98.1,98.1,98.1,L
+Rectangle,H&M,Slim Fit T-Shirt,47.8,90.4,90.4,90.4,M
+Triangle,Zara,Oversized Jeans,42.2,93.3,93.3,109.7,XS
+Hourglass,Zara,Oversized Shirt,37.0,90.3,67.7,85.8,M
+Triangle,H&M,Slim Fit T-Shirt,40.9,93.3,93.3,109.7,S
+Pear,Calvin Klein,Oversized Shirt,41.8,92.4,73.9,108.7,L
+Triangle,Only,Regular Fit Jeans,46.9,95.6,95.6,112.4,M
+Rectangle,Marks & Spencers,Regular Fit Shirt,36.0,95.4,95.4,95.4,S
+Hourglass,H&M,Slim Fit T-Shirt,38.1,93.7,70.3,89.0,XL
+Pear,Calvin Klein,Slim Fit Pants,44.6,83.7,67.0,98.5,M
+Triangle,Marks & Spencers,Slim Fit Pants,42.7,99.3,99.3,116.9,M
+Rectangle,Calvin Klein,Slim Fit Shirt,39.2,83.4,83.4,83.4,XL
+Hourglass,VeroModa,Oversized T-Shirt,40.3,98.4,73.8,93.4,XS
+Rectangle,SaasFaras,Regular Fit Jeans,36.4,86.4,86.4,86.4,XL
+Apple,VeroModa,Oversized Pants,35.9,117.6,117.6,117.6,M
+Rectangle,Forever 21,Regular Fit Shirt,49.8,91.9,91.9,91.9,XS
+Rectangle,Only,Oversized Pants,35.6,94.9,94.9,94.9,S
+Pear,Only,Slim Fit Shirt,36.6,92.1,73.6,108.3,M
+Rectangle,VeroModa,Slim Fit Shirt,39.0,84.8,84.8,84.8,M
+Hourglass,Only,Slim Fit Pants,39.9,90.3,67.7,85.8,XS
+Triangle,Mango,Regular Fit Shirt,45.2,93.4,93.4,109.8,XL
+Pear,Mango,Oversized Shirt,43.8,92.2,73.7,108.4,L
+Apple,Calvin Klein,Regular Fit Jeans,48.5,100.1,100.1,100.1,XS
+Rectangle,Marks & Spencers,Oversized Jeans,49.0,86.6,86.6,86.6,XL
+Hourglass,VeroModa,Oversized T-Shirt,36.3,106.3,79.7,101.0,L
+Apple,Only,Slim Fit Shirt,45.5,90.5,90.5,90.5,M
+Rectangle,Forever 21,Slim Fit Jeans,47.3,97.3,97.3,97.3,M
+Apple,Marks & Spencers,Slim Fit T-Shirt,45.8,114.6,114.6,114.6,M
+Pear,Marks & Spencers,Regular Fit Jeans,38.1,98.6,78.9,116.0,M
+Rectangle,VeroModa,Regular Fit T-Shirt,46.0,84.0,84.0,84.0,M
+Triangle,SaasFaras,Regular Fit Jeans,49.0,91.5,91.5,107.7,XL
+Hourglass,Calvin Klein,Regular Fit Shirt,43.2,96.4,72.3,91.5,S
+Rectangle,H&M,Oversized Pants,37.1,81.8,81.8,81.8,S
+Apple,SaasFaras,Slim Fit Pants,44.1,104.2,104.2,104.2,M
+Pear,SaasFaras,Oversized T-Shirt,36.9,101.3,81.0,119.1,L
+Pear,Mango,Oversized Shirt,48.9,88.8,71.0,104.5,L
+Triangle,Marks & Spencers,Oversized Jeans,47.0,96.7,96.7,113.8,XS
+Pear,Zara,Oversized T-Shirt,44.5,85.8,68.6,100.9,XL
+Triangle,Mango,Regular Fit Jeans,41.8,95.3,95.3,112.1,XS
+Pear,VeroModa,Regular Fit Shirt,48.5,85.7,68.5,100.8,XS
+Rectangle,Zara,Oversized Pants,41.5,90.9,90.9,90.9,M
+Pear,Only,Slim Fit Shirt,46.9,83.7,67.0,98.5,S
+Hourglass,SaasFaras,Regular Fit T-Shirt,37.3,104.7,78.5,99.5,M
+Apple,Zara,Oversized Jeans,43.5,91.0,91.0,91.0,XS
+Rectangle,Zara,Oversized Jeans,47.3,86.8,86.8,86.8,S
+Triangle,Marks & Spencers,Regular Fit T-Shirt,42.3,92.2,92.2,108.5,XL
+Triangle,H&M,Oversized Jeans,43.1,95.5,95.5,112.3,M
+Pear,Zara,Regular Fit T-Shirt,40.1,101.1,80.9,119.0,M
+Rectangle,Marks & Spencers,Oversized Shirt,45.9,85.1,85.1,85.1,XS
+Pear,Forever 21,Regular Fit T-Shirt,45.6,100.4,80.3,118.1,XL
+Rectangle,SaasFaras,Slim Fit Jeans,36.2,81.4,81.4,81.4,S
+Apple,VeroModa,Oversized Jeans,49.8,93.4,93.4,93.4,XS
+Triangle,VeroModa,Regular Fit Pants,39.7,87.8,87.8,103.3,XS
+Pear,Marks & Spencers,Oversized T-Shirt,38.1,96.6,77.3,113.6,XS
+Apple,Zara,Regular Fit Jeans,41.2,93.4,93.4,93.4,XS
+Rectangle,VeroModa,Oversized Shirt,48.8,89.6,89.6,89.6,S
+Pear,Calvin Klein,Slim Fit T-Shirt,41.3,91.3,73.1,107.5,XS
+Apple,SaasFaras,Oversized Jeans,45.0,90.4,90.4,90.4,S
+Apple,Forever 21,Slim Fit Pants,47.9,106.7,106.7,106.7,XS
+Hourglass,Marks & Spencers,Regular Fit Shirt,41.0,92.7,69.6,88.1,XS
+Pear,Marks & Spencers,Slim Fit Shirt,40.7,94.0,75.2,110.6,XL
+Pear,H&M,Regular Fit Shirt,42.9,90.4,72.3,106.3,M
+Triangle,SaasFaras,Oversized Shirt,37.7,84.0,84.0,98.9,M
+Hourglass,Only,Regular Fit Pants,39.1,94.3,70.7,89.6,M
+Rectangle,SaasFaras,Regular Fit Pants,48.0,96.8,96.8,96.8,L
+Apple,Mango,Regular Fit Pants,45.1,96.9,96.9,96.9,M
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,37.7,105.0,78.7,99.7,XS
+Apple,Marks & Spencers,Oversized Shirt,45.8,97.3,97.3,97.3,M
+Pear,Forever 21,Regular Fit T-Shirt,41.1,83.7,67.0,98.5,XL
+Rectangle,Only,Regular Fit Jeans,35.4,84.2,84.2,84.2,XS
+Hourglass,Calvin Klein,Regular Fit T-Shirt,48.4,95.5,71.7,90.8,XL
+Hourglass,Forever 21,Oversized Jeans,40.4,105.6,79.2,100.3,S
+Triangle,Forever 21,Oversized T-Shirt,43.3,89.4,89.4,105.2,XL
+Rectangle,Zara,Slim Fit Jeans,46.5,99.0,99.0,99.0,M
+Apple,Marks & Spencers,Oversized Jeans,42.7,104.5,104.5,104.5,XS
+Apple,Marks & Spencers,Oversized Shirt,38.3,102.1,102.1,102.1,XL
+Pear,Forever 21,Regular Fit Jeans,45.4,99.9,79.9,117.5,S
+Hourglass,VeroModa,Oversized Shirt,42.5,105.4,79.0,100.1,XL
+Rectangle,SaasFaras,Oversized T-Shirt,45.8,89.9,89.9,89.9,XS
+Hourglass,VeroModa,Oversized T-Shirt,48.1,107.5,80.6,102.1,M
+Rectangle,Mango,Oversized T-Shirt,41.3,98.3,98.3,98.3,S
+Triangle,H&M,Slim Fit Jeans,36.4,84.7,84.7,99.6,M
+Pear,Zara,Oversized Jeans,45.8,88.3,70.6,103.9,M
+Pear,VeroModa,Oversized Shirt,39.0,91.0,72.8,107.1,XL
+Triangle,Calvin Klein,Slim Fit Shirt,42.4,81.8,81.8,96.3,L
+Hourglass,H&M,Slim Fit Pants,40.2,96.9,72.6,92.0,S
+Apple,SaasFaras,Slim Fit Pants,41.5,110.7,110.7,110.7,XL
+Pear,Calvin Klein,Oversized Shirt,49.5,80.8,64.6,95.1,XL
+Rectangle,Calvin Klein,Oversized T-Shirt,49.4,96.1,96.1,96.1,L
+Apple,Mango,Regular Fit Pants,43.1,95.6,95.6,95.6,XS
+Pear,Marks & Spencers,Oversized T-Shirt,45.4,94.7,75.8,111.5,XS
+Apple,H&M,Slim Fit Pants,49.8,96.6,96.6,96.6,L
+Hourglass,Only,Regular Fit Shirt,48.7,99.2,74.4,94.2,S
+Hourglass,Only,Slim Fit Pants,49.6,108.1,81.1,102.7,M
+Hourglass,H&M,Regular Fit T-Shirt,47.4,93.0,69.7,88.3,M
+Apple,Marks & Spencers,Slim Fit Shirt,36.2,93.6,93.6,93.6,L
+Hourglass,Marks & Spencers,Regular Fit Jeans,47.1,99.3,74.5,94.3,L
+Triangle,VeroModa,Slim Fit Pants,48.3,94.1,94.1,110.6,XL
+Rectangle,H&M,Regular Fit Pants,35.3,97.4,97.4,97.4,M
+Hourglass,H&M,Slim Fit Shirt,40.3,109.9,82.5,104.5,M
+Apple,Zara,Slim Fit Jeans,39.1,107.4,107.4,107.4,XS
+Apple,Mango,Regular Fit Pants,38.6,112.1,112.1,112.1,L
+Pear,Marks & Spencers,Oversized Shirt,43.8,96.0,76.8,112.9,L
+Apple,Zara,Slim Fit Pants,36.9,101.7,101.7,101.7,XS
+Pear,Zara,Oversized T-Shirt,49.7,93.3,74.6,109.7,M
+Pear,H&M,Slim Fit Pants,41.0,82.1,65.7,96.6,L
+Hourglass,VeroModa,Oversized T-Shirt,38.5,97.8,73.4,92.9,M
+Rectangle,Mango,Regular Fit Jeans,46.7,83.7,83.7,83.7,XS
+Hourglass,Zara,Slim Fit T-Shirt,44.0,98.0,73.5,93.1,XS
+Apple,Calvin Klein,Oversized Shirt,37.3,110.9,110.9,110.9,S
+Pear,VeroModa,Oversized Pants,43.9,92.2,73.7,108.4,XL
+Hourglass,H&M,Oversized Jeans,39.1,94.8,71.1,90.0,XS
+Hourglass,Mango,Slim Fit Shirt,35.5,106.3,79.7,101.0,XS
+Apple,Zara,Oversized Jeans,38.8,98.4,98.4,98.4,M
+Pear,Zara,Regular Fit Jeans,38.3,82.5,66.0,97.0,S
+Hourglass,Zara,Regular Fit Shirt,42.2,97.4,73.0,92.5,S
+Hourglass,Calvin Klein,Regular Fit Jeans,45.2,93.7,70.3,89.0,M
+Pear,SaasFaras,Slim Fit T-Shirt,38.7,99.2,79.4,116.7,M
+Pear,Mango,Oversized Jeans,45.2,95.6,76.5,112.4,XL
+Pear,VeroModa,Slim Fit Jeans,48.1,99.5,79.6,117.0,XL
+Pear,Only,Regular Fit Jeans,38.4,98.2,78.5,115.5,S
+Rectangle,Forever 21,Oversized Shirt,35.1,90.1,90.1,90.1,XL
+Hourglass,SaasFaras,Slim Fit Pants,40.7,87.9,65.9,83.5,XS
+Hourglass,Calvin Klein,Slim Fit T-Shirt,43.1,104.0,78.0,98.8,M
+Rectangle,Zara,Slim Fit T-Shirt,46.6,83.5,83.5,83.5,L
+Triangle,SaasFaras,Slim Fit Jeans,40.2,93.1,93.1,109.6,XS
+Rectangle,Marks & Spencers,Oversized Jeans,49.6,97.4,97.4,97.4,S
+Hourglass,Forever 21,Oversized Jeans,40.8,99.9,74.9,94.9,M
+Hourglass,SaasFaras,Slim Fit T-Shirt,35.0,91.3,68.5,86.7,M
+Rectangle,H&M,Regular Fit T-Shirt,47.8,82.0,82.0,82.0,XS
+Hourglass,Forever 21,Oversized Shirt,39.1,101.4,76.0,96.3,L
+Apple,Marks & Spencers,Slim Fit Jeans,41.3,118.3,118.3,118.3,XL
+Pear,Forever 21,Slim Fit T-Shirt,49.8,86.6,69.3,101.9,M
+Apple,VeroModa,Oversized Shirt,48.0,96.0,96.0,96.0,XL
+Triangle,H&M,Slim Fit Jeans,37.8,101.3,101.3,119.2,M
+Apple,Zara,Oversized Pants,46.4,115.3,115.3,115.3,M
+Pear,Zara,Oversized Pants,37.8,101.3,81.0,119.2,L
+Apple,Only,Regular Fit Shirt,43.4,97.4,97.4,97.4,L
+Apple,VeroModa,Slim Fit T-Shirt,47.0,98.1,98.1,98.1,XL
+Pear,SaasFaras,Oversized Pants,40.9,82.3,65.8,96.8,XL
+Pear,Mango,Regular Fit Shirt,35.6,97.3,77.9,114.5,L
+Pear,Marks & Spencers,Slim Fit Pants,43.6,82.9,66.3,97.6,XS
+Triangle,Forever 21,Regular Fit Shirt,49.1,97.2,97.2,114.4,S
+Apple,H&M,Regular Fit Shirt,36.2,116.5,116.5,116.5,XS
+Hourglass,Forever 21,Regular Fit Jeans,38.0,109.4,82.1,104.0,S
+Rectangle,H&M,Oversized Shirt,36.6,83.3,83.3,83.3,S
+Pear,Calvin Klein,Oversized Jeans,35.8,100.6,80.5,118.4,XS
+Apple,H&M,Slim Fit Jeans,46.8,108.8,108.8,108.8,S
+Pear,Only,Oversized Jeans,44.0,92.5,74.0,108.8,L
+Rectangle,Calvin Klein,Slim Fit Pants,36.2,94.6,94.6,94.6,L
+Triangle,Only,Slim Fit Jeans,44.2,90.9,90.9,107.0,XL
+Pear,Only,Regular Fit T-Shirt,46.8,84.6,67.7,99.6,XL
+Pear,H&M,Slim Fit T-Shirt,40.0,94.6,75.7,111.3,S
+Apple,Calvin Klein,Slim Fit Jeans,38.3,102.1,102.1,102.1,S
+Apple,Only,Slim Fit Jeans,45.9,116.0,116.0,116.0,XS
+Hourglass,Marks & Spencers,Regular Fit T-Shirt,40.6,93.6,70.2,89.0,XL
+Triangle,Marks & Spencers,Oversized Shirt,43.8,91.7,91.7,107.8,XS
+Rectangle,Zara,Oversized Shirt,48.5,97.5,97.5,97.5,L
+Rectangle,Calvin Klein,Slim Fit Shirt,38.2,98.2,98.2,98.2,S
+Hourglass,H&M,Oversized Pants,37.0,103.3,77.5,98.2,XL
+Triangle,Only,Regular Fit Jeans,42.7,88.7,88.7,104.3,L
+Hourglass,Zara,Slim Fit T-Shirt,36.5,95.9,71.9,91.1,XL
+Hourglass,Marks & Spencers,Regular Fit Pants,36.4,101.6,76.2,96.5,XS
+Apple,Mango,Slim Fit Pants,44.9,97.7,97.7,97.7,L
+Apple,Marks & Spencers,Slim Fit Jeans,41.8,119.1,119.1,119.1,L
+Pear,Calvin Klein,Slim Fit T-Shirt,45.0,90.3,72.2,106.2,S
+Apple,SaasFaras,Oversized T-Shirt,49.2,107.6,107.6,107.6,L
+Apple,VeroModa,Regular Fit T-Shirt,46.0,91.1,91.1,91.1,L
+Hourglass,Zara,Regular Fit Shirt,41.7,102.6,77.0,97.5,XS
+Triangle,Forever 21,Oversized Shirt,38.5,83.4,83.4,98.1,S
+Rectangle,SaasFaras,Regular Fit Pants,49.0,89.0,89.0,89.0,M
+Hourglass,SaasFaras,Regular Fit Shirt,37.2,86.0,64.5,81.7,M
+Hourglass,H&M,Oversized Pants,49.3,85.1,63.8,80.9,M
+Rectangle,Mango,Regular Fit Pants,45.0,89.8,89.8,89.8,M
+Triangle,Only,Regular Fit T-Shirt,45.1,85.0,85.0,100.0,S
+Rectangle,Zara,Regular Fit Shirt,48.0,88.9,88.9,88.9,XL
+Rectangle,SaasFaras,Regular Fit Pants,35.3,87.5,87.5,87.5,S
+Rectangle,SaasFaras,Regular Fit Jeans,49.0,80.6,80.6,80.6,XS
+Triangle,SaasFaras,Regular Fit Shirt,47.4,100.7,100.7,118.5,M
+Hourglass,Mango,Regular Fit Jeans,44.1,89.0,66.7,84.5,L
+Apple,SaasFaras,Slim Fit Pants,46.7,116.1,116.1,116.1,XS
+Hourglass,Mango,Oversized Jeans,46.5,101.3,75.9,96.2,L
+Triangle,VeroModa,Slim Fit Shirt,47.0,96.9,96.9,114.1,S
+Pear,SaasFaras,Oversized Pants,44.5,87.7,70.2,103.2,XS
+Rectangle,Only,Oversized T-Shirt,41.7,87.8,87.8,87.8,M
+Apple,SaasFaras,Slim Fit Shirt,43.8,90.4,90.4,90.4,L
+Rectangle,H&M,Slim Fit Pants,49.3,90.8,90.8,90.8,M
+Rectangle,VeroModa,Slim Fit Jeans,36.6,96.3,96.3,96.3,XL
+Hourglass,H&M,Oversized T-Shirt,40.9,96.9,72.7,92.1,L
+Rectangle,Zara,Regular Fit Pants,44.7,80.2,80.2,80.2,M
+Triangle,Mango,Regular Fit T-Shirt,38.0,88.8,88.8,104.5,M
+Hourglass,VeroModa,Slim Fit Shirt,44.3,89.2,66.9,84.7,S
+Hourglass,Forever 21,Oversized Jeans,43.1,105.1,78.8,99.8,XL
+Rectangle,Forever 21,Oversized Shirt,41.2,85.5,85.5,85.5,S
+Apple,Only,Slim Fit Jeans,37.8,114.0,114.0,114.0,S
+Apple,Marks & Spencers,Regular Fit T-Shirt,47.1,104.5,104.5,104.5,L
+Apple,Marks & Spencers,Regular Fit Jeans,44.6,90.1,90.1,90.1,M
+Hourglass,VeroModa,Slim Fit Jeans,44.7,104.8,78.6,99.6,XS
+Rectangle,Mango,Regular Fit Jeans,46.7,84.7,84.7,84.7,XS
+Rectangle,Marks & Spencers,Slim Fit Shirt,45.0,88.5,88.5,88.5,L
+Rectangle,Calvin Klein,Regular Fit T-Shirt,43.8,89.0,89.0,89.0,S
+Apple,Calvin Klein,Slim Fit Jeans,43.0,104.2,104.2,104.2,S
+Hourglass,Calvin Klein,Slim Fit Jeans,40.9,90.8,68.1,86.3,M
+Hourglass,Mango,Slim Fit Pants,44.0,91.9,68.9,87.3,S
+Rectangle,Calvin Klein,Regular Fit Jeans,45.4,94.4,94.4,94.4,XL
+Triangle,Calvin Klein,Regular Fit T-Shirt,48.6,87.9,87.9,103.4,S
+Hourglass,Forever 21,Oversized Pants,37.9,107.4,80.5,102.0,XL
+Apple,VeroModa,Slim Fit Pants,47.5,103.3,103.3,103.3,L
+Triangle,Zara,Slim Fit Jeans,39.1,94.4,94.4,111.0,M
+Rectangle,Calvin Klein,Slim Fit T-Shirt,40.0,86.5,86.5,86.5,L
+Rectangle,Only,Slim Fit Jeans,49.9,87.3,87.3,87.3,S
+Triangle,Marks & Spencers,Slim Fit T-Shirt,49.4,82.6,82.6,97.2,L
+Hourglass,Mango,Regular Fit Pants,41.8,87.4,65.6,83.0,S
+Triangle,SaasFaras,Slim Fit Jeans,40.7,90.8,90.8,106.9,L
+Triangle,Calvin Klein,Oversized Pants,46.5,96.4,96.4,113.4,XL
+Apple,Mango,Oversized T-Shirt,36.3,108.7,108.7,108.7,L
+Apple,Zara,Slim Fit Jeans,35.5,111.3,111.3,111.3,L
+Apple,Only,Oversized Shirt,36.3,100.8,100.8,100.8,XL
+Pear,Mango,Slim Fit Pants,41.0,87.2,69.8,102.6,XS
+Rectangle,Forever 21,Oversized Shirt,43.6,95.7,95.7,95.7,M
+Triangle,Zara,Regular Fit T-Shirt,41.0,91.4,91.4,107.5,S
+Rectangle,Calvin Klein,Oversized Pants,47.1,97.4,97.4,97.4,S
+Triangle,Mango,Oversized T-Shirt,45.4,84.4,84.4,99.3,M
+Rectangle,Forever 21,Oversized Shirt,37.0,96.4,96.4,96.4,S
+Apple,Forever 21,Regular Fit Shirt,49.3,99.5,99.5,99.5,XL
+Apple,Zara,Oversized Shirt,37.0,90.8,90.8,90.8,XL
+Triangle,Forever 21,Oversized Shirt,44.6,83.0,83.0,97.6,XL
+Hourglass,H&M,Slim Fit Jeans,43.5,94.7,71.0,89.9,M
+Rectangle,Mango,Oversized Shirt,44.3,95.1,95.1,95.1,M
+Apple,Only,Slim Fit Shirt,36.8,94.3,94.3,94.3,XS
+Pear,Only,Slim Fit Jeans,50.0,91.6,73.3,107.7,XS
+Apple,Zara,Regular Fit Pants,44.4,99.2,99.2,99.2,L
+Triangle,VeroModa,Regular Fit Pants,48.3,83.5,83.5,98.3,S
+Hourglass,Calvin Klein,Regular Fit Pants,47.4,95.4,71.5,90.6,M
+Hourglass,VeroModa,Oversized T-Shirt,41.3,88.3,66.3,83.9,S
+Hourglass,Only,Regular Fit Jeans,35.2,90.4,67.8,85.9,XL
+Rectangle,Zara,Oversized T-Shirt,35.6,81.3,81.3,81.3,S
+Apple,Calvin Klein,Regular Fit Shirt,42.5,109.4,109.4,109.4,L
+Hourglass,Forever 21,Oversized Shirt,44.8,91.1,68.3,86.5,L
+Pear,Mango,Regular Fit T-Shirt,46.8,90.5,72.4,106.5,XL
+Hourglass,SaasFaras,Slim Fit Pants,49.1,101.5,76.1,96.4,XS
+Rectangle,SaasFaras,Regular Fit Jeans,48.5,80.8,80.8,80.8,S
+Hourglass,Only,Oversized Shirt,38.4,96.3,72.2,91.4,M
+Apple,Only,Oversized Pants,46.1,94.5,94.5,94.5,XL
+Apple,Only,Oversized T-Shirt,46.2,91.1,91.1,91.1,XL
+Apple,Calvin Klein,Oversized Pants,49.3,90.4,90.4,90.4,M
+Hourglass,Marks & Spencers,Regular Fit Jeans,46.6,93.7,70.3,89.1,L
+Pear,Calvin Klein,Oversized Jeans,44.9,82.8,66.3,97.5,S
+Rectangle,VeroModa,Slim Fit Jeans,46.5,85.9,85.9,85.9,XS
+Apple,Mango,Oversized Shirt,38.8,90.3,90.3,90.3,S
+Triangle,Mango,Slim Fit Pants,35.6,92.0,92.0,108.3,XS
+Rectangle,Zara,Regular Fit T-Shirt,36.7,89.5,89.5,89.5,L
+Hourglass,Zara,Slim Fit Jeans,40.1,88.2,66.2,83.8,S
+Rectangle,Only,Slim Fit Pants,43.3,87.5,87.5,87.5,XS
+Rectangle,Mango,Oversized Shirt,36.8,84.8,84.8,84.8,L
+Pear,SaasFaras,Oversized Pants,47.2,86.8,69.5,102.1,XL
+Apple,Mango,Oversized Shirt,41.9,112.7,112.7,112.7,XL
+Triangle,VeroModa,Slim Fit T-Shirt,43.1,86.5,86.5,101.7,M
+Hourglass,H&M,Oversized Shirt,36.4,102.1,76.6,97.0,XL
+Rectangle,Calvin Klein,Regular Fit Pants,43.1,94.7,94.7,94.7,L
+Hourglass,SaasFaras,Oversized Pants,43.5,92.4,69.3,87.8,M
+Hourglass,Only,Slim Fit Jeans,37.4,104.0,78.0,98.8,XS
+Rectangle,Marks & Spencers,Regular Fit Shirt,49.9,94.5,94.5,94.5,L
+Pear,H&M,Oversized Jeans,46.0,92.5,74.0,108.9,XS
+Pear,H&M,Slim Fit Pants,42.9,92.2,73.8,108.5,XL
+Rectangle,VeroModa,Slim Fit Jeans,46.2,80.2,80.2,80.2,XS
+Hourglass,Mango,Regular Fit T-Shirt,47.6,103.9,77.9,98.7,M
+Pear,Zara,Regular Fit Jeans,44.7,88.9,71.2,104.6,L
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,44.9,82.8,82.8,82.8,M
+Hourglass,VeroModa,Regular Fit T-Shirt,36.4,104.9,78.6,99.6,L
+Triangle,Calvin Klein,Oversized Pants,43.4,93.1,93.1,109.5,XL
+Triangle,Marks & Spencers,Oversized Pants,44.0,93.5,93.5,110.0,S
+Triangle,Calvin Klein,Regular Fit Shirt,40.0,82.0,82.0,96.5,M
+Rectangle,VeroModa,Oversized T-Shirt,41.6,90.3,90.3,90.3,L
+Triangle,Only,Regular Fit Shirt,38.3,82.6,82.6,97.2,XS
+Pear,Mango,Slim Fit Jeans,44.6,84.4,67.5,99.3,XL
+Triangle,VeroModa,Slim Fit Jeans,49.3,96.5,96.5,113.5,M
+Hourglass,Mango,Regular Fit T-Shirt,37.5,109.5,82.1,104.0,XL
+Pear,SaasFaras,Slim Fit T-Shirt,48.9,95.6,76.5,112.4,XL
+Pear,Zara,Slim Fit Shirt,38.4,98.9,79.1,116.3,S
+Hourglass,Zara,Regular Fit T-Shirt,49.1,95.9,71.9,91.1,XS
+Triangle,VeroModa,Regular Fit Jeans,48.6,81.8,81.8,96.2,L
+Pear,SaasFaras,Oversized Pants,35.9,80.9,64.7,95.2,XS
+Triangle,Mango,Regular Fit T-Shirt,36.0,101.1,101.1,118.9,XS
+Triangle,VeroModa,Slim Fit Jeans,46.8,86.6,86.6,101.9,M
+Rectangle,VeroModa,Regular Fit Jeans,36.0,95.5,95.5,95.5,XS
+Hourglass,Forever 21,Oversized Pants,48.6,86.6,64.9,82.2,M
+Apple,Zara,Regular Fit T-Shirt,40.2,102.3,102.3,102.3,S
+Rectangle,Marks & Spencers,Oversized Jeans,48.2,82.6,82.6,82.6,L
+Hourglass,Marks & Spencers,Slim Fit Pants,38.8,109.5,82.1,104.1,XL
+Pear,Only,Regular Fit Jeans,42.0,92.8,74.2,109.1,XL
+Apple,Zara,Slim Fit Jeans,35.3,95.5,95.5,95.5,XS
+Hourglass,Forever 21,Regular Fit Jeans,43.4,106.3,79.7,101.0,XS
+Apple,Marks & Spencers,Oversized Shirt,36.0,111.7,111.7,111.7,L
+Apple,SaasFaras,Oversized Shirt,37.5,104.5,104.5,104.5,S
+Rectangle,VeroModa,Slim Fit Pants,47.9,82.0,82.0,82.0,S
+Pear,Only,Slim Fit T-Shirt,42.7,82.1,65.7,96.6,L
+Triangle,Calvin Klein,Slim Fit Shirt,38.9,85.0,85.0,100.0,XS
+Triangle,Forever 21,Regular Fit T-Shirt,37.4,94.8,94.8,111.5,XL
+Pear,Mango,Oversized Pants,43.4,96.7,77.4,113.8,S
+Rectangle,Mango,Oversized Pants,43.1,98.2,98.2,98.2,M
+Triangle,Calvin Klein,Slim Fit T-Shirt,41.0,90.3,90.3,106.3,L
+Pear,Calvin Klein,Oversized T-Shirt,37.8,84.9,67.9,99.9,M
+Triangle,Mango,Regular Fit T-Shirt,47.0,94.2,94.2,110.9,XL
+Rectangle,Forever 21,Slim Fit T-Shirt,44.2,83.3,83.3,83.3,L
+Hourglass,Calvin Klein,Oversized Jeans,42.6,89.2,66.9,84.8,S
+Triangle,SaasFaras,Regular Fit Pants,47.3,96.3,96.3,113.3,XL
+Hourglass,Forever 21,Slim Fit T-Shirt,47.1,107.1,80.3,101.7,M
+Apple,Only,Oversized T-Shirt,39.8,111.8,111.8,111.8,XL
+Triangle,VeroModa,Regular Fit Jeans,35.2,84.2,84.2,99.1,M
+Apple,Calvin Klein,Regular Fit Shirt,48.4,111.6,111.6,111.6,L
+Hourglass,Calvin Klein,Slim Fit Jeans,48.8,92.4,69.3,87.8,XL
+Pear,Mango,Oversized Jeans,41.9,98.2,78.6,115.5,S
+Hourglass,Marks & Spencers,Oversized Shirt,42.9,107.0,80.2,101.6,M
+Hourglass,Marks & Spencers,Regular Fit Jeans,37.1,91.0,68.2,86.4,XS
+Apple,Calvin Klein,Oversized Shirt,41.5,108.4,108.4,108.4,S
+Apple,Zara,Slim Fit Jeans,38.8,115.3,115.3,115.3,M
+Apple,Forever 21,Oversized Shirt,35.1,99.4,99.4,99.4,S
+Apple,Forever 21,Slim Fit Jeans,39.2,115.1,115.1,115.1,XS
+Pear,Forever 21,Regular Fit Jeans,40.4,85.3,68.3,100.4,XS
+Hourglass,Calvin Klein,Slim Fit Pants,46.4,95.2,71.4,90.4,XL
+Triangle,SaasFaras,Regular Fit Pants,45.0,97.5,97.5,114.7,XS
+Rectangle,Calvin Klein,Regular Fit Shirt,37.5,80.0,80.0,80.0,M
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,36.9,87.6,87.6,87.6,L
+Pear,Forever 21,Regular Fit Shirt,35.4,89.7,71.8,105.5,XS
+Apple,Calvin Klein,Slim Fit Shirt,47.1,112.6,112.6,112.6,M
+Triangle,Only,Slim Fit Pants,43.0,94.1,94.1,110.7,M
+Pear,Forever 21,Oversized Pants,36.4,92.2,73.8,108.5,XL
+Apple,SaasFaras,Oversized Pants,44.0,99.0,99.0,99.0,L
+Pear,Mango,Oversized Jeans,48.5,81.8,65.4,96.2,XS
+Rectangle,Mango,Slim Fit T-Shirt,44.4,99.8,99.8,99.8,XS
+Hourglass,SaasFaras,Slim Fit Jeans,46.8,91.7,68.8,87.1,M
+Hourglass,Zara,Oversized T-Shirt,42.3,90.5,67.9,86.0,L
+Hourglass,Mango,Slim Fit Pants,36.0,106.7,80.0,101.4,L
+Apple,Marks & Spencers,Regular Fit Pants,42.0,117.3,117.3,117.3,L
+Apple,Calvin Klein,Regular Fit Jeans,44.1,103.3,103.3,103.3,L
+Pear,VeroModa,Regular Fit T-Shirt,38.6,95.7,76.5,112.6,XS
+Triangle,Forever 21,Slim Fit T-Shirt,44.8,91.1,91.1,107.2,L
+Rectangle,Marks & Spencers,Oversized Shirt,42.6,94.9,94.9,94.9,M
+Apple,H&M,Regular Fit Shirt,35.7,104.2,104.2,104.2,XL
+Pear,SaasFaras,Slim Fit Pants,44.3,90.8,72.6,106.8,XL
+Pear,Forever 21,Oversized Pants,35.1,91.7,73.4,107.9,XS
+Apple,Marks & Spencers,Oversized Jeans,40.1,93.2,93.2,93.2,L
+Hourglass,Zara,Regular Fit Shirt,49.0,92.3,69.3,87.7,S
+Apple,Marks & Spencers,Oversized T-Shirt,36.7,108.5,108.5,108.5,XS
+Pear,Only,Regular Fit Pants,45.1,81.4,65.1,95.7,XS
+Pear,SaasFaras,Oversized Pants,48.2,96.3,77.0,113.2,L
+Hourglass,Zara,Slim Fit Jeans,47.4,92.7,69.6,88.1,XL
+Triangle,Zara,Oversized Pants,35.8,94.3,94.3,110.9,XS
+Hourglass,Only,Regular Fit Shirt,36.7,102.2,76.6,97.1,L
+Apple,Forever 21,Oversized Shirt,41.3,93.6,93.6,93.6,XL
+Triangle,SaasFaras,Regular Fit Shirt,40.3,82.5,82.5,97.0,L
+Rectangle,Mango,Regular Fit Jeans,44.0,97.8,97.8,97.8,S
+Rectangle,Calvin Klein,Slim Fit T-Shirt,48.1,92.3,92.3,92.3,XS
+Triangle,VeroModa,Oversized Jeans,36.0,99.9,99.9,117.6,XL
+Rectangle,SaasFaras,Slim Fit Pants,42.3,85.9,85.9,85.9,L
+Hourglass,Zara,Oversized T-Shirt,42.0,90.4,67.8,85.9,XS
+Apple,VeroModa,Slim Fit Jeans,41.4,110.8,110.8,110.8,XL
+Pear,Only,Slim Fit Pants,43.9,99.1,79.2,116.5,XL
+Triangle,H&M,Slim Fit Shirt,48.7,99.0,99.0,116.4,M
+Pear,Mango,Slim Fit T-Shirt,42.9,89.1,71.3,104.8,L
+Rectangle,Marks & Spencers,Slim Fit Jeans,35.7,92.9,92.9,92.9,XL
+Apple,SaasFaras,Regular Fit T-Shirt,44.7,90.8,90.8,90.8,M
+Triangle,Calvin Klein,Oversized Jeans,39.7,89.5,89.5,105.2,M
+Hourglass,Marks & Spencers,Oversized Shirt,43.4,99.5,74.6,94.5,L
+Triangle,SaasFaras,Oversized Shirt,49.7,85.6,85.6,100.7,XL
+Pear,Forever 21,Regular Fit Jeans,48.9,85.2,68.2,100.2,M
+Pear,Calvin Klein,Oversized Shirt,42.3,83.9,67.1,98.7,M
+Rectangle,Zara,Regular Fit Jeans,40.6,87.4,87.4,87.4,XL
+Pear,Only,Slim Fit T-Shirt,43.2,101.9,81.5,119.9,L
+Hourglass,Forever 21,Regular Fit Shirt,46.6,109.3,82.0,103.8,XL
+Hourglass,Zara,Slim Fit Pants,37.5,98.3,73.7,93.4,XS
+Hourglass,Only,Slim Fit Shirt,38.9,92.6,69.4,87.9,M
+Pear,SaasFaras,Oversized T-Shirt,47.5,85.7,68.6,100.9,L
+Triangle,Calvin Klein,Regular Fit Shirt,50.0,93.1,93.1,109.6,L
+Hourglass,H&M,Oversized Jeans,49.9,95.0,71.3,90.3,L
+Triangle,H&M,Oversized Pants,41.9,97.6,97.6,114.8,XS
+Hourglass,Marks & Spencers,Slim Fit Jeans,43.1,96.9,72.7,92.0,XL
+Pear,Zara,Oversized Shirt,41.9,88.3,70.6,103.8,M
+Hourglass,VeroModa,Oversized Jeans,45.2,86.4,64.8,82.1,L
+Apple,VeroModa,Regular Fit Shirt,49.7,103.9,103.9,103.9,M
+Triangle,Forever 21,Slim Fit T-Shirt,42.8,91.2,91.2,107.3,S
+Pear,Mango,Slim Fit Shirt,48.4,96.2,76.9,113.1,S
+Pear,H&M,Slim Fit Jeans,43.9,93.5,74.8,110.1,M
+Hourglass,Calvin Klein,Slim Fit Pants,44.6,85.1,63.8,80.8,L
+Apple,Marks & Spencers,Slim Fit Shirt,42.7,103.4,103.4,103.4,M
+Hourglass,Only,Oversized Shirt,48.1,85.8,64.3,81.5,XL
+Rectangle,Zara,Slim Fit Jeans,46.0,86.7,86.7,86.7,S
+Apple,Calvin Klein,Slim Fit Shirt,47.4,110.3,110.3,110.3,S
+Pear,SaasFaras,Regular Fit T-Shirt,36.0,94.2,75.4,110.8,XS
+Hourglass,Marks & Spencers,Oversized Pants,47.1,105.5,79.2,100.3,XL
+Apple,Forever 21,Slim Fit Shirt,41.0,93.1,93.1,93.1,S
+Rectangle,Forever 21,Slim Fit T-Shirt,36.7,87.0,87.0,87.0,M
+Triangle,H&M,Slim Fit Shirt,45.2,99.2,99.2,116.7,M
+Apple,Only,Oversized Shirt,42.2,97.3,97.3,97.3,S
+Rectangle,H&M,Regular Fit Jeans,38.2,93.3,93.3,93.3,XL
+Rectangle,Only,Slim Fit Shirt,43.7,80.4,80.4,80.4,M
+Apple,SaasFaras,Slim Fit Pants,38.2,91.0,91.0,91.0,XL
+Pear,Mango,Slim Fit Pants,48.0,96.0,76.8,113.0,XS
+Rectangle,Forever 21,Oversized Pants,42.9,92.7,92.7,92.7,L
+Rectangle,Forever 21,Oversized T-Shirt,46.6,82.9,82.9,82.9,L
+Rectangle,Only,Oversized Shirt,45.8,96.5,96.5,96.5,S
+Apple,SaasFaras,Slim Fit Pants,35.7,105.3,105.3,105.3,XS
+Apple,Only,Oversized Pants,40.1,104.0,104.0,104.0,S
+Triangle,Mango,Slim Fit Jeans,36.9,98.3,98.3,115.7,M
+Apple,H&M,Slim Fit Jeans,48.4,113.7,113.7,113.7,L
+Hourglass,Calvin Klein,Regular Fit Shirt,36.7,101.9,76.4,96.8,L
+Rectangle,SaasFaras,Slim Fit Jeans,45.1,96.9,96.9,96.9,M
+Hourglass,Zara,Oversized Jeans,39.2,89.6,67.2,85.1,XL
+Pear,SaasFaras,Regular Fit T-Shirt,36.6,87.1,69.7,102.5,XS
+Pear,Calvin Klein,Slim Fit Jeans,40.4,81.8,65.4,96.2,XL
+Triangle,Mango,Slim Fit Shirt,46.6,94.2,94.2,110.9,S
+Apple,Only,Slim Fit Pants,47.3,102.5,102.5,102.5,XL
+Rectangle,Mango,Slim Fit Pants,44.7,94.6,94.6,94.6,M
+Triangle,Only,Oversized Shirt,44.8,83.7,83.7,98.4,XS
+Rectangle,Calvin Klein,Slim Fit Jeans,45.2,81.0,81.0,81.0,L
+Apple,Forever 21,Oversized T-Shirt,45.0,91.3,91.3,91.3,L
+Apple,VeroModa,Slim Fit T-Shirt,36.5,106.3,106.3,106.3,S
+Rectangle,Zara,Slim Fit T-Shirt,36.9,80.4,80.4,80.4,S
+Rectangle,Calvin Klein,Slim Fit Pants,43.0,88.1,88.1,88.1,M
+Triangle,Marks & Spencers,Oversized Jeans,42.8,101.2,101.2,119.1,XS
+Apple,Forever 21,Regular Fit Pants,38.3,98.0,98.0,98.0,L
+Triangle,VeroModa,Oversized T-Shirt,47.1,97.1,97.1,114.3,S
+Rectangle,Zara,Slim Fit T-Shirt,46.1,86.8,86.8,86.8,XL
+Triangle,Mango,Slim Fit Jeans,43.2,94.8,94.8,111.6,M
+Triangle,Calvin Klein,Slim Fit Pants,44.1,98.4,98.4,115.7,M
+Hourglass,VeroModa,Oversized Jeans,45.7,107.5,80.6,102.1,L
+Hourglass,H&M,Oversized Shirt,35.9,96.8,72.6,92.0,L
+Triangle,Forever 21,Regular Fit Jeans,43.0,85.8,85.8,101.0,XS
+Triangle,H&M,Oversized Jeans,38.1,97.3,97.3,114.4,L
+Rectangle,Only,Regular Fit Jeans,46.7,92.4,92.4,92.4,XS
+Hourglass,Calvin Klein,Oversized Jeans,44.5,105.3,79.0,100.0,XL
+Triangle,SaasFaras,Regular Fit Shirt,45.9,87.9,87.9,103.4,L
+Apple,Mango,Oversized Shirt,35.1,94.4,94.4,94.4,S
+Triangle,Mango,Oversized Jeans,42.9,101.1,101.1,118.9,XS
+Hourglass,Zara,Oversized T-Shirt,37.7,98.7,74.0,93.7,S
+Pear,VeroModa,Oversized Pants,45.1,99.8,79.9,117.4,L
+Apple,H&M,Oversized Jeans,36.6,109.8,109.8,109.8,L
+Triangle,Calvin Klein,Slim Fit Jeans,43.5,101.6,101.6,119.5,M
+Pear,Zara,Slim Fit Pants,36.1,93.4,74.7,109.8,S
+Rectangle,VeroModa,Regular Fit T-Shirt,48.6,95.9,95.9,95.9,L
+Rectangle,SaasFaras,Oversized Jeans,49.7,90.4,90.4,90.4,M
+Hourglass,Marks & Spencers,Regular Fit T-Shirt,46.7,96.5,72.3,91.6,XS
+Triangle,Marks & Spencers,Oversized Shirt,35.2,91.4,91.4,107.5,XL
+Rectangle,Forever 21,Oversized T-Shirt,38.4,98.5,98.5,98.5,L
+Pear,Zara,Oversized Pants,47.7,87.6,70.1,103.0,S
+Pear,VeroModa,Oversized T-Shirt,42.2,81.4,65.1,95.7,M
+Hourglass,Forever 21,Slim Fit Pants,42.4,108.9,81.7,103.4,M
+Apple,Only,Regular Fit Shirt,46.3,101.8,101.8,101.8,M
+Pear,Calvin Klein,Regular Fit Shirt,44.3,86.6,69.3,101.9,M
+Hourglass,Forever 21,Regular Fit T-Shirt,44.8,94.0,70.5,89.3,XL
+Rectangle,SaasFaras,Regular Fit Jeans,36.5,98.4,98.4,98.4,S
+Rectangle,Mango,Slim Fit Pants,37.6,80.7,80.7,80.7,XL
+Rectangle,Marks & Spencers,Slim Fit Pants,45.8,88.6,88.6,88.6,XL
+Pear,Zara,Slim Fit Shirt,39.2,96.9,77.5,114.0,L
+Triangle,Only,Regular Fit Pants,41.3,99.7,99.7,117.3,S
+Triangle,Only,Regular Fit Jeans,38.1,91.3,91.3,107.4,L
+Hourglass,Marks & Spencers,Slim Fit Pants,35.5,99.8,74.9,94.9,M
+Apple,Forever 21,Regular Fit Jeans,41.1,105.2,105.2,105.2,M
+Pear,Marks & Spencers,Regular Fit T-Shirt,40.3,97.2,77.8,114.3,S
+Triangle,Calvin Klein,Oversized Shirt,35.7,90.6,90.6,106.6,XS
+Triangle,Only,Oversized T-Shirt,35.0,97.0,97.0,114.1,XL
+Apple,VeroModa,Slim Fit T-Shirt,38.0,111.7,111.7,111.7,XL
+Hourglass,Forever 21,Slim Fit Shirt,37.9,86.3,64.7,82.0,M
+Triangle,VeroModa,Slim Fit Shirt,47.7,96.5,96.5,113.5,L
+Rectangle,H&M,Oversized T-Shirt,39.1,85.1,85.1,85.1,XS
+Apple,VeroModa,Regular Fit T-Shirt,37.2,106.3,106.3,106.3,XL
+Pear,Only,Regular Fit Jeans,39.0,81.2,65.0,95.5,S
+Apple,SaasFaras,Oversized Jeans,40.4,104.5,104.5,104.5,S
+Triangle,Mango,Oversized Jeans,46.7,92.7,92.7,109.0,XL
+Apple,Calvin Klein,Regular Fit T-Shirt,47.4,118.0,118.0,118.0,XS
+Pear,VeroModa,Regular Fit Shirt,47.9,96.2,77.0,113.2,S
+Apple,H&M,Oversized Jeans,40.2,95.9,95.9,95.9,XS
+Triangle,Forever 21,Oversized T-Shirt,46.5,83.3,83.3,98.0,M
+Hourglass,Only,Regular Fit Shirt,37.4,94.5,70.9,89.8,XS
+Triangle,H&M,Regular Fit Shirt,36.9,97.4,97.4,114.6,M
+Rectangle,SaasFaras,Oversized Shirt,43.4,82.0,82.0,82.0,XL
+Hourglass,Calvin Klein,Slim Fit T-Shirt,43.1,98.4,73.8,93.4,XS
+Hourglass,SaasFaras,Oversized T-Shirt,36.8,97.1,72.8,92.2,M
+Pear,Calvin Klein,Slim Fit Jeans,47.1,99.4,79.5,117.0,M
+Triangle,Only,Oversized Shirt,36.1,91.4,91.4,107.5,M
+Pear,H&M,Regular Fit Pants,38.7,94.1,75.3,110.7,M
+Triangle,SaasFaras,Regular Fit Shirt,39.6,86.9,86.9,102.2,L
+Pear,SaasFaras,Slim Fit T-Shirt,48.2,89.9,71.9,105.8,XS
+Hourglass,VeroModa,Oversized Pants,36.3,93.9,70.4,89.2,M
+Apple,Calvin Klein,Slim Fit T-Shirt,38.1,92.2,92.2,92.2,XL
+Triangle,SaasFaras,Regular Fit T-Shirt,44.0,97.4,97.4,114.6,M
+Triangle,Marks & Spencers,Oversized Shirt,35.2,100.2,100.2,117.9,S
+Hourglass,SaasFaras,Oversized Shirt,41.1,87.8,65.9,83.4,S
+Hourglass,H&M,Regular Fit Jeans,40.2,95.6,71.7,90.8,L
+Triangle,Only,Oversized Jeans,42.2,85.1,85.1,100.1,M
+Rectangle,Marks & Spencers,Regular Fit Jeans,36.2,92.1,92.1,92.1,S
+Hourglass,VeroModa,Regular Fit T-Shirt,45.4,95.8,71.8,91.0,M
+Pear,Forever 21,Slim Fit Shirt,35.2,86.4,69.1,101.7,S
+Pear,VeroModa,Oversized Jeans,45.1,90.3,72.3,106.3,S
+Apple,Forever 21,Oversized Jeans,37.6,90.1,90.1,90.1,L
+Pear,Mango,Regular Fit Jeans,46.0,100.8,80.7,118.6,XL
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,45.2,102.5,76.9,97.4,L
+Triangle,SaasFaras,Regular Fit Shirt,38.8,93.1,93.1,109.6,XL
+Triangle,Calvin Klein,Regular Fit Shirt,47.6,89.2,89.2,105.0,S
+Rectangle,VeroModa,Slim Fit T-Shirt,46.1,90.0,90.0,90.0,XS
+Rectangle,Calvin Klein,Regular Fit T-Shirt,47.1,81.7,81.7,81.7,M
+Triangle,Mango,Oversized Jeans,38.4,101.9,101.9,119.9,S
+Pear,Mango,Slim Fit Pants,38.1,95.6,76.5,112.5,S
+Apple,Zara,Regular Fit Pants,38.7,90.4,90.4,90.4,L
+Apple,Zara,Oversized Jeans,41.9,91.9,91.9,91.9,S
+Pear,SaasFaras,Oversized Jeans,40.0,88.7,70.9,104.3,S
+Rectangle,VeroModa,Slim Fit Shirt,43.2,98.7,98.7,98.7,L
+Pear,VeroModa,Regular Fit Shirt,36.0,91.8,73.5,108.0,M
+Rectangle,SaasFaras,Slim Fit Pants,43.1,91.7,91.7,91.7,XL
+Apple,SaasFaras,Slim Fit T-Shirt,46.8,110.0,110.0,110.0,XL
+Hourglass,H&M,Regular Fit Jeans,47.5,100.9,75.7,95.9,M
+Triangle,H&M,Slim Fit Jeans,36.0,100.6,100.6,118.4,M
+Rectangle,VeroModa,Oversized Jeans,39.5,80.4,80.4,80.4,S
+Hourglass,VeroModa,Oversized Pants,39.2,90.3,67.7,85.7,L
+Pear,VeroModa,Oversized Shirt,37.4,86.3,69.0,101.5,XS
+Hourglass,Zara,Regular Fit Shirt,46.2,108.6,81.4,103.1,S
+Pear,Forever 21,Slim Fit Shirt,35.1,97.9,78.3,115.1,M
+Triangle,Marks & Spencers,Regular Fit Jeans,40.3,88.3,88.3,103.9,XS
+Triangle,Marks & Spencers,Slim Fit Pants,48.7,87.3,87.3,102.7,XL
+Hourglass,Forever 21,Regular Fit Jeans,49.1,97.6,73.2,92.8,XS
+Apple,SaasFaras,Oversized T-Shirt,43.3,101.8,101.8,101.8,XL
+Pear,Only,Slim Fit T-Shirt,45.2,99.0,79.2,116.5,XS
+Apple,Only,Slim Fit Shirt,39.4,90.4,90.4,90.4,XS
+Hourglass,Only,Regular Fit T-Shirt,35.0,89.1,66.8,84.7,XL
+Rectangle,Zara,Slim Fit T-Shirt,37.4,90.3,90.3,90.3,L
+Apple,SaasFaras,Oversized Jeans,36.8,116.4,116.4,116.4,S
+Triangle,Calvin Klein,Regular Fit T-Shirt,44.1,91.8,91.8,108.0,S
+Pear,VeroModa,Slim Fit Jeans,41.2,92.6,74.1,108.9,M
+Apple,Calvin Klein,Slim Fit Shirt,46.3,102.4,102.4,102.4,S
+Hourglass,H&M,Oversized Shirt,43.6,98.7,74.0,93.7,M
+Hourglass,SaasFaras,Oversized T-Shirt,37.1,93.4,70.1,88.8,XL
+Rectangle,SaasFaras,Regular Fit Pants,48.4,87.8,87.8,87.8,XL
+Rectangle,SaasFaras,Regular Fit Pants,44.2,95.5,95.5,95.5,XL
+Pear,Mango,Oversized Jeans,48.3,89.4,71.5,105.2,XL
+Pear,Mango,Slim Fit T-Shirt,46.3,95.6,76.5,112.4,L
+Hourglass,Mango,Slim Fit T-Shirt,40.0,97.1,72.8,92.3,XS
+Apple,Only,Slim Fit Shirt,48.2,115.6,115.6,115.6,M
+Pear,Zara,Slim Fit Pants,38.1,99.9,79.9,117.5,S
+Triangle,Mango,Oversized Pants,43.2,98.8,98.8,116.2,L
+Apple,H&M,Oversized Shirt,41.5,114.1,114.1,114.1,XL
+Hourglass,Calvin Klein,Slim Fit Shirt,40.6,93.8,70.3,89.1,M
+Pear,Only,Regular Fit T-Shirt,35.7,88.6,70.9,104.2,M
+Pear,H&M,Regular Fit Shirt,47.1,80.9,64.7,95.1,XS
+Hourglass,Marks & Spencers,Slim Fit Pants,43.8,104.2,78.1,99.0,L
+Hourglass,Only,Regular Fit Jeans,45.1,88.5,66.4,84.1,L
+Triangle,Only,Slim Fit Jeans,40.9,88.1,88.1,103.7,XS
+Rectangle,SaasFaras,Regular Fit Pants,46.6,88.7,88.7,88.7,M
+Rectangle,Zara,Oversized T-Shirt,41.2,86.1,86.1,86.1,S
+Pear,VeroModa,Oversized Pants,44.0,84.7,67.8,99.6,M
+Rectangle,SaasFaras,Regular Fit Jeans,41.7,82.7,82.7,82.7,S
+Rectangle,SaasFaras,Slim Fit T-Shirt,49.1,85.3,85.3,85.3,XS
+Hourglass,SaasFaras,Slim Fit Jeans,38.3,102.4,76.8,97.2,XL
+Triangle,Only,Slim Fit T-Shirt,47.2,94.8,94.8,111.5,S
+Triangle,Only,Regular Fit Pants,46.2,97.2,97.2,114.3,L
+Apple,Marks & Spencers,Regular Fit Shirt,35.5,97.8,97.8,97.8,XL
+Hourglass,Calvin Klein,Oversized T-Shirt,45.0,86.0,64.5,81.7,L
+Apple,Marks & Spencers,Oversized Jeans,45.0,103.1,103.1,103.1,XL
+Rectangle,H&M,Oversized Pants,45.6,96.3,96.3,96.3,M
+Pear,Forever 21,Slim Fit Jeans,47.0,100.6,80.5,118.3,M
+Hourglass,Calvin Klein,Oversized Jeans,39.6,99.3,74.5,94.3,M
+Hourglass,SaasFaras,Slim Fit Shirt,47.7,107.3,80.5,101.9,L
+Pear,Zara,Slim Fit Shirt,39.6,95.8,76.6,112.7,S
+Pear,Calvin Klein,Slim Fit Shirt,43.8,99.1,79.3,116.6,XL
+Apple,Forever 21,Slim Fit Shirt,37.1,110.3,110.3,110.3,M
+Apple,Forever 21,Slim Fit Shirt,40.1,117.9,117.9,117.9,M
+Hourglass,Zara,Slim Fit Shirt,44.7,109.5,82.1,104.1,XL
+Apple,Forever 21,Slim Fit T-Shirt,49.2,105.1,105.1,105.1,XS
+Hourglass,H&M,Oversized Jeans,48.9,87.8,65.8,83.4,S
+Triangle,Zara,Regular Fit Pants,49.6,94.4,94.4,111.1,XS
+Rectangle,VeroModa,Slim Fit Shirt,44.0,92.7,92.7,92.7,XS
+Triangle,VeroModa,Slim Fit T-Shirt,47.6,94.9,94.9,111.7,S
+Rectangle,Forever 21,Oversized Shirt,45.5,92.2,92.2,92.2,XS
+Triangle,Marks & Spencers,Slim Fit T-Shirt,43.0,101.2,101.2,119.0,L
+Rectangle,H&M,Oversized T-Shirt,48.8,85.5,85.5,85.5,XS
+Rectangle,Marks & Spencers,Slim Fit Jeans,35.5,81.0,81.0,81.0,M
+Rectangle,SaasFaras,Regular Fit T-Shirt,45.4,84.9,84.9,84.9,L
+Pear,Only,Oversized Jeans,39.3,96.4,77.1,113.4,M
+Apple,Calvin Klein,Slim Fit Shirt,45.4,96.5,96.5,96.5,L
+Apple,Marks & Spencers,Oversized T-Shirt,41.5,100.4,100.4,100.4,L
+Triangle,SaasFaras,Regular Fit Shirt,36.3,100.7,100.7,118.4,S
+Pear,H&M,Oversized Shirt,42.1,84.3,67.5,99.2,L
+Rectangle,VeroModa,Oversized Pants,41.6,81.5,81.5,81.5,S
+Triangle,Calvin Klein,Oversized T-Shirt,41.6,101.3,101.3,119.2,XS
+Pear,Marks & Spencers,Oversized Pants,40.5,98.3,78.7,115.7,L
+Triangle,Forever 21,Oversized T-Shirt,37.2,97.9,97.9,115.2,S
+Rectangle,Only,Oversized Jeans,37.3,92.3,92.3,92.3,L
+Rectangle,Marks & Spencers,Oversized Pants,37.6,80.1,80.1,80.1,M
+Apple,SaasFaras,Regular Fit Pants,35.9,114.7,114.7,114.7,S
+Rectangle,Mango,Slim Fit T-Shirt,43.2,86.9,86.9,86.9,XL
+Triangle,Marks & Spencers,Regular Fit Shirt,43.1,87.4,87.4,102.8,S
+Hourglass,SaasFaras,Slim Fit Pants,42.8,85.4,64.0,81.1,L
+Hourglass,Mango,Slim Fit Jeans,44.9,102.2,76.6,97.1,L
+Apple,Calvin Klein,Oversized Shirt,42.7,102.5,102.5,102.5,L
+Hourglass,SaasFaras,Regular Fit Shirt,46.0,97.8,73.3,92.9,XL
+Triangle,VeroModa,Regular Fit T-Shirt,40.6,92.5,92.5,108.8,L
+Pear,VeroModa,Slim Fit T-Shirt,47.8,84.3,67.4,99.1,L
+Pear,VeroModa,Oversized Shirt,43.4,93.0,74.4,109.4,XL
+Apple,VeroModa,Slim Fit Shirt,36.3,101.0,101.0,101.0,S
+Apple,Zara,Regular Fit T-Shirt,38.8,90.8,90.8,90.8,XS
+Hourglass,Forever 21,Regular Fit Pants,48.1,85.0,63.8,80.8,L
+Rectangle,SaasFaras,Regular Fit T-Shirt,37.3,95.0,95.0,95.0,L
+Apple,SaasFaras,Regular Fit Shirt,49.2,97.1,97.1,97.1,S
+Pear,Only,Oversized T-Shirt,45.5,97.2,77.7,114.3,XS
+Rectangle,VeroModa,Oversized Shirt,49.0,94.1,94.1,94.1,XS
+Rectangle,H&M,Oversized Jeans,35.7,95.3,95.3,95.3,XL
+Apple,Marks & Spencers,Slim Fit Shirt,42.0,110.1,110.1,110.1,L
+Triangle,Zara,Regular Fit Pants,47.8,86.7,86.7,102.0,L
+Apple,VeroModa,Regular Fit Shirt,41.7,90.7,90.7,90.7,L
+Apple,SaasFaras,Slim Fit Pants,48.8,95.7,95.7,95.7,XS
+Triangle,SaasFaras,Oversized Jeans,46.3,89.1,89.1,104.8,S
+Pear,SaasFaras,Regular Fit Shirt,43.5,95.1,76.1,111.9,S
+Rectangle,VeroModa,Oversized T-Shirt,42.9,96.5,96.5,96.5,XL
+Apple,SaasFaras,Slim Fit Shirt,35.5,100.4,100.4,100.4,M
+Pear,H&M,Oversized Pants,44.0,94.3,75.4,110.9,M
+Pear,Marks & Spencers,Slim Fit T-Shirt,49.2,98.8,79.0,116.2,L
+Pear,Forever 21,Regular Fit T-Shirt,40.1,100.1,80.1,117.8,S
+Hourglass,Forever 21,Regular Fit Jeans,44.3,102.7,77.0,97.5,XS
+Pear,Calvin Klein,Oversized Pants,36.3,98.8,79.0,116.2,M
+Apple,Marks & Spencers,Oversized Pants,35.9,117.9,117.9,117.9,S
+Apple,Marks & Spencers,Slim Fit Jeans,42.5,103.4,103.4,103.4,XL
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,44.7,98.1,98.1,98.1,S
+Rectangle,Calvin Klein,Slim Fit Shirt,49.1,82.3,82.3,82.3,XL
+Apple,Calvin Klein,Slim Fit Jeans,41.2,109.9,109.9,109.9,XS
+Rectangle,Only,Oversized Shirt,39.4,95.1,95.1,95.1,L
+Apple,VeroModa,Slim Fit Pants,40.1,95.5,95.5,95.5,S
+Apple,Forever 21,Regular Fit Shirt,46.0,93.6,93.6,93.6,L
+Apple,Forever 21,Slim Fit T-Shirt,39.5,104.8,104.8,104.8,XL
+Triangle,Mango,Oversized T-Shirt,40.3,89.0,89.0,104.8,XS
+Pear,Only,Regular Fit T-Shirt,47.3,100.5,80.4,118.3,M
+Pear,Marks & Spencers,Oversized Shirt,35.2,87.7,70.2,103.2,S
+Pear,Zara,Regular Fit Jeans,40.4,82.4,65.9,96.9,XL
+Pear,VeroModa,Oversized T-Shirt,46.8,99.8,79.8,117.4,XS
+Triangle,Calvin Klein,Oversized Jeans,48.1,85.5,85.5,100.6,L
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,38.9,109.6,82.2,104.1,L
+Rectangle,Zara,Oversized Pants,35.8,81.0,81.0,81.0,S
+Triangle,SaasFaras,Regular Fit Pants,38.8,93.8,93.8,110.3,XL
+Rectangle,VeroModa,Regular Fit Jeans,36.1,94.9,94.9,94.9,XL
+Pear,Marks & Spencers,Regular Fit Shirt,37.3,92.6,74.1,108.9,XS
+Apple,VeroModa,Slim Fit Shirt,46.4,107.3,107.3,107.3,XL
+Hourglass,SaasFaras,Oversized T-Shirt,45.2,85.4,64.1,81.1,M
+Rectangle,SaasFaras,Regular Fit Pants,49.1,92.0,92.0,92.0,XS
+Rectangle,Forever 21,Slim Fit T-Shirt,49.6,93.1,93.1,93.1,M
+Apple,Mango,Regular Fit Pants,44.2,93.5,93.5,93.5,L
+Pear,Calvin Klein,Regular Fit Shirt,43.3,88.3,70.6,103.9,M
+Rectangle,Marks & Spencers,Oversized Pants,48.5,88.8,88.8,88.8,XL
+Rectangle,SaasFaras,Slim Fit Shirt,45.1,88.3,88.3,88.3,L
+Hourglass,Forever 21,Oversized Pants,48.6,85.7,64.3,81.4,M
+Triangle,H&M,Slim Fit Shirt,39.7,86.3,86.3,101.6,M
+Rectangle,Marks & Spencers,Regular Fit Pants,44.5,98.3,98.3,98.3,L
+Apple,Calvin Klein,Regular Fit Jeans,46.7,91.3,91.3,91.3,S
+Triangle,H&M,Oversized Jeans,35.1,94.7,94.7,111.5,XL
+Rectangle,Forever 21,Regular Fit Pants,42.3,96.9,96.9,96.9,S
+Apple,Zara,Regular Fit Jeans,48.3,96.5,96.5,96.5,L
+Pear,SaasFaras,Regular Fit T-Shirt,38.2,85.7,68.6,100.8,L
+Pear,VeroModa,Regular Fit Shirt,44.3,88.9,71.1,104.6,L
+Hourglass,Calvin Klein,Slim Fit Pants,41.9,89.8,67.3,85.3,L
+Rectangle,SaasFaras,Oversized Jeans,36.0,84.0,84.0,84.0,XS
+Hourglass,Zara,Regular Fit T-Shirt,37.6,89.0,66.8,84.6,XS
+Apple,Mango,Regular Fit Jeans,37.4,91.6,91.6,91.6,XS
+Rectangle,Calvin Klein,Oversized Jeans,49.2,96.6,96.6,96.6,M
+Apple,H&M,Slim Fit Jeans,35.8,102.6,102.6,102.6,XS
+Pear,SaasFaras,Slim Fit Shirt,46.0,99.0,79.2,116.4,S
+Apple,Forever 21,Regular Fit Pants,43.0,91.9,91.9,91.9,S
+Triangle,SaasFaras,Regular Fit Shirt,49.0,98.1,98.1,115.4,L
+Triangle,VeroModa,Slim Fit Jeans,38.2,82.5,82.5,97.1,XL
+Rectangle,Only,Regular Fit T-Shirt,45.9,95.2,95.2,95.2,L
+Triangle,Forever 21,Slim Fit Shirt,47.1,92.9,92.9,109.3,XL
+Pear,Only,Regular Fit T-Shirt,39.0,83.9,67.1,98.7,XL
+Triangle,H&M,Slim Fit T-Shirt,35.5,82.0,82.0,96.4,S
+Hourglass,Calvin Klein,Regular Fit Pants,44.6,89.8,67.4,85.3,S
+Hourglass,Forever 21,Slim Fit T-Shirt,39.5,107.4,80.5,102.0,L
+Pear,Calvin Klein,Slim Fit T-Shirt,47.4,95.0,76.0,111.8,L
+Apple,Forever 21,Oversized Shirt,44.8,91.4,91.4,91.4,S
+Pear,Zara,Slim Fit T-Shirt,49.8,81.5,65.2,95.9,S
+Hourglass,Mango,Regular Fit Jeans,46.9,109.4,82.1,104.0,L
+Pear,Mango,Oversized T-Shirt,49.8,94.3,75.4,110.9,XL
+Rectangle,Forever 21,Regular Fit Jeans,45.0,92.4,92.4,92.4,S
+Hourglass,Marks & Spencers,Regular Fit Shirt,46.7,98.9,74.2,94.0,M
+Rectangle,H&M,Slim Fit Jeans,49.9,97.8,97.8,97.8,XS
+Apple,Zara,Regular Fit Jeans,42.7,108.1,108.1,108.1,S
+Pear,Marks & Spencers,Oversized Shirt,37.0,101.2,81.0,119.1,M
+Pear,SaasFaras,Slim Fit T-Shirt,35.1,97.0,77.6,114.1,S
+Triangle,VeroModa,Slim Fit Jeans,42.0,81.1,81.1,95.5,XS
+Rectangle,Marks & Spencers,Regular Fit Shirt,44.8,93.2,93.2,93.2,XL
+Hourglass,VeroModa,Slim Fit T-Shirt,35.7,106.2,79.7,100.9,XS
+Apple,H&M,Regular Fit Jeans,40.0,117.9,117.9,117.9,XS
+Triangle,Mango,Regular Fit Jeans,35.4,86.2,86.2,101.5,XS
+Triangle,H&M,Regular Fit Shirt,37.6,92.4,92.4,108.7,M
+Pear,H&M,Slim Fit Pants,48.4,81.8,65.5,96.3,S
+Triangle,Forever 21,Regular Fit Pants,36.3,82.2,82.2,96.7,XL
+Rectangle,Marks & Spencers,Oversized Shirt,37.1,88.1,88.1,88.1,S
+Triangle,Forever 21,Slim Fit T-Shirt,46.9,99.9,99.9,117.5,XL
+Apple,Forever 21,Regular Fit T-Shirt,38.8,107.4,107.4,107.4,S
+Hourglass,Zara,Regular Fit T-Shirt,43.9,100.8,75.6,95.8,XL
+Triangle,SaasFaras,Regular Fit Pants,37.0,88.0,88.0,103.6,XL
+Triangle,SaasFaras,Slim Fit Pants,36.6,94.6,94.6,111.2,L
+Triangle,Only,Oversized Pants,48.4,87.1,87.1,102.5,M
+Hourglass,Calvin Klein,Regular Fit Shirt,35.2,91.4,68.5,86.8,L
+Hourglass,Forever 21,Slim Fit Shirt,36.3,97.9,73.4,93.0,XL
+Apple,VeroModa,Oversized Shirt,38.4,119.7,119.7,119.7,XL
+Apple,Forever 21,Slim Fit Jeans,49.7,114.9,114.9,114.9,M
+Pear,VeroModa,Regular Fit Jeans,42.0,99.7,79.8,117.3,M
+Rectangle,Zara,Regular Fit Shirt,47.9,89.8,89.8,89.8,XS
+Hourglass,Calvin Klein,Regular Fit Shirt,45.0,103.5,77.6,98.3,M
+Triangle,Forever 21,Regular Fit T-Shirt,41.4,97.8,97.8,115.1,XS
+Pear,VeroModa,Oversized Jeans,45.1,97.3,77.9,114.5,XL
+Apple,VeroModa,Slim Fit Jeans,46.9,104.8,104.8,104.8,L
+Pear,Calvin Klein,Oversized Pants,42.9,92.5,74.0,108.8,L
+Pear,Only,Oversized Jeans,36.3,92.3,73.8,108.5,XL
+Pear,Only,Slim Fit Shirt,36.0,90.8,72.7,106.9,L
+Pear,VeroModa,Oversized Shirt,41.0,86.5,69.2,101.8,M
+Triangle,VeroModa,Regular Fit Shirt,49.7,84.0,84.0,98.8,S
+Pear,Forever 21,Slim Fit T-Shirt,49.9,100.0,80.0,117.7,M
+Triangle,VeroModa,Slim Fit Jeans,42.9,100.8,100.8,118.5,M
+Hourglass,Marks & Spencers,Slim Fit Pants,45.5,104.2,78.1,99.0,XL
+Apple,Forever 21,Slim Fit T-Shirt,46.3,101.9,101.9,101.9,L
+Rectangle,VeroModa,Slim Fit Pants,43.8,82.4,82.4,82.4,XL
+Apple,Mango,Slim Fit T-Shirt,42.6,100.2,100.2,100.2,XL
+Pear,SaasFaras,Slim Fit Shirt,36.7,89.3,71.4,105.0,L
+Apple,Calvin Klein,Slim Fit T-Shirt,44.2,108.4,108.4,108.4,S
+Triangle,VeroModa,Regular Fit Pants,44.7,100.7,100.7,118.5,XS
+Rectangle,SaasFaras,Slim Fit Pants,44.0,89.5,89.5,89.5,S
+Hourglass,H&M,Slim Fit T-Shirt,36.9,93.5,70.1,88.8,M
+Hourglass,H&M,Regular Fit T-Shirt,45.5,100.5,75.4,95.5,XS
+Triangle,SaasFaras,Regular Fit Pants,43.7,99.3,99.3,116.8,S
+Hourglass,Marks & Spencers,Slim Fit Shirt,36.2,98.5,73.9,93.6,L
+Pear,Mango,Oversized Shirt,37.2,87.0,69.6,102.4,L
+Pear,Forever 21,Oversized T-Shirt,39.8,91.9,73.5,108.1,XS
+Apple,Forever 21,Slim Fit T-Shirt,48.7,113.7,113.7,113.7,M
+Triangle,H&M,Regular Fit Jeans,45.2,84.9,84.9,99.9,XL
+Rectangle,Only,Regular Fit Jeans,44.1,87.9,87.9,87.9,XL
+Pear,Zara,Oversized Shirt,48.4,81.0,64.8,95.3,XL
+Rectangle,Zara,Slim Fit Jeans,48.1,86.8,86.8,86.8,M
+Triangle,Only,Regular Fit Shirt,41.6,83.6,83.6,98.3,M
+Triangle,Only,Oversized T-Shirt,44.0,81.9,81.9,96.4,L
+Pear,H&M,Slim Fit Jeans,47.5,100.0,80.0,117.6,XL
+Rectangle,Forever 21,Oversized Jeans,42.6,85.3,85.3,85.3,S
+Rectangle,VeroModa,Regular Fit Jeans,35.2,88.9,88.9,88.9,XS
+Pear,Only,Slim Fit Jeans,42.2,81.1,64.8,95.4,L
+Rectangle,VeroModa,Oversized T-Shirt,42.9,95.3,95.3,95.3,XL
+Rectangle,Only,Regular Fit Jeans,37.1,80.2,80.2,80.2,XL
+Rectangle,Calvin Klein,Slim Fit T-Shirt,42.7,88.0,88.0,88.0,L
+Pear,Calvin Klein,Oversized Pants,42.6,83.8,67.1,98.6,S
+Hourglass,Calvin Klein,Oversized Pants,38.0,109.9,82.4,104.4,XL
+Hourglass,Zara,Slim Fit Pants,43.1,89.6,67.2,85.2,S
+Hourglass,SaasFaras,Regular Fit Jeans,41.8,99.7,74.8,94.7,M
+Apple,Mango,Oversized Shirt,46.9,119.5,119.5,119.5,L
+Apple,Forever 21,Slim Fit Pants,45.9,110.7,110.7,110.7,M
+Apple,H&M,Oversized Jeans,35.1,92.3,92.3,92.3,L
+Apple,Calvin Klein,Oversized Pants,41.2,113.0,113.0,113.0,M
+Triangle,SaasFaras,Regular Fit T-Shirt,49.4,82.8,82.8,97.5,XS
+Hourglass,Zara,Slim Fit Pants,47.0,89.5,67.1,85.0,L
+Rectangle,Only,Oversized Shirt,39.2,81.5,81.5,81.5,L
+Apple,Only,Oversized Jeans,38.6,119.8,119.8,119.8,M
+Hourglass,Marks & Spencers,Slim Fit Pants,49.7,95.2,71.4,90.5,XS
+Pear,H&M,Slim Fit Jeans,43.7,89.7,71.7,105.5,L
+Pear,Forever 21,Regular Fit Shirt,37.1,95.5,76.4,112.3,XL
+Pear,Marks & Spencers,Slim Fit T-Shirt,43.5,93.9,75.1,110.5,XL
+Triangle,Calvin Klein,Slim Fit Jeans,37.4,83.6,83.6,98.3,XL
+Hourglass,Marks & Spencers,Oversized T-Shirt,40.3,95.2,71.4,90.5,XS
+Pear,Only,Oversized Jeans,40.4,89.6,71.7,105.5,M
+Pear,H&M,Regular Fit Pants,38.0,94.7,75.8,111.4,XS
+Pear,H&M,Oversized Pants,38.8,98.3,78.7,115.7,M
+Rectangle,Forever 21,Oversized Jeans,43.5,93.9,93.9,93.9,M
+Hourglass,Marks & Spencers,Regular Fit Shirt,41.3,91.5,68.6,87.0,L
+Apple,Mango,Oversized Shirt,41.2,99.6,99.6,99.6,XS
+Pear,Mango,Slim Fit T-Shirt,36.6,87.5,70.0,103.0,XL
+Pear,Only,Oversized T-Shirt,35.5,82.0,65.6,96.5,M
+Apple,Forever 21,Oversized Pants,44.6,97.6,97.6,97.6,XL
+Apple,SaasFaras,Slim Fit Jeans,39.7,107.6,107.6,107.6,M
+Hourglass,Calvin Klein,Regular Fit Pants,39.4,100.3,75.2,95.3,M
+Apple,SaasFaras,Regular Fit Jeans,37.7,94.9,94.9,94.9,M
+Rectangle,H&M,Slim Fit Pants,43.8,91.9,91.9,91.9,XL
+Apple,Only,Regular Fit Jeans,38.2,105.5,105.5,105.5,S
+Triangle,Marks & Spencers,Regular Fit T-Shirt,35.2,98.0,98.0,115.3,XL
+Apple,Mango,Regular Fit Jeans,40.0,98.0,98.0,98.0,L
+Apple,Forever 21,Oversized T-Shirt,44.9,106.9,106.9,106.9,XL
+Rectangle,Forever 21,Regular Fit Jeans,39.3,94.4,94.4,94.4,XL
+Pear,Mango,Oversized T-Shirt,37.1,85.4,68.4,100.5,M
+Hourglass,Forever 21,Oversized Pants,38.6,101.9,76.4,96.8,XL
+Apple,Forever 21,Regular Fit Pants,49.0,110.4,110.4,110.4,S
+Hourglass,Only,Regular Fit Jeans,37.3,107.2,80.4,101.8,M
+Rectangle,Forever 21,Slim Fit Jeans,49.5,83.6,83.6,83.6,XS
+Rectangle,Only,Slim Fit Jeans,40.5,94.5,94.5,94.5,S
+Pear,H&M,Oversized Jeans,38.5,96.6,77.3,113.6,L
+Pear,Calvin Klein,Oversized Pants,46.3,88.6,70.9,104.3,XS
+Pear,Only,Regular Fit Shirt,40.7,101.1,80.9,118.9,M
+Pear,SaasFaras,Slim Fit Pants,39.8,86.0,68.8,101.2,M
+Triangle,Calvin Klein,Regular Fit Jeans,47.9,87.2,87.2,102.6,XS
+Pear,H&M,Regular Fit T-Shirt,36.5,100.1,80.1,117.8,XS
+Hourglass,Mango,Regular Fit Pants,38.5,101.7,76.3,96.6,XS
+Pear,H&M,Slim Fit Jeans,35.1,84.5,67.6,99.4,M
+Pear,Zara,Slim Fit T-Shirt,49.2,98.0,78.4,115.3,M
+Pear,Only,Slim Fit Pants,46.1,95.7,76.6,112.6,XL
+Triangle,Calvin Klein,Oversized Jeans,35.8,84.3,84.3,99.2,M
+Pear,SaasFaras,Oversized Jeans,47.3,84.9,67.9,99.9,L
+Rectangle,Zara,Regular Fit Shirt,43.7,88.0,88.0,88.0,S
+Pear,SaasFaras,Slim Fit Shirt,49.0,101.6,81.3,119.5,XL
+Pear,Forever 21,Regular Fit Shirt,36.7,96.2,76.9,113.1,L
+Rectangle,VeroModa,Oversized Shirt,44.5,93.6,93.6,93.6,M
+Pear,Mango,Oversized Shirt,35.2,83.7,67.0,98.5,XL
+Apple,SaasFaras,Oversized Shirt,37.6,105.8,105.8,105.8,L
+Rectangle,VeroModa,Regular Fit Pants,36.8,80.7,80.7,80.7,XL
+Apple,VeroModa,Oversized Pants,36.1,97.5,97.5,97.5,M
+Apple,Marks & Spencers,Regular Fit T-Shirt,47.3,102.3,102.3,102.3,XL
+Hourglass,H&M,Regular Fit Jeans,39.2,88.4,66.3,84.0,XS
+Rectangle,Forever 21,Oversized T-Shirt,39.7,94.9,94.9,94.9,S
+Apple,Zara,Oversized T-Shirt,40.6,90.0,90.0,90.0,L
+Hourglass,Marks & Spencers,Slim Fit Pants,36.6,106.6,79.9,101.2,XL
+Pear,Forever 21,Slim Fit T-Shirt,36.8,84.3,67.5,99.2,S
+Apple,H&M,Regular Fit Pants,45.6,97.0,97.0,97.0,XS
+Triangle,Forever 21,Oversized Shirt,44.3,88.7,88.7,104.4,M
+Triangle,Mango,Regular Fit Pants,36.6,100.3,100.3,117.9,L
+Rectangle,Only,Oversized Shirt,44.4,85.5,85.5,85.5,S
+Rectangle,VeroModa,Regular Fit Shirt,47.2,93.7,93.7,93.7,XL
+Apple,H&M,Regular Fit Pants,43.0,91.0,91.0,91.0,M
+Triangle,Calvin Klein,Regular Fit Pants,46.3,101.7,101.7,119.7,S
+Rectangle,SaasFaras,Regular Fit T-Shirt,36.5,97.2,97.2,97.2,XS
+Hourglass,Mango,Oversized Jeans,36.8,108.9,81.6,103.4,L
+Triangle,Marks & Spencers,Oversized Jeans,37.1,101.0,101.0,118.8,XS
+Pear,VeroModa,Slim Fit Pants,40.7,89.6,71.7,105.4,L
+Pear,Forever 21,Slim Fit Shirt,47.6,92.2,73.7,108.4,XS
+Rectangle,Only,Regular Fit Jeans,45.1,86.3,86.3,86.3,XS
+Pear,Marks & Spencers,Regular Fit Pants,35.3,87.7,70.1,103.2,M
+Rectangle,SaasFaras,Regular Fit T-Shirt,36.2,90.9,90.9,90.9,XL
+Pear,SaasFaras,Oversized Jeans,37.5,99.0,79.2,116.5,XL
+Hourglass,VeroModa,Oversized Pants,46.5,97.8,73.3,92.9,S
+Rectangle,SaasFaras,Slim Fit Pants,38.0,97.8,97.8,97.8,M
+Triangle,H&M,Regular Fit T-Shirt,37.9,95.6,95.6,112.5,M
+Apple,Zara,Slim Fit Jeans,37.3,109.4,109.4,109.4,XS
+Hourglass,VeroModa,Slim Fit Shirt,37.8,90.5,67.9,86.0,S
+Rectangle,Only,Slim Fit Jeans,35.6,87.0,87.0,87.0,M
+Hourglass,Only,Oversized Jeans,42.6,102.6,77.0,97.5,XS
+Rectangle,SaasFaras,Regular Fit Pants,44.4,86.9,86.9,86.9,XL
+Hourglass,H&M,Regular Fit Shirt,46.2,98.3,73.7,93.4,XS
+Rectangle,H&M,Oversized Jeans,39.7,86.7,86.7,86.7,XS
+Rectangle,Only,Regular Fit Jeans,43.3,93.8,93.8,93.8,S
+Triangle,SaasFaras,Regular Fit Shirt,44.9,101.3,101.3,119.2,S
+Pear,Marks & Spencers,Slim Fit Pants,37.9,95.9,76.7,112.8,M
+Pear,H&M,Regular Fit Jeans,42.8,88.8,71.0,104.5,S
+Hourglass,Mango,Regular Fit Pants,45.4,85.6,64.2,81.4,L
+Apple,Mango,Oversized T-Shirt,38.0,92.6,92.6,92.6,M
+Apple,SaasFaras,Oversized Pants,41.0,115.5,115.5,115.5,XL
+Triangle,Marks & Spencers,Slim Fit Pants,37.4,100.4,100.4,118.2,L
+Rectangle,Zara,Oversized T-Shirt,43.3,97.7,97.7,97.7,S
+Hourglass,SaasFaras,Oversized Shirt,48.7,89.2,66.9,84.7,S
+Rectangle,SaasFaras,Slim Fit Pants,35.1,82.3,82.3,82.3,XS
+Pear,Forever 21,Oversized Pants,39.7,81.9,65.5,96.4,M
+Pear,Zara,Regular Fit Pants,42.3,82.6,66.1,97.2,M
+Rectangle,SaasFaras,Oversized Shirt,48.8,83.8,83.8,83.8,XL
+Pear,SaasFaras,Slim Fit Jeans,39.7,89.9,71.9,105.8,XS
+Pear,SaasFaras,Regular Fit Pants,46.9,88.5,70.8,104.1,S
+Hourglass,VeroModa,Regular Fit Pants,47.7,105.1,78.8,99.9,L
+Apple,SaasFaras,Slim Fit Pants,40.8,91.9,91.9,91.9,S
+Hourglass,Only,Slim Fit Jeans,46.2,89.7,67.2,85.2,L
+Pear,Only,Regular Fit Shirt,40.7,81.3,65.1,95.7,S
+Pear,Forever 21,Regular Fit T-Shirt,44.2,89.2,71.3,104.9,XL
+Triangle,SaasFaras,Slim Fit Jeans,45.6,91.9,91.9,108.1,S
+Rectangle,Zara,Slim Fit Jeans,35.3,81.1,81.1,81.1,L
+Hourglass,Only,Regular Fit Shirt,47.9,103.5,77.6,98.3,L
+Pear,Only,Slim Fit Jeans,41.3,98.9,79.1,116.4,S
+Pear,H&M,Slim Fit Jeans,42.5,91.7,73.4,107.9,XL
+Triangle,VeroModa,Oversized Shirt,44.2,98.6,98.6,116.1,L
+Hourglass,Calvin Klein,Oversized Pants,48.0,93.5,70.1,88.8,M
+Pear,Zara,Regular Fit Pants,39.1,95.2,76.2,112.0,M
+Pear,Zara,Regular Fit Pants,44.5,92.1,73.7,108.4,XL
+Hourglass,VeroModa,Regular Fit Shirt,39.8,86.0,64.5,81.7,S
+Pear,VeroModa,Oversized Pants,41.5,94.9,75.9,111.7,S
+Rectangle,VeroModa,Slim Fit Jeans,45.9,81.1,81.1,81.1,S
+Apple,Calvin Klein,Slim Fit Shirt,44.0,106.9,106.9,106.9,XS
+Hourglass,H&M,Regular Fit Jeans,49.5,100.4,75.3,95.4,XL
+Hourglass,Calvin Klein,Oversized Shirt,43.9,104.1,78.0,98.9,L
+Hourglass,Calvin Klein,Oversized Jeans,42.3,100.1,75.0,95.1,XS
+Rectangle,Zara,Regular Fit T-Shirt,38.9,96.3,96.3,96.3,S
+Triangle,VeroModa,Oversized Shirt,37.1,97.9,97.9,115.1,XL
+Triangle,Marks & Spencers,Regular Fit Pants,46.1,87.7,87.7,103.2,XS
+Hourglass,VeroModa,Slim Fit Jeans,35.2,108.0,81.0,102.6,S
+Apple,Calvin Klein,Oversized Shirt,49.6,92.6,92.6,92.6,M
+Hourglass,Mango,Regular Fit Pants,36.1,95.7,71.8,90.9,XS
+Apple,Forever 21,Slim Fit Jeans,42.6,95.8,95.8,95.8,S
+Triangle,Mango,Oversized Jeans,41.4,89.3,89.3,105.1,S
+Hourglass,Only,Oversized Pants,38.9,106.1,79.6,100.8,XS
+Apple,Zara,Oversized Shirt,43.7,103.5,103.5,103.5,L
+Rectangle,Marks & Spencers,Oversized Pants,38.5,97.7,97.7,97.7,XL
+Triangle,SaasFaras,Oversized Jeans,48.0,101.4,101.4,119.3,S
+Hourglass,Marks & Spencers,Slim Fit Pants,45.3,106.2,79.7,100.9,L
+Pear,Only,Oversized Jeans,41.3,82.8,66.2,97.4,XS
+Apple,Marks & Spencers,Oversized Shirt,37.5,106.4,106.4,106.4,XS
+Hourglass,Calvin Klein,Slim Fit Shirt,36.5,97.9,73.4,93.0,S
+Triangle,H&M,Oversized Jeans,40.7,101.2,101.2,119.1,L
+Triangle,H&M,Oversized T-Shirt,40.2,98.8,98.8,116.3,S
+Triangle,Mango,Oversized T-Shirt,48.5,94.5,94.5,111.2,XL
+Hourglass,Mango,Oversized T-Shirt,42.1,106.1,79.6,100.8,S
+Triangle,Calvin Klein,Regular Fit T-Shirt,38.1,88.7,88.7,104.3,XL
+Triangle,Zara,Regular Fit Pants,38.8,90.3,90.3,106.3,XL
+Apple,Only,Oversized Pants,38.1,93.9,93.9,93.9,XL
+Hourglass,Forever 21,Oversized Pants,35.1,92.9,69.7,88.3,XL
+Rectangle,Zara,Regular Fit Shirt,41.0,90.1,90.1,90.1,L
+Triangle,VeroModa,Slim Fit Jeans,49.0,83.6,83.6,98.3,M
+Hourglass,Only,Regular Fit Jeans,40.5,101.9,76.4,96.8,XL
+Rectangle,VeroModa,Regular Fit T-Shirt,45.5,86.6,86.6,86.6,XL
+Hourglass,Calvin Klein,Regular Fit Jeans,46.1,104.9,78.7,99.7,M
+Hourglass,Calvin Klein,Slim Fit T-Shirt,49.3,90.1,67.6,85.6,M
+Rectangle,Marks & Spencers,Regular Fit T-Shirt,38.6,88.1,88.1,88.1,XS
+Hourglass,Calvin Klein,Slim Fit Pants,46.1,106.3,79.7,100.9,XL
+Apple,Only,Oversized Shirt,42.3,107.8,107.8,107.8,XS
+Hourglass,H&M,Slim Fit Jeans,38.5,108.1,81.1,102.7,S
+Rectangle,SaasFaras,Regular Fit Pants,49.3,82.4,82.4,82.4,S
+Pear,VeroModa,Regular Fit Pants,45.0,93.5,74.8,109.9,S
+Triangle,SaasFaras,Oversized Jeans,38.8,93.2,93.2,109.6,XS
+Apple,Marks & Spencers,Oversized Pants,47.9,105.4,105.4,105.4,M
+Apple,Mango,Oversized Jeans,39.4,118.2,118.2,118.2,L
+Triangle,Calvin Klein,Slim Fit T-Shirt,47.9,82.5,82.5,97.1,XS
+Triangle,SaasFaras,Slim Fit Jeans,48.2,89.6,89.6,105.4,XL
+Rectangle,Only,Slim Fit T-Shirt,47.3,81.2,81.2,81.2,XL
+Hourglass,Zara,Regular Fit Shirt,44.8,106.0,79.5,100.7,S
+Hourglass,H&M,Regular Fit T-Shirt,49.6,102.9,77.2,97.7,L
+Triangle,Only,Slim Fit Pants,40.6,82.4,82.4,96.9,L
+Rectangle,Zara,Regular Fit Pants,39.9,89.1,89.1,89.1,S
+Hourglass,VeroModa,Oversized Jeans,42.8,102.6,77.0,97.5,L
+Apple,SaasFaras,Regular Fit Pants,36.2,113.0,113.0,113.0,XL
+Apple,Zara,Regular Fit Jeans,41.2,95.7,95.7,95.7,XS
+Pear,Calvin Klein,Regular Fit T-Shirt,46.4,81.0,64.8,95.3,S
+Apple,SaasFaras,Regular Fit T-Shirt,42.6,97.5,97.5,97.5,S
+Apple,SaasFaras,Regular Fit Pants,49.2,104.6,104.6,104.6,S
+Triangle,Forever 21,Slim Fit T-Shirt,37.1,101.1,101.1,119.0,XS
+Rectangle,VeroModa,Slim Fit Pants,45.6,96.5,96.5,96.5,XL
+Hourglass,Calvin Klein,Regular Fit Jeans,41.7,94.8,71.1,90.1,XL
+Apple,VeroModa,Regular Fit Pants,36.3,99.5,99.5,99.5,L
+Hourglass,Marks & Spencers,Regular Fit Pants,40.2,91.5,68.6,86.9,M
+Apple,SaasFaras,Oversized Shirt,36.4,118.5,118.5,118.5,M
+Rectangle,Forever 21,Slim Fit Pants,43.0,80.5,80.5,80.5,XS
+Triangle,Calvin Klein,Regular Fit Shirt,39.3,101.9,101.9,119.9,XL
+Pear,Only,Regular Fit Shirt,35.8,82.8,66.2,97.4,L
+Apple,Zara,Slim Fit Jeans,38.4,108.1,108.1,108.1,L
+Pear,Marks & Spencers,Oversized T-Shirt,45.0,82.7,66.1,97.3,S
+Rectangle,SaasFaras,Oversized Pants,40.8,83.4,83.4,83.4,M
+Triangle,Mango,Slim Fit Jeans,43.6,97.6,97.6,114.9,L
+Pear,Forever 21,Regular Fit Shirt,42.6,85.5,68.4,100.6,XL
+Pear,Only,Slim Fit Jeans,36.2,98.7,79.0,116.1,S
+Triangle,H&M,Oversized Jeans,48.0,92.8,92.8,109.2,XS
+Rectangle,Only,Regular Fit T-Shirt,38.9,82.6,82.6,82.6,S
+Apple,Mango,Oversized Pants,38.7,118.7,118.7,118.7,M
+Triangle,Forever 21,Regular Fit Pants,48.3,87.6,87.6,103.1,L
+Rectangle,VeroModa,Regular Fit Pants,36.6,84.6,84.6,84.6,L
+Apple,SaasFaras,Regular Fit Pants,49.2,91.4,91.4,91.4,XS
+Triangle,H&M,Regular Fit Jeans,41.2,101.5,101.5,119.4,L
+Rectangle,SaasFaras,Regular Fit T-Shirt,44.1,94.3,94.3,94.3,XS
+Rectangle,VeroModa,Oversized Shirt,38.2,94.8,94.8,94.8,XL
+Triangle,VeroModa,Oversized Shirt,38.3,90.5,90.5,106.5,XL
+Rectangle,Calvin Klein,Slim Fit Shirt,40.2,84.0,84.0,84.0,XL
+Hourglass,Marks & Spencers,Oversized Shirt,45.7,87.2,65.4,82.9,L
+Triangle,VeroModa,Slim Fit Shirt,35.1,96.1,96.1,113.1,XL
+Hourglass,Calvin Klein,Oversized T-Shirt,41.3,106.8,80.1,101.5,L
+Triangle,Mango,Oversized T-Shirt,42.6,86.4,86.4,101.7,M
+Hourglass,Forever 21,Oversized Jeans,38.5,89.6,67.2,85.1,XS
+Apple,Mango,Oversized Shirt,38.4,113.3,113.3,113.3,XS
+Triangle,VeroModa,Oversized Jeans,41.7,87.0,87.0,102.3,M
+Hourglass,Forever 21,Regular Fit Pants,44.9,90.6,68.0,86.1,XL
+Triangle,Marks & Spencers,Regular Fit Jeans,41.5,89.2,89.2,104.9,XS
+Hourglass,Calvin Klein,Slim Fit Shirt,45.8,98.0,73.5,93.1,XL
+Hourglass,Marks & Spencers,Regular Fit Jeans,41.7,102.9,77.1,97.7,S
+Pear,Only,Oversized Shirt,44.8,83.4,66.7,98.1,XS
+Rectangle,H&M,Slim Fit Pants,48.9,82.7,82.7,82.7,L
+Pear,VeroModa,Regular Fit Pants,39.5,93.9,75.2,110.5,M
+Triangle,Mango,Slim Fit Jeans,43.7,98.5,98.5,115.9,XS
+Triangle,SaasFaras,Slim Fit T-Shirt,35.5,92.0,92.0,108.2,S
+Hourglass,Zara,Slim Fit Shirt,41.5,91.6,68.7,87.0,S
+Triangle,H&M,Regular Fit Pants,43.8,82.9,82.9,97.6,XS
+Rectangle,H&M,Slim Fit Pants,41.5,98.2,98.2,98.2,M
+Hourglass,Forever 21,Oversized Pants,36.7,86.9,65.2,82.5,XL
+Pear,Only,Regular Fit Jeans,40.8,83.6,66.9,98.3,XL
+Triangle,H&M,Oversized T-Shirt,43.6,91.5,91.5,107.7,S
+Hourglass,VeroModa,Regular Fit Jeans,42.0,95.9,71.9,91.1,M
+Hourglass,Forever 21,Oversized Jeans,36.1,110.0,82.5,104.5,XS
+Apple,Zara,Regular Fit Pants,47.3,92.0,92.0,92.0,S
+Rectangle,SaasFaras,Slim Fit Shirt,49.7,93.0,93.0,93.0,M
+Apple,VeroModa,Regular Fit T-Shirt,36.5,96.4,96.4,96.4,M
+Triangle,Zara,Slim Fit Pants,46.8,90.6,90.6,106.6,S
+Rectangle,H&M,Slim Fit Jeans,36.0,90.5,90.5,90.5,L
+Apple,Calvin Klein,Regular Fit Jeans,45.2,100.7,100.7,100.7,XL
+Hourglass,VeroModa,Slim Fit Jeans,36.9,92.9,69.7,88.2,S
+Pear,SaasFaras,Oversized T-Shirt,48.4,99.2,79.4,116.7,M
+Pear,Zara,Oversized Shirt,38.7,98.2,78.6,115.5,M
+Pear,VeroModa,Slim Fit Pants,41.7,88.2,70.6,103.8,M
+Hourglass,Marks & Spencers,Slim Fit Shirt,35.7,104.0,78.0,98.8,XL
+Rectangle,H&M,Slim Fit Pants,36.4,90.9,90.9,90.9,XL
+Rectangle,VeroModa,Regular Fit T-Shirt,41.0,83.8,83.8,83.8,L
+Apple,Marks & Spencers,Slim Fit T-Shirt,38.0,93.3,93.3,93.3,L
+Hourglass,SaasFaras,Slim Fit Pants,49.9,92.1,69.1,87.5,XS
+Hourglass,Calvin Klein,Regular Fit Shirt,45.7,106.0,79.5,100.7,M
+Hourglass,Zara,Regular Fit Jeans,36.9,93.8,70.4,89.1,S
+Rectangle,Mango,Slim Fit Pants,36.2,92.4,92.4,92.4,XL
+Rectangle,Forever 21,Slim Fit Pants,43.7,96.3,96.3,96.3,XL
+Hourglass,H&M,Regular Fit Jeans,47.1,101.5,76.1,96.4,S
+Hourglass,Forever 21,Regular Fit Pants,39.7,101.0,75.8,96.0,L
+Apple,Zara,Regular Fit T-Shirt,37.5,107.4,107.4,107.4,XL
+Pear,Marks & Spencers,Slim Fit T-Shirt,42.3,81.8,65.4,96.2,L
+Rectangle,Calvin Klein,Oversized Pants,38.1,84.4,84.4,84.4,L
+Pear,SaasFaras,Slim Fit Shirt,47.5,88.2,70.6,103.8,XS
+Rectangle,Calvin Klein,Regular Fit T-Shirt,37.5,98.6,98.6,98.6,M
+Pear,H&M,Oversized Shirt,43.5,88.3,70.6,103.9,XS
+Pear,Only,Slim Fit Shirt,48.4,86.4,69.1,101.6,L
+Hourglass,H&M,Slim Fit Pants,45.3,98.6,74.0,93.7,L
+Triangle,SaasFaras,Slim Fit Jeans,36.4,87.2,87.2,102.6,M
+Apple,Only,Slim Fit Pants,36.6,105.4,105.4,105.4,S
+Pear,VeroModa,Oversized Pants,47.6,96.3,77.1,113.3,M
+Triangle,Forever 21,Regular Fit T-Shirt,37.5,85.8,85.8,100.9,L
+Apple,H&M,Slim Fit T-Shirt,45.2,110.3,110.3,110.3,S
+Hourglass,VeroModa,Regular Fit Jeans,42.7,95.8,71.8,91.0,XL
+Pear,Mango,Regular Fit Shirt,35.1,84.6,67.7,99.6,XL
+Pear,SaasFaras,Slim Fit Shirt,38.7,95.3,76.3,112.2,S
+Triangle,H&M,Slim Fit Shirt,48.7,97.3,97.3,114.5,XS
+Triangle,Only,Regular Fit Pants,46.4,87.3,87.3,102.8,L
+Rectangle,SaasFaras,Oversized T-Shirt,44.4,84.8,84.8,84.8,XL
+Triangle,Forever 21,Oversized Shirt,35.1,86.5,86.5,101.8,XS
+Rectangle,Mango,Slim Fit T-Shirt,40.6,80.6,80.6,80.6,S
+Rectangle,H&M,Slim Fit Pants,38.5,96.5,96.5,96.5,XS
+Pear,Calvin Klein,Oversized Shirt,35.3,83.0,66.4,97.7,S
+Rectangle,Forever 21,Regular Fit Jeans,36.2,96.1,96.1,96.1,XS
+Apple,Forever 21,Oversized T-Shirt,44.5,113.1,113.1,113.1,L
+Hourglass,Mango,Regular Fit Jeans,36.5,92.5,69.4,87.9,XS
+Triangle,Calvin Klein,Regular Fit Jeans,36.4,86.3,86.3,101.5,XS
+Rectangle,Calvin Klein,Regular Fit T-Shirt,48.6,94.2,94.2,94.2,XS
+Pear,Only,Regular Fit Pants,37.2,81.1,64.9,95.5,XS
+Triangle,H&M,Oversized Shirt,41.7,98.7,98.7,116.1,XL
+Triangle,Marks & Spencers,Oversized Jeans,42.5,96.7,96.7,113.8,XS
+Pear,Calvin Klein,Regular Fit Jeans,41.5,98.1,78.5,115.4,XS
+Pear,SaasFaras,Regular Fit Jeans,44.1,89.5,71.6,105.3,L
+Rectangle,H&M,Oversized T-Shirt,35.3,81.9,81.9,81.9,L
+Hourglass,H&M,Oversized Jeans,42.6,93.0,69.8,88.4,XL
+Apple,Mango,Slim Fit Shirt,45.0,111.5,111.5,111.5,L
+Pear,Marks & Spencers,Slim Fit Shirt,43.8,81.2,64.9,95.5,M
+Pear,H&M,Regular Fit Jeans,45.8,89.7,71.8,105.6,XL
+Pear,Zara,Slim Fit Shirt,47.2,85.7,68.6,100.8,XS
+Rectangle,Marks & Spencers,Oversized T-Shirt,47.4,92.6,92.6,92.6,S
+Rectangle,Zara,Slim Fit T-Shirt,43.1,80.6,80.6,80.6,XL
+Apple,H&M,Oversized Shirt,40.4,108.8,108.8,108.8,XL
+Apple,SaasFaras,Regular Fit Shirt,47.0,117.5,117.5,117.5,S
+Rectangle,Marks & Spencers,Oversized Shirt,44.3,94.4,94.4,94.4,M
+Apple,Only,Regular Fit Jeans,44.5,106.0,106.0,106.0,S
+Pear,Only,Regular Fit Pants,41.9,100.5,80.4,118.2,S
+Rectangle,Zara,Regular Fit Pants,42.0,81.0,81.0,81.0,M
+Apple,H&M,Slim Fit Shirt,42.8,102.6,102.6,102.6,S
+Rectangle,Marks & Spencers,Oversized Jeans,41.4,94.3,94.3,94.3,XS
+Apple,Forever 21,Slim Fit Jeans,39.3,118.9,118.9,118.9,XL
+Triangle,Zara,Regular Fit Shirt,41.2,80.9,80.9,95.1,M
+Triangle,Mango,Oversized Shirt,49.8,86.0,86.0,101.2,XL
+Pear,VeroModa,Regular Fit T-Shirt,38.2,95.3,76.2,112.1,M
+Pear,VeroModa,Slim Fit Jeans,40.5,100.4,80.3,118.1,S
+Apple,Calvin Klein,Oversized Shirt,47.4,110.4,110.4,110.4,S
+Rectangle,Calvin Klein,Regular Fit Jeans,36.8,80.6,80.6,80.6,XS
+Rectangle,H&M,Slim Fit Pants,41.0,96.2,96.2,96.2,XL
+Rectangle,VeroModa,Regular Fit Pants,48.5,89.7,89.7,89.7,L
+Pear,Marks & Spencers,Regular Fit Jeans,47.2,85.3,68.3,100.4,L
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,49.3,85.8,85.8,85.8,XL
+Pear,SaasFaras,Oversized Shirt,41.0,86.6,69.3,101.8,XS
+Pear,Only,Slim Fit Pants,35.2,95.7,76.5,112.5,S
+Rectangle,Only,Oversized T-Shirt,49.3,86.8,86.8,86.8,XL
+Hourglass,Forever 21,Slim Fit T-Shirt,42.5,102.1,76.6,97.0,L
+Rectangle,VeroModa,Slim Fit Pants,43.0,96.4,96.4,96.4,XS
+Hourglass,Calvin Klein,Slim Fit Jeans,44.6,87.1,65.3,82.7,XS
+Hourglass,H&M,Slim Fit T-Shirt,36.8,85.8,64.3,81.5,XL
+Triangle,Zara,Regular Fit T-Shirt,46.3,90.4,90.4,106.4,XL
+Rectangle,Forever 21,Slim Fit Jeans,39.5,85.2,85.2,85.2,S
+Rectangle,Only,Slim Fit Pants,45.8,82.6,82.6,82.6,L
+Rectangle,H&M,Regular Fit T-Shirt,38.5,92.8,92.8,92.8,XS
+Apple,Marks & Spencers,Oversized Shirt,41.3,101.6,101.6,101.6,XS
+Hourglass,Only,Slim Fit Shirt,46.4,102.5,76.9,97.4,S
+Apple,SaasFaras,Slim Fit Pants,42.7,118.1,118.1,118.1,XL
+Apple,Forever 21,Slim Fit Shirt,42.1,104.8,104.8,104.8,XL
+Apple,Only,Oversized Pants,49.0,107.6,107.6,107.6,S
+Apple,Calvin Klein,Oversized Jeans,42.9,108.1,108.1,108.1,M
+Apple,Forever 21,Regular Fit Jeans,36.6,113.2,113.2,113.2,S
+Rectangle,SaasFaras,Regular Fit Pants,43.3,90.9,90.9,90.9,M
+Triangle,Calvin Klein,Regular Fit Shirt,40.7,101.3,101.3,119.1,XL
+Apple,Mango,Slim Fit T-Shirt,38.1,112.8,112.8,112.8,M
+Triangle,Zara,Slim Fit T-Shirt,39.3,91.1,91.1,107.2,M
+Apple,Zara,Slim Fit T-Shirt,35.8,112.3,112.3,112.3,XL
+Rectangle,Mango,Regular Fit Jeans,37.8,88.6,88.6,88.6,S
+Hourglass,SaasFaras,Oversized Pants,37.9,87.0,65.3,82.7,L
+Hourglass,VeroModa,Oversized Jeans,35.5,93.0,69.8,88.4,XS
+Rectangle,Zara,Regular Fit Jeans,49.8,93.2,93.2,93.2,XS
+Triangle,VeroModa,Regular Fit Jeans,36.7,85.0,85.0,100.1,M
+Pear,SaasFaras,Regular Fit Pants,36.7,96.2,77.0,113.2,L
+Pear,Zara,Oversized T-Shirt,36.2,92.2,73.8,108.5,XL
+Rectangle,Forever 21,Regular Fit T-Shirt,36.7,94.0,94.0,94.0,L
+Pear,Calvin Klein,Oversized Jeans,36.6,88.4,70.7,104.0,L
+Hourglass,Zara,Oversized Shirt,41.1,85.7,64.3,81.4,S
+Apple,Calvin Klein,Oversized Jeans,35.8,106.2,106.2,106.2,L
+Triangle,Only,Slim Fit Pants,49.9,96.6,96.6,113.6,XL
+Hourglass,Forever 21,Slim Fit Jeans,48.3,103.2,77.4,98.1,S
+Triangle,Marks & Spencers,Slim Fit Pants,35.8,101.7,101.7,119.7,XS
+Rectangle,H&M,Regular Fit Shirt,40.5,85.6,85.6,85.6,M
+Rectangle,VeroModa,Slim Fit T-Shirt,43.6,97.6,97.6,97.6,M
+Rectangle,H&M,Regular Fit Pants,36.7,84.2,84.2,84.2,XL
+Triangle,SaasFaras,Slim Fit T-Shirt,38.9,82.7,82.7,97.2,M
+Hourglass,Marks & Spencers,Oversized Pants,35.0,110.0,82.5,104.5,S
+Apple,H&M,Slim Fit Jeans,36.1,96.3,96.3,96.3,L
+Triangle,Only,Regular Fit Pants,44.8,100.3,100.3,118.0,XL
+Pear,Forever 21,Regular Fit Jeans,39.7,91.0,72.8,107.1,L
+Triangle,Marks & Spencers,Oversized Pants,45.4,99.6,99.6,117.2,S
+Triangle,Forever 21,Oversized T-Shirt,37.3,97.8,97.8,115.1,XS
+Rectangle,Mango,Oversized T-Shirt,41.1,87.2,87.2,87.2,S
+Triangle,Zara,Oversized Shirt,40.3,82.2,82.2,96.8,L
+Apple,Only,Slim Fit T-Shirt,42.5,90.1,90.1,90.1,L
+Rectangle,Forever 21,Slim Fit Shirt,48.0,93.0,93.0,93.0,L
+Hourglass,Only,Oversized Shirt,42.5,103.2,77.4,98.1,S
+Pear,H&M,Slim Fit Pants,45.8,97.7,78.2,114.9,XL
+Triangle,Mango,Slim Fit Shirt,41.0,81.1,81.1,95.5,M
+Pear,Calvin Klein,Slim Fit Jeans,49.9,95.1,76.0,111.8,XL
+Rectangle,Calvin Klein,Slim Fit T-Shirt,41.9,83.8,83.8,83.8,M
+Rectangle,VeroModa,Slim Fit T-Shirt,48.5,86.8,86.8,86.8,M
+Pear,H&M,Slim Fit Pants,47.5,90.4,72.3,106.3,S
+Triangle,Only,Oversized Pants,44.1,94.0,94.0,110.5,XL
+Triangle,Marks & Spencers,Slim Fit Shirt,40.8,82.1,82.1,96.6,M
+Hourglass,SaasFaras,Oversized Pants,39.5,87.1,65.3,82.8,XS
+Pear,H&M,Regular Fit Pants,45.5,101.8,81.5,119.8,XL
+Pear,Only,Oversized Pants,46.7,87.4,69.9,102.8,S
+Pear,Calvin Klein,Regular Fit Shirt,40.5,88.7,71.0,104.4,XL
+Triangle,SaasFaras,Regular Fit Shirt,39.7,96.2,96.2,113.2,L
+Apple,SaasFaras,Oversized T-Shirt,35.4,109.4,109.4,109.4,S
+Pear,Mango,Regular Fit Shirt,36.2,88.4,70.7,104.0,L
+Rectangle,Mango,Regular Fit Shirt,42.0,88.2,88.2,88.2,XS
+Apple,SaasFaras,Regular Fit Shirt,43.1,111.5,111.5,111.5,XS
+Hourglass,Only,Oversized Pants,41.9,89.7,67.3,85.3,XS
+Triangle,Marks & Spencers,Slim Fit Shirt,44.5,95.0,95.0,111.8,XL
+Triangle,Forever 21,Regular Fit Pants,43.9,101.6,101.6,119.5,XL
+Hourglass,Only,Slim Fit Jeans,48.8,99.2,74.4,94.3,M
+Rectangle,Marks & Spencers,Slim Fit Pants,39.7,98.4,98.4,98.4,XS
+Triangle,Mango,Oversized Pants,42.0,85.9,85.9,101.0,L
+Hourglass,H&M,Slim Fit Jeans,37.5,93.9,70.4,89.2,L
+Apple,Forever 21,Regular Fit Jeans,37.9,108.5,108.5,108.5,L
+Pear,Mango,Regular Fit Pants,49.2,93.1,74.5,109.5,XL
+Rectangle,VeroModa,Oversized T-Shirt,35.4,90.6,90.6,90.6,XL
+Pear,Only,Regular Fit Pants,39.0,101.8,81.5,119.8,M
+Rectangle,VeroModa,Oversized Pants,44.5,94.5,94.5,94.5,XS
+Apple,Marks & Spencers,Regular Fit Pants,45.3,115.7,115.7,115.7,L
+Pear,H&M,Regular Fit T-Shirt,42.8,94.8,75.8,111.5,XS
+Hourglass,Mango,Regular Fit T-Shirt,38.1,90.2,67.7,85.7,S
+Apple,Mango,Regular Fit Pants,46.6,116.6,116.6,116.6,S
+Rectangle,VeroModa,Regular Fit Jeans,35.9,89.3,89.3,89.3,L
+Apple,Zara,Oversized Shirt,43.9,98.0,98.0,98.0,XS
+Pear,Marks & Spencers,Slim Fit Pants,44.3,82.4,65.9,96.9,L
+Triangle,Zara,Regular Fit Pants,48.1,101.0,101.0,118.9,XS
+Pear,Forever 21,Slim Fit Shirt,49.5,92.2,73.8,108.5,XL
+Apple,VeroModa,Slim Fit Jeans,36.4,91.5,91.5,91.5,S
+Apple,Calvin Klein,Oversized Jeans,39.0,100.4,100.4,100.4,L
+Triangle,SaasFaras,Oversized Jeans,45.5,91.1,91.1,107.2,S
+Hourglass,SaasFaras,Regular Fit T-Shirt,46.9,96.2,72.2,91.4,S
+Apple,H&M,Regular Fit T-Shirt,43.1,108.7,108.7,108.7,XL
+Triangle,Zara,Oversized Pants,40.4,94.1,94.1,110.7,M
+Pear,VeroModa,Oversized Pants,47.6,91.2,73.0,107.3,S
+Apple,SaasFaras,Slim Fit Jeans,41.2,99.0,99.0,99.0,XL
+Apple,SaasFaras,Regular Fit T-Shirt,40.6,93.9,93.9,93.9,XL
+Apple,Only,Regular Fit Jeans,44.1,118.9,118.9,118.9,XS
+Rectangle,Marks & Spencers,Oversized Jeans,47.1,81.7,81.7,81.7,XS
+Triangle,Mango,Regular Fit Pants,35.8,95.3,95.3,112.1,M
+Apple,H&M,Regular Fit Pants,38.5,105.3,105.3,105.3,M
+Hourglass,H&M,Regular Fit Pants,38.4,88.9,66.7,84.4,XS
+Pear,H&M,Regular Fit Pants,45.9,100.0,80.0,117.7,XL
+Triangle,Calvin Klein,Regular Fit Pants,38.5,99.0,99.0,116.5,XL
+Pear,Marks & Spencers,Slim Fit T-Shirt,48.9,85.4,68.3,100.5,XL
+Pear,VeroModa,Oversized Jeans,45.7,82.1,65.6,96.5,XL
+Triangle,VeroModa,Regular Fit Shirt,39.0,101.3,101.3,119.2,XS
+Apple,Mango,Regular Fit Shirt,37.2,105.1,105.1,105.1,XS
+Triangle,SaasFaras,Regular Fit Shirt,39.4,91.0,91.0,107.1,XL
+Pear,H&M,Slim Fit Pants,35.0,92.5,74.0,108.8,M
+Triangle,Zara,Regular Fit Jeans,44.1,93.4,93.4,109.8,XL
+Rectangle,Only,Slim Fit T-Shirt,47.3,83.8,83.8,83.8,XL
+Hourglass,VeroModa,Oversized T-Shirt,43.2,103.7,77.8,98.5,XS
+Apple,Marks & Spencers,Regular Fit T-Shirt,45.6,92.3,92.3,92.3,XS
+Triangle,Marks & Spencers,Oversized Pants,49.1,99.5,99.5,117.0,M
+Triangle,H&M,Slim Fit T-Shirt,35.7,90.8,90.8,106.8,XS
+Rectangle,Mango,Oversized Pants,47.8,87.7,87.7,87.7,M
+Pear,SaasFaras,Oversized Pants,49.2,92.5,74.0,108.8,XS
+Pear,Mango,Slim Fit Pants,36.9,83.2,66.6,97.9,S
+Triangle,Marks & Spencers,Slim Fit Jeans,36.3,84.9,84.9,99.9,M
+Apple,Zara,Slim Fit T-Shirt,45.9,93.1,93.1,93.1,XS
+Apple,Marks & Spencers,Slim Fit Shirt,46.7,109.6,109.6,109.6,XL
+Apple,Forever 21,Regular Fit Jeans,40.2,92.1,92.1,92.1,L
+Rectangle,Only,Regular Fit Pants,43.2,96.4,96.4,96.4,M
+Hourglass,H&M,Slim Fit Pants,41.8,86.7,65.0,82.4,S
+Hourglass,Mango,Regular Fit Jeans,38.4,101.9,76.5,96.8,L
+Pear,VeroModa,Slim Fit Shirt,48.5,89.5,71.6,105.3,M
+Rectangle,VeroModa,Slim Fit Pants,38.0,88.6,88.6,88.6,S
+Rectangle,Forever 21,Slim Fit Pants,41.3,84.8,84.8,84.8,S
+Rectangle,Only,Slim Fit T-Shirt,43.4,94.6,94.6,94.6,S
+Apple,Calvin Klein,Oversized Shirt,48.4,112.4,112.4,112.4,XL
+Triangle,VeroModa,Regular Fit T-Shirt,39.2,97.6,97.6,114.8,S
+Triangle,Zara,Oversized Jeans,47.9,83.5,83.5,98.3,L
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,38.9,86.1,64.6,81.8,S
+Apple,SaasFaras,Oversized Jeans,42.8,90.5,90.5,90.5,M
+Apple,VeroModa,Regular Fit Pants,43.2,100.6,100.6,100.6,S
+Triangle,Calvin Klein,Regular Fit Shirt,39.4,97.9,97.9,115.2,XL
+Triangle,Mango,Slim Fit T-Shirt,47.0,98.8,98.8,116.3,S
+Triangle,Zara,Slim Fit Shirt,40.1,85.6,85.6,100.7,L
+Apple,Mango,Slim Fit T-Shirt,47.9,114.7,114.7,114.7,S
+Apple,VeroModa,Slim Fit Shirt,48.3,107.7,107.7,107.7,XL
+Pear,VeroModa,Oversized T-Shirt,36.3,93.4,74.7,109.9,XL
+Hourglass,SaasFaras,Oversized Shirt,35.2,85.1,63.8,80.8,L
+Rectangle,Marks & Spencers,Oversized Pants,45.6,93.3,93.3,93.3,L
+Hourglass,H&M,Oversized Jeans,46.5,88.6,66.4,84.1,S
+Apple,Calvin Klein,Slim Fit Pants,48.2,112.1,112.1,112.1,XL
+Apple,Calvin Klein,Slim Fit Pants,43.4,98.6,98.6,98.6,XL
+Apple,Only,Regular Fit Pants,47.6,103.5,103.5,103.5,L
+Rectangle,Mango,Slim Fit Jeans,37.4,85.6,85.6,85.6,XL
+Hourglass,H&M,Slim Fit Pants,42.8,99.0,74.2,94.0,XL
+Hourglass,Marks & Spencers,Regular Fit Jeans,48.1,87.8,65.9,83.4,L
+Triangle,Calvin Klein,Oversized Pants,39.7,81.1,81.1,95.4,S
+Rectangle,Only,Oversized Shirt,42.5,89.6,89.6,89.6,XS
+Triangle,Forever 21,Regular Fit Jeans,47.9,100.8,100.8,118.5,XS
+Apple,H&M,Regular Fit Pants,36.9,100.0,100.0,100.0,XL
+Hourglass,SaasFaras,Oversized T-Shirt,50.0,91.4,68.5,86.8,XS
+Hourglass,SaasFaras,Regular Fit Shirt,36.7,86.4,64.8,82.1,S
+Rectangle,Calvin Klein,Oversized Jeans,41.4,94.8,94.8,94.8,XS
+Hourglass,H&M,Oversized T-Shirt,47.1,101.7,76.2,96.6,XS
+Rectangle,Zara,Regular Fit Shirt,49.0,90.7,90.7,90.7,L
+Pear,Mango,Slim Fit T-Shirt,49.6,91.8,73.4,108.0,L
+Rectangle,H&M,Oversized Shirt,49.4,82.5,82.5,82.5,S
+Rectangle,Zara,Slim Fit Jeans,37.3,98.1,98.1,98.1,S
+Pear,Zara,Oversized Jeans,43.9,93.2,74.6,109.6,L
+Rectangle,H&M,Regular Fit Jeans,47.6,86.6,86.6,86.6,XS
+Triangle,VeroModa,Regular Fit T-Shirt,40.8,89.9,89.9,105.8,S
+Pear,Calvin Klein,Regular Fit Shirt,39.1,94.1,75.3,110.7,XL
+Pear,Only,Regular Fit Jeans,36.2,101.1,80.9,118.9,XS
+Apple,Forever 21,Regular Fit Pants,39.6,99.4,99.4,99.4,XL
+Apple,Calvin Klein,Slim Fit Pants,40.0,112.0,112.0,112.0,XL
+Rectangle,Marks & Spencers,Oversized Jeans,37.7,89.6,89.6,89.6,XS
+Rectangle,Zara,Slim Fit Pants,39.8,84.1,84.1,84.1,XS
+Pear,VeroModa,Slim Fit Jeans,42.2,98.6,78.9,116.0,XL
+Pear,Mango,Slim Fit Shirt,40.8,100.5,80.4,118.3,XL
+Rectangle,SaasFaras,Slim Fit T-Shirt,47.0,82.3,82.3,82.3,S
+Rectangle,Mango,Slim Fit Shirt,46.4,92.6,92.6,92.6,L
+Triangle,VeroModa,Regular Fit Shirt,47.8,97.8,97.8,115.0,L
+Hourglass,Zara,Oversized Jeans,39.4,90.4,67.8,85.9,L
+Pear,Forever 21,Oversized Pants,44.2,100.1,80.1,117.8,L
+Triangle,Zara,Regular Fit T-Shirt,43.2,99.4,99.4,116.9,L
+Hourglass,Mango,Regular Fit T-Shirt,45.8,92.0,69.0,87.4,L
+Rectangle,VeroModa,Regular Fit Jeans,37.4,90.2,90.2,90.2,XL
+Pear,SaasFaras,Regular Fit Jeans,42.5,97.0,77.6,114.2,L
+Hourglass,Mango,Regular Fit Shirt,36.1,85.1,63.8,80.9,XL
+Apple,SaasFaras,Oversized Pants,49.6,111.3,111.3,111.3,XL
+Rectangle,SaasFaras,Oversized Jeans,47.3,80.1,80.1,80.1,L
+Pear,Zara,Regular Fit Shirt,39.8,91.6,73.3,107.7,M
+Pear,H&M,Slim Fit Jeans,41.2,98.8,79.1,116.3,XS
+Triangle,VeroModa,Oversized Pants,41.5,92.4,92.4,108.7,XS
+Apple,Forever 21,Slim Fit T-Shirt,42.6,110.2,110.2,110.2,XS
+Apple,Marks & Spencers,Slim Fit Pants,39.5,115.3,115.3,115.3,XS
+Hourglass,Mango,Oversized Pants,38.6,108.7,81.5,103.2,XL
+Pear,VeroModa,Slim Fit T-Shirt,45.0,93.1,74.5,109.5,L
+Pear,SaasFaras,Regular Fit Pants,37.8,81.6,65.3,96.0,XS
+Apple,Zara,Regular Fit Pants,40.7,100.5,100.5,100.5,M
+Pear,Zara,Regular Fit Pants,38.7,95.1,76.1,111.9,L
+Apple,Mango,Regular Fit Pants,42.6,95.7,95.7,95.7,S
+Hourglass,Mango,Slim Fit Jeans,46.2,93.9,70.4,89.2,M
+Triangle,SaasFaras,Oversized Shirt,44.1,97.6,97.6,114.8,M
+Hourglass,Forever 21,Regular Fit Shirt,47.1,85.2,63.9,81.0,L
+Triangle,Forever 21,Slim Fit Pants,47.5,90.2,90.2,106.1,XL
+Rectangle,Zara,Regular Fit T-Shirt,40.9,95.7,95.7,95.7,XS
+Apple,H&M,Slim Fit Pants,35.3,111.9,111.9,111.9,M
+Apple,SaasFaras,Slim Fit Pants,42.9,116.3,116.3,116.3,M
+Pear,Calvin Klein,Regular Fit Pants,36.8,91.2,72.9,107.3,XS
+Apple,H&M,Regular Fit Shirt,49.1,117.3,117.3,117.3,S
+Rectangle,Marks & Spencers,Regular Fit Pants,38.6,87.8,87.8,87.8,M
+Rectangle,Calvin Klein,Regular Fit Pants,35.3,80.3,80.3,80.3,XS
+Hourglass,SaasFaras,Regular Fit T-Shirt,46.1,98.9,74.2,94.0,XS
+Triangle,H&M,Slim Fit Jeans,44.8,81.1,81.1,95.5,M
+Pear,VeroModa,Regular Fit Jeans,42.2,101.9,81.5,119.9,XS
+Triangle,SaasFaras,Regular Fit Shirt,39.8,87.3,87.3,102.7,L
+Hourglass,H&M,Slim Fit T-Shirt,39.8,109.2,81.9,103.7,XS
+Triangle,Only,Regular Fit Jeans,42.3,87.4,87.4,102.8,L
+Apple,Only,Slim Fit Jeans,41.1,117.5,117.5,117.5,XL
+Hourglass,Forever 21,Oversized T-Shirt,36.0,105.1,78.8,99.9,L
+Rectangle,Only,Oversized Pants,43.8,95.7,95.7,95.7,L
+Rectangle,SaasFaras,Slim Fit T-Shirt,37.6,89.6,89.6,89.6,XS
+Rectangle,Only,Oversized Shirt,42.9,91.1,91.1,91.1,S
+Rectangle,Mango,Slim Fit Pants,49.2,82.5,82.5,82.5,XS
+Apple,Zara,Regular Fit T-Shirt,45.8,118.0,118.0,118.0,S
+Hourglass,Zara,Regular Fit Shirt,38.6,101.4,76.0,96.3,L
+Hourglass,VeroModa,Oversized Shirt,41.9,98.0,73.5,93.1,M
+Triangle,Mango,Oversized T-Shirt,41.2,96.3,96.3,113.2,L
+Triangle,Only,Slim Fit Shirt,44.4,93.7,93.7,110.3,XS
+Pear,VeroModa,Slim Fit Jeans,42.2,85.9,68.7,101.0,S
+Triangle,Calvin Klein,Slim Fit Shirt,36.5,96.7,96.7,113.7,XL
+Rectangle,Marks & Spencers,Oversized Shirt,39.9,88.0,88.0,88.0,L
+Triangle,Forever 21,Regular Fit Jeans,43.9,100.3,100.3,118.1,XS
+Apple,Mango,Regular Fit Shirt,36.7,117.4,117.4,117.4,S
+Rectangle,VeroModa,Regular Fit Shirt,48.3,96.2,96.2,96.2,XL
+Triangle,Mango,Oversized T-Shirt,39.0,90.6,90.6,106.6,M
+Pear,Marks & Spencers,Regular Fit Jeans,48.7,82.5,66.0,97.1,S
+Pear,Zara,Regular Fit Pants,46.9,88.9,71.1,104.6,M
+Rectangle,Mango,Regular Fit Pants,37.2,90.2,90.2,90.2,XL
+Triangle,Zara,Slim Fit Pants,48.7,100.7,100.7,118.4,XS
+Apple,VeroModa,Slim Fit Jeans,36.7,115.8,115.8,115.8,XL
+Rectangle,SaasFaras,Regular Fit Pants,48.3,85.7,85.7,85.7,L
+Triangle,Mango,Slim Fit Shirt,49.5,96.8,96.8,113.8,S
+Triangle,H&M,Oversized Pants,35.8,98.3,98.3,115.6,M
+Rectangle,SaasFaras,Oversized Pants,48.7,97.1,97.1,97.1,L
+Rectangle,VeroModa,Oversized Jeans,38.8,87.9,87.9,87.9,S
+Rectangle,Zara,Slim Fit Pants,47.3,86.5,86.5,86.5,M
+Hourglass,VeroModa,Oversized Pants,40.8,89.8,67.3,85.3,XL
+Rectangle,Zara,Regular Fit Jeans,37.2,82.5,82.5,82.5,L
+Rectangle,H&M,Regular Fit Shirt,46.4,81.9,81.9,81.9,XL
+Apple,VeroModa,Slim Fit Pants,48.2,93.1,93.1,93.1,S
+Hourglass,Mango,Slim Fit Pants,49.2,108.2,81.1,102.8,XS
+Apple,Zara,Oversized Pants,44.6,91.9,91.9,91.9,XS
+Rectangle,Calvin Klein,Regular Fit Shirt,40.5,89.7,89.7,89.7,M
+Rectangle,Mango,Oversized Pants,39.1,88.6,88.6,88.6,XS
+Apple,SaasFaras,Slim Fit Jeans,47.5,117.4,117.4,117.4,L
+Apple,H&M,Regular Fit T-Shirt,49.5,90.9,90.9,90.9,XS
+Apple,Only,Regular Fit T-Shirt,44.1,119.2,119.2,119.2,XL
+Rectangle,SaasFaras,Oversized Pants,43.0,84.9,84.9,84.9,XS
+Apple,Calvin Klein,Oversized Jeans,38.5,109.8,109.8,109.8,S
+Triangle,Mango,Oversized Jeans,36.2,81.9,81.9,96.4,XL
+Hourglass,Only,Regular Fit T-Shirt,49.4,89.9,67.4,85.4,M
+Pear,Forever 21,Regular Fit T-Shirt,39.0,91.6,73.3,107.8,XS
+Apple,VeroModa,Slim Fit T-Shirt,49.1,111.2,111.2,111.2,XL
+Hourglass,SaasFaras,Slim Fit Shirt,49.8,89.1,66.8,84.6,L
+Apple,Forever 21,Slim Fit Shirt,45.8,95.3,95.3,95.3,S
+Rectangle,Marks & Spencers,Slim Fit Jeans,40.9,93.1,93.1,93.1,XS
+Rectangle,SaasFaras,Oversized Pants,43.7,89.9,89.9,89.9,XL
+Hourglass,H&M,Regular Fit Jeans,41.3,92.5,69.3,87.8,L
+Hourglass,Mango,Regular Fit Shirt,38.8,94.1,70.6,89.4,M
+Apple,Calvin Klein,Slim Fit T-Shirt,43.7,115.2,115.2,115.2,S
+Rectangle,SaasFaras,Oversized Jeans,45.8,87.0,87.0,87.0,XS
+Hourglass,Zara,Oversized Jeans,35.3,88.2,66.2,83.8,M
+Pear,SaasFaras,Slim Fit Pants,37.3,94.1,75.2,110.6,S
+Hourglass,Forever 21,Oversized Jeans,40.0,97.4,73.0,92.5,L
+Apple,SaasFaras,Regular Fit Pants,40.3,103.0,103.0,103.0,S
+Apple,Zara,Slim Fit Shirt,48.0,110.6,110.6,110.6,XL
+Pear,SaasFaras,Slim Fit Jeans,41.7,93.8,75.1,110.4,S
+Triangle,Zara,Regular Fit T-Shirt,42.9,92.5,92.5,108.9,M
+Triangle,Calvin Klein,Regular Fit Jeans,39.3,94.9,94.9,111.6,S
+Pear,Zara,Regular Fit Jeans,48.5,81.2,65.0,95.6,M
+Hourglass,Calvin Klein,Slim Fit Pants,48.7,85.9,64.4,81.6,XS
+Rectangle,Forever 21,Regular Fit Shirt,40.1,92.9,92.9,92.9,S
+Pear,Only,Oversized T-Shirt,44.8,86.2,69.0,101.4,XS
+Pear,Zara,Regular Fit Jeans,45.2,90.5,72.4,106.5,XS
+Pear,Mango,Regular Fit Pants,49.4,101.7,81.3,119.6,L
+Pear,SaasFaras,Slim Fit T-Shirt,40.5,100.2,80.1,117.8,XS
+Apple,VeroModa,Regular Fit Shirt,44.2,109.5,109.5,109.5,L
+Apple,SaasFaras,Oversized T-Shirt,45.5,107.5,107.5,107.5,XS
+Triangle,Marks & Spencers,Regular Fit Jeans,41.7,99.3,99.3,116.8,XS
+Rectangle,Forever 21,Oversized Shirt,42.4,88.8,88.8,88.8,XS
+Hourglass,SaasFaras,Oversized Shirt,49.4,105.3,79.0,100.1,XS
+Hourglass,Only,Oversized Pants,43.5,93.4,70.1,88.8,XL
+Rectangle,Marks & Spencers,Oversized T-Shirt,38.2,97.0,97.0,97.0,XS
+Triangle,Forever 21,Oversized Shirt,36.9,83.4,83.4,98.1,XL
+Rectangle,SaasFaras,Regular Fit T-Shirt,37.8,91.2,91.2,91.2,S
+Hourglass,Only,Oversized Pants,47.3,100.2,75.2,95.2,S
+Triangle,SaasFaras,Regular Fit Jeans,40.5,81.9,81.9,96.4,XS
+Apple,Calvin Klein,Oversized Pants,44.2,100.6,100.6,100.6,S
+Apple,H&M,Oversized Pants,38.9,109.2,109.2,109.2,XS
+Hourglass,Calvin Klein,Slim Fit Pants,42.4,96.4,72.3,91.6,M
+Hourglass,Only,Regular Fit T-Shirt,39.4,105.8,79.3,100.5,S
+Apple,H&M,Slim Fit Shirt,37.5,119.7,119.7,119.7,L
+Apple,Mango,Slim Fit T-Shirt,45.6,114.9,114.9,114.9,L
+Pear,H&M,Regular Fit Jeans,43.0,98.9,79.1,116.4,L
+Hourglass,Mango,Regular Fit Shirt,42.9,97.7,73.3,92.8,M
+Rectangle,Marks & Spencers,Slim Fit Shirt,45.8,82.3,82.3,82.3,XL
+Hourglass,Marks & Spencers,Oversized Pants,35.6,105.5,79.1,100.2,XS
+Pear,Forever 21,Regular Fit T-Shirt,35.1,96.6,77.3,113.7,XS
+Triangle,Forever 21,Regular Fit Shirt,35.0,89.1,89.1,104.9,M
+Apple,SaasFaras,Slim Fit Jeans,38.3,101.5,101.5,101.5,XS
+Hourglass,SaasFaras,Regular Fit Shirt,47.6,89.8,67.4,85.3,L
+Pear,H&M,Regular Fit Shirt,47.2,99.6,79.7,117.2,S
+Pear,Mango,Regular Fit Jeans,37.6,87.2,69.8,102.6,XL
+Rectangle,Zara,Regular Fit Shirt,47.7,96.8,96.8,96.8,S
+Apple,Only,Oversized Jeans,48.5,95.4,95.4,95.4,XL
+Pear,Forever 21,Slim Fit Jeans,49.4,100.4,80.3,118.2,XS
+Hourglass,Marks & Spencers,Oversized Pants,45.9,87.3,65.5,82.9,XL
+Apple,Mango,Slim Fit T-Shirt,37.2,101.2,101.2,101.2,S
+Rectangle,H&M,Regular Fit Pants,44.0,89.8,89.8,89.8,M
+Rectangle,Calvin Klein,Oversized T-Shirt,39.9,80.9,80.9,80.9,M
+Hourglass,Only,Oversized Jeans,40.0,96.3,72.2,91.4,S
+Rectangle,Only,Oversized T-Shirt,44.6,95.1,95.1,95.1,XL
+Triangle,SaasFaras,Slim Fit Pants,36.1,93.3,93.3,109.8,L
+Hourglass,VeroModa,Oversized Jeans,47.1,105.3,79.0,100.0,XL
+Triangle,Forever 21,Oversized T-Shirt,37.3,96.1,96.1,113.0,XL
+Hourglass,Zara,Regular Fit Shirt,35.5,101.8,76.3,96.7,XS
+Hourglass,H&M,Regular Fit Jeans,46.5,93.6,70.2,88.9,XL
+Hourglass,Marks & Spencers,Oversized Jeans,43.7,97.9,73.5,93.0,S
+Apple,Zara,Regular Fit Shirt,43.7,95.2,95.2,95.2,M
+Pear,Only,Oversized Shirt,44.3,84.3,67.5,99.2,M
+Apple,Mango,Slim Fit Shirt,49.0,107.8,107.8,107.8,M
+Apple,Calvin Klein,Regular Fit Jeans,45.7,97.9,97.9,97.9,L
+Hourglass,Zara,Oversized Jeans,40.1,104.9,78.7,99.6,L
+Triangle,Calvin Klein,Slim Fit Pants,41.6,87.7,87.7,103.2,XL
+Rectangle,Zara,Regular Fit Pants,37.1,93.9,93.9,93.9,M
+Hourglass,Calvin Klein,Oversized Shirt,35.1,108.3,81.2,102.9,L
+Hourglass,H&M,Oversized Pants,41.9,102.7,77.0,97.6,M
+Triangle,Marks & Spencers,Slim Fit T-Shirt,40.8,101.1,101.1,119.0,L
+Rectangle,VeroModa,Oversized T-Shirt,45.9,90.3,90.3,90.3,XL
+Triangle,Zara,Oversized Pants,49.8,97.9,97.9,115.1,S
+Rectangle,Mango,Oversized Shirt,35.2,80.9,80.9,80.9,XS
+Rectangle,SaasFaras,Regular Fit T-Shirt,47.2,88.9,88.9,88.9,XS
+Triangle,VeroModa,Regular Fit Shirt,38.9,96.7,96.7,113.7,S
+Hourglass,H&M,Slim Fit T-Shirt,44.2,89.9,67.4,85.4,S
+Hourglass,Only,Oversized Jeans,49.7,106.7,80.0,101.3,L
+Rectangle,VeroModa,Regular Fit Pants,45.8,82.1,82.1,82.1,M
+Hourglass,VeroModa,Regular Fit Shirt,40.0,93.1,69.8,88.5,XL
+Rectangle,Calvin Klein,Oversized T-Shirt,49.0,88.7,88.7,88.7,M
+Triangle,Mango,Slim Fit Jeans,39.4,86.8,86.8,102.2,L
+Pear,VeroModa,Oversized T-Shirt,39.0,89.1,71.3,104.8,XS
+Apple,Forever 21,Regular Fit Jeans,38.1,118.0,118.0,118.0,M
+Triangle,VeroModa,Slim Fit T-Shirt,39.0,85.7,85.7,100.8,XS
+Hourglass,Mango,Regular Fit Jeans,40.7,93.0,69.7,88.3,XL
+Triangle,H&M,Slim Fit Jeans,38.3,81.2,81.2,95.5,M
+Apple,Calvin Klein,Slim Fit Jeans,38.4,102.9,102.9,102.9,S
+Hourglass,H&M,Regular Fit Shirt,44.5,86.8,65.1,82.4,XL
+Rectangle,SaasFaras,Oversized Shirt,47.8,91.1,91.1,91.1,S
+Triangle,Calvin Klein,Oversized Jeans,40.9,90.0,90.0,105.9,XL
+Triangle,H&M,Regular Fit T-Shirt,41.8,84.1,84.1,99.0,XL
+Hourglass,VeroModa,Regular Fit Shirt,41.6,99.2,74.4,94.2,XS
+Pear,H&M,Oversized Pants,47.5,93.8,75.0,110.4,XL
+Rectangle,Only,Regular Fit T-Shirt,45.5,86.1,86.1,86.1,XS
+Triangle,Marks & Spencers,Slim Fit Shirt,43.6,83.6,83.6,98.4,M
+Hourglass,Marks & Spencers,Slim Fit Pants,35.8,89.9,67.4,85.4,M
+Rectangle,Marks & Spencers,Slim Fit Jeans,49.6,86.3,86.3,86.3,XS
+Rectangle,H&M,Oversized Shirt,35.1,87.2,87.2,87.2,L
+Pear,Only,Slim Fit Pants,48.1,93.7,75.0,110.3,M
+Hourglass,H&M,Regular Fit T-Shirt,41.2,94.7,71.0,90.0,L
+Rectangle,SaasFaras,Oversized Pants,42.4,91.3,91.3,91.3,L
+Pear,H&M,Oversized T-Shirt,47.0,91.5,73.2,107.6,XS
+Triangle,VeroModa,Slim Fit Shirt,49.7,99.8,99.8,117.4,L
+Triangle,Zara,Regular Fit T-Shirt,38.3,93.0,93.0,109.4,M
+Hourglass,SaasFaras,Slim Fit Shirt,46.9,88.3,66.2,83.8,XL
+Triangle,Marks & Spencers,Slim Fit T-Shirt,35.7,92.2,92.2,108.4,M
+Apple,SaasFaras,Slim Fit Pants,42.1,103.4,103.4,103.4,XL
+Hourglass,Forever 21,Slim Fit T-Shirt,49.6,95.9,71.9,91.1,XS
+Triangle,Only,Slim Fit Shirt,47.8,86.3,86.3,101.5,XS
+Pear,Zara,Oversized Pants,45.9,82.8,66.2,97.4,XS
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,42.6,88.0,66.0,83.6,XS
+Hourglass,VeroModa,Oversized Pants,38.1,101.2,75.9,96.1,S
+Apple,SaasFaras,Oversized Pants,49.9,119.1,119.1,119.1,L
+Rectangle,Only,Slim Fit Shirt,37.6,86.9,86.9,86.9,XL
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,48.7,96.5,96.5,96.5,M
+Triangle,Only,Oversized Jeans,43.8,97.0,97.0,114.1,S
+Triangle,Only,Regular Fit T-Shirt,35.4,83.5,83.5,98.2,XL
+Hourglass,Calvin Klein,Regular Fit Jeans,44.6,109.6,82.2,104.1,XL
+Pear,Only,Regular Fit Shirt,35.3,89.5,71.6,105.3,XS
+Hourglass,VeroModa,Oversized T-Shirt,41.7,103.8,77.9,98.7,XL
+Triangle,Calvin Klein,Slim Fit T-Shirt,45.3,83.7,83.7,98.4,XL
+Hourglass,H&M,Oversized Shirt,44.4,109.0,81.8,103.6,XS
+Pear,Forever 21,Regular Fit Pants,46.0,95.7,76.6,112.6,XS
+Rectangle,SaasFaras,Regular Fit Jeans,35.9,88.1,88.1,88.1,XS
+Triangle,H&M,Oversized Pants,45.1,82.0,82.0,96.4,M
+Apple,Forever 21,Slim Fit Shirt,46.6,110.3,110.3,110.3,L
+Rectangle,VeroModa,Slim Fit T-Shirt,38.1,94.5,94.5,94.5,S
+Pear,Forever 21,Regular Fit Jeans,46.2,90.4,72.3,106.4,XL
+Rectangle,Zara,Regular Fit T-Shirt,47.3,95.5,95.5,95.5,XL
+Pear,H&M,Slim Fit Shirt,48.1,97.6,78.1,114.8,S
+Hourglass,Calvin Klein,Oversized Shirt,35.8,98.3,73.8,93.4,S
+Apple,H&M,Regular Fit Jeans,36.5,103.5,103.5,103.5,M
+Pear,SaasFaras,Oversized Pants,36.9,83.7,67.0,98.5,L
+Apple,Mango,Slim Fit Jeans,40.4,113.2,113.2,113.2,XL
+Triangle,Zara,Slim Fit Pants,36.8,99.0,99.0,116.5,L
+Triangle,Zara,Oversized T-Shirt,38.6,81.0,81.0,95.2,XS
+Apple,Forever 21,Regular Fit Jeans,45.7,93.9,93.9,93.9,S
+Rectangle,Only,Slim Fit Pants,43.8,92.2,92.2,92.2,S
+Rectangle,Mango,Regular Fit Pants,38.2,82.8,82.8,82.8,M
+Triangle,Mango,Regular Fit T-Shirt,45.9,101.0,101.0,118.8,M
+Rectangle,Forever 21,Slim Fit T-Shirt,43.8,88.9,88.9,88.9,XL
+Rectangle,Marks & Spencers,Slim Fit Shirt,46.2,88.2,88.2,88.2,L
+Apple,Forever 21,Oversized Jeans,40.8,119.6,119.6,119.6,S
+Pear,Forever 21,Slim Fit Jeans,42.4,85.0,68.0,100.0,S
+Rectangle,Zara,Oversized Shirt,49.6,86.1,86.1,86.1,S
+Apple,VeroModa,Regular Fit T-Shirt,39.7,112.2,112.2,112.2,M
+Pear,VeroModa,Slim Fit Pants,45.2,101.8,81.4,119.7,S
+Apple,Forever 21,Slim Fit Pants,47.6,97.9,97.9,97.9,XL
+Triangle,Calvin Klein,Oversized Shirt,43.4,92.8,92.8,109.2,XS
+Hourglass,Forever 21,Slim Fit T-Shirt,44.2,92.8,69.6,88.1,XL
+Hourglass,VeroModa,Oversized Jeans,41.2,106.9,80.2,101.5,S
+Hourglass,Calvin Klein,Regular Fit Jeans,36.7,102.7,77.0,97.6,XS
+Pear,Marks & Spencers,Oversized Jeans,45.1,85.9,68.7,101.0,XS
+Triangle,Marks & Spencers,Oversized Jeans,45.7,84.6,84.6,99.5,M
+Triangle,VeroModa,Oversized Jeans,36.9,101.2,101.2,119.1,M
+Apple,Mango,Regular Fit Shirt,49.8,93.2,93.2,93.2,M
+Apple,Forever 21,Slim Fit Jeans,38.6,96.0,96.0,96.0,S
+Triangle,Mango,Slim Fit T-Shirt,46.0,85.8,85.8,100.9,XS
+Hourglass,Marks & Spencers,Slim Fit Pants,38.4,85.0,63.8,80.8,XS
+Rectangle,Marks & Spencers,Slim Fit Jeans,38.1,90.5,90.5,90.5,XS
+Hourglass,VeroModa,Regular Fit Shirt,38.1,93.4,70.0,88.7,S
+Apple,VeroModa,Oversized Pants,43.7,98.7,98.7,98.7,XL
+Pear,VeroModa,Oversized Jeans,36.7,100.5,80.4,118.3,M
+Rectangle,Zara,Regular Fit Jeans,35.9,82.5,82.5,82.5,XS
+Rectangle,Only,Regular Fit Jeans,48.9,99.6,99.6,99.6,L
+Hourglass,SaasFaras,Regular Fit T-Shirt,39.7,99.1,74.3,94.1,S
+Triangle,Zara,Regular Fit Jeans,37.9,99.3,99.3,116.8,XL
+Hourglass,Calvin Klein,Regular Fit Shirt,40.4,98.8,74.1,93.8,S
+Pear,VeroModa,Oversized Jeans,41.8,85.1,68.1,100.1,L
+Apple,Zara,Oversized Jeans,35.7,93.1,93.1,93.1,XL
+Pear,SaasFaras,Oversized Shirt,46.0,94.8,75.8,111.5,S
+Hourglass,Calvin Klein,Oversized T-Shirt,48.7,99.8,74.8,94.8,XL
+Triangle,Only,Slim Fit Jeans,35.2,101.5,101.5,119.5,L
+Triangle,Forever 21,Regular Fit Shirt,37.7,82.9,82.9,97.6,S
+Apple,Marks & Spencers,Oversized T-Shirt,35.3,112.8,112.8,112.8,M
+Triangle,Calvin Klein,Regular Fit Jeans,44.2,88.5,88.5,104.1,L
+Triangle,VeroModa,Regular Fit Jeans,43.8,82.2,82.2,96.7,M
+Apple,Forever 21,Regular Fit Jeans,37.1,91.0,91.0,91.0,M
+Hourglass,SaasFaras,Oversized Shirt,35.4,90.6,68.0,86.1,XL
+Pear,Only,Slim Fit T-Shirt,36.9,97.7,78.1,114.9,S
+Hourglass,Zara,Regular Fit Jeans,36.1,102.3,76.7,97.2,L
+Hourglass,Zara,Slim Fit Jeans,49.3,105.8,79.3,100.5,L
+Rectangle,H&M,Slim Fit Pants,38.9,95.8,95.8,95.8,XL
+Hourglass,SaasFaras,Slim Fit Jeans,41.3,93.4,70.1,88.8,M
+Pear,Only,Regular Fit Jeans,35.4,86.5,69.2,101.8,M
+Rectangle,Calvin Klein,Regular Fit Jeans,48.0,86.0,86.0,86.0,L
+Pear,Forever 21,Regular Fit Pants,38.1,95.5,76.4,112.4,XS
+Hourglass,Zara,Slim Fit Shirt,48.5,88.1,66.1,83.7,XL
+Triangle,Marks & Spencers,Regular Fit Pants,41.5,97.8,97.8,115.1,XL
+Rectangle,Forever 21,Oversized Pants,44.1,86.7,86.7,86.7,M
+Rectangle,Only,Regular Fit Jeans,35.7,97.6,97.6,97.6,XL
+Triangle,Marks & Spencers,Regular Fit Pants,47.5,94.5,94.5,111.2,S
+Pear,Forever 21,Slim Fit Pants,38.0,92.4,73.9,108.7,S
+Pear,Mango,Oversized T-Shirt,37.4,81.8,65.5,96.3,XL
+Apple,Forever 21,Slim Fit T-Shirt,46.5,105.5,105.5,105.5,XL
+Apple,SaasFaras,Regular Fit Pants,41.6,94.7,94.7,94.7,M
+Apple,H&M,Slim Fit Shirt,37.6,101.6,101.6,101.6,S
+Pear,Marks & Spencers,Slim Fit Shirt,37.6,91.7,73.4,107.9,M
+Pear,Only,Slim Fit Jeans,42.4,86.2,69.0,101.4,XS
+Triangle,Mango,Slim Fit Jeans,46.5,101.1,101.1,118.9,M
+Pear,Calvin Klein,Regular Fit T-Shirt,45.6,97.5,78.0,114.7,M
+Pear,Marks & Spencers,Oversized T-Shirt,47.7,87.5,70.0,102.9,XL
+Hourglass,Only,Regular Fit T-Shirt,42.6,91.0,68.3,86.5,XL
+Pear,SaasFaras,Regular Fit T-Shirt,46.6,101.9,81.6,119.9,M
+Pear,Forever 21,Slim Fit Jeans,37.2,96.9,77.5,114.0,M
+Hourglass,Forever 21,Slim Fit Jeans,37.0,85.3,64.0,81.0,S
+Triangle,Marks & Spencers,Slim Fit Shirt,39.6,101.7,101.7,119.6,M
+Apple,VeroModa,Oversized Jeans,47.9,91.9,91.9,91.9,XL
+Triangle,Calvin Klein,Regular Fit T-Shirt,36.1,95.0,95.0,111.7,M
+Pear,Zara,Slim Fit Pants,37.7,89.6,71.7,105.4,L
+Apple,Marks & Spencers,Regular Fit Shirt,36.7,110.2,110.2,110.2,S
+Pear,Only,Slim Fit Pants,47.7,85.0,68.0,99.9,XS
+Hourglass,Only,Oversized Pants,44.6,98.3,73.7,93.4,XS
+Hourglass,Zara,Regular Fit Pants,49.5,100.3,75.2,95.3,M
+Apple,H&M,Slim Fit Jeans,48.1,95.1,95.1,95.1,L
+Hourglass,VeroModa,Regular Fit Shirt,49.3,101.3,76.0,96.3,S
+Hourglass,Mango,Oversized Pants,46.5,103.0,77.3,97.9,L
+Hourglass,Mango,Regular Fit Jeans,47.0,87.2,65.4,82.8,L
+Apple,Marks & Spencers,Oversized T-Shirt,39.3,116.0,116.0,116.0,XL
+Rectangle,Forever 21,Oversized Pants,35.3,82.8,82.8,82.8,XL
+Pear,Calvin Klein,Slim Fit T-Shirt,45.4,94.9,75.9,111.6,S
+Hourglass,SaasFaras,Oversized T-Shirt,39.3,107.9,80.9,102.5,L
+Hourglass,Calvin Klein,Oversized Shirt,45.3,102.8,77.1,97.7,M
+Hourglass,Mango,Oversized T-Shirt,40.3,91.6,68.7,87.0,S
+Hourglass,Calvin Klein,Slim Fit Jeans,36.6,101.5,76.2,96.5,XL
+Rectangle,Marks & Spencers,Slim Fit Pants,45.2,95.6,95.6,95.6,M
+Apple,Only,Oversized T-Shirt,46.8,106.7,106.7,106.7,M
+Apple,Forever 21,Oversized T-Shirt,44.9,112.0,112.0,112.0,L
+Triangle,Zara,Slim Fit T-Shirt,40.0,93.4,93.4,109.9,M
+Triangle,Only,Slim Fit Jeans,48.7,82.8,82.8,97.4,XL
+Hourglass,SaasFaras,Oversized T-Shirt,36.0,102.0,76.5,96.9,S
+Triangle,Only,Slim Fit Pants,49.5,89.7,89.7,105.5,XL
+Apple,Marks & Spencers,Regular Fit T-Shirt,36.2,98.8,98.8,98.8,M
+Triangle,Zara,Oversized T-Shirt,49.3,85.0,85.0,100.1,M
+Apple,VeroModa,Regular Fit T-Shirt,50.0,98.4,98.4,98.4,S
+Pear,Zara,Oversized Shirt,35.9,88.1,70.5,103.6,L
+Rectangle,H&M,Slim Fit Shirt,38.3,97.7,97.7,97.7,M
+Apple,SaasFaras,Regular Fit Pants,42.7,112.9,112.9,112.9,S
+Pear,Calvin Klein,Slim Fit Jeans,44.0,96.4,77.1,113.4,M
+Hourglass,Zara,Regular Fit Shirt,41.0,94.2,70.6,89.5,XS
+Rectangle,Zara,Regular Fit Jeans,42.3,97.6,97.6,97.6,S
+Pear,Mango,Oversized Pants,40.5,84.0,67.2,98.9,XS
+Hourglass,Zara,Regular Fit Shirt,38.5,87.7,65.7,83.3,S
+Triangle,Zara,Regular Fit Shirt,42.5,84.6,84.6,99.5,L
+Pear,H&M,Regular Fit T-Shirt,39.2,93.6,74.9,110.1,L
+Triangle,Only,Oversized Pants,38.6,90.7,90.7,106.7,M
+Hourglass,SaasFaras,Slim Fit T-Shirt,47.1,92.2,69.2,87.6,XL
+Pear,Calvin Klein,Regular Fit Jeans,44.1,93.6,74.9,110.2,M
+Pear,Marks & Spencers,Oversized T-Shirt,43.0,86.4,69.1,101.6,L
+Rectangle,Marks & Spencers,Oversized T-Shirt,38.2,94.4,94.4,94.4,XS
+Pear,Calvin Klein,Regular Fit Jeans,36.7,91.4,73.1,107.5,L
+Apple,Forever 21,Regular Fit T-Shirt,48.2,94.7,94.7,94.7,S
+Pear,Calvin Klein,Slim Fit T-Shirt,42.5,81.5,65.2,95.9,M
+Rectangle,Calvin Klein,Slim Fit T-Shirt,38.8,83.5,83.5,83.5,XL
+Pear,Forever 21,Regular Fit Pants,37.6,81.5,65.2,95.9,S
+Rectangle,Calvin Klein,Slim Fit Jeans,37.2,90.7,90.7,90.7,XS
+Triangle,SaasFaras,Slim Fit T-Shirt,39.7,93.2,93.2,109.6,S
+Hourglass,Only,Oversized Shirt,44.9,95.7,71.8,90.9,XS
+Triangle,H&M,Oversized Jeans,44.1,91.8,91.8,108.0,L
+Pear,Only,Slim Fit Jeans,41.9,89.6,71.7,105.4,L
+Apple,VeroModa,Slim Fit T-Shirt,46.2,109.4,109.4,109.4,XS
+Hourglass,VeroModa,Oversized Jeans,39.3,105.1,78.9,99.9,XL
+Rectangle,Zara,Slim Fit Shirt,36.0,96.9,96.9,96.9,S
+Triangle,Zara,Slim Fit Pants,46.3,87.4,87.4,102.8,L
+Triangle,SaasFaras,Slim Fit Jeans,41.1,96.1,96.1,113.1,L
+Triangle,Marks & Spencers,Oversized Pants,37.6,86.8,86.8,102.1,S
+Rectangle,Marks & Spencers,Regular Fit T-Shirt,40.9,99.6,99.6,99.6,XS
+Apple,Marks & Spencers,Oversized T-Shirt,39.2,94.8,94.8,94.8,L
+Rectangle,Calvin Klein,Slim Fit Jeans,36.6,83.0,83.0,83.0,XS
+Pear,Mango,Slim Fit Shirt,38.0,96.6,77.3,113.7,S
+Apple,VeroModa,Regular Fit Jeans,39.9,96.9,96.9,96.9,M
+Apple,VeroModa,Regular Fit Pants,38.8,114.2,114.2,114.2,XL
+Triangle,VeroModa,Oversized T-Shirt,38.9,81.3,81.3,95.7,XS
+Apple,SaasFaras,Oversized T-Shirt,41.2,106.7,106.7,106.7,M
+Hourglass,Zara,Slim Fit Pants,47.2,93.8,70.3,89.1,L
+Triangle,Zara,Slim Fit Shirt,37.8,83.2,83.2,97.9,XL
+Pear,Zara,Regular Fit Shirt,41.6,96.0,76.8,112.9,S
+Rectangle,Forever 21,Oversized Shirt,46.5,83.2,83.2,83.2,XS
+Triangle,Marks & Spencers,Slim Fit T-Shirt,43.3,83.9,83.9,98.7,L
+Triangle,VeroModa,Oversized T-Shirt,36.8,81.6,81.6,96.0,XS
+Hourglass,Only,Regular Fit Pants,44.3,85.9,64.4,81.6,M
+Apple,Forever 21,Oversized T-Shirt,41.9,99.4,99.4,99.4,L
+Hourglass,Marks & Spencers,Slim Fit T-Shirt,40.8,95.4,71.6,90.6,S
+Hourglass,VeroModa,Oversized Pants,35.9,99.6,74.7,94.6,XS
+Pear,VeroModa,Oversized Shirt,42.5,81.6,65.3,96.0,XL
+Hourglass,Marks & Spencers,Oversized T-Shirt,39.5,93.8,70.4,89.1,XS
+Triangle,Mango,Oversized Shirt,49.0,96.3,96.3,113.3,L
+Rectangle,Mango,Oversized T-Shirt,42.1,98.4,98.4,98.4,S
+Apple,Mango,Oversized Pants,49.9,103.2,103.2,103.2,L
+Hourglass,Calvin Klein,Slim Fit Jeans,38.6,96.4,72.3,91.5,XS
+Rectangle,Marks & Spencers,Slim Fit T-Shirt,45.4,80.3,80.3,80.3,L
+Pear,Only,Oversized Shirt,38.4,96.0,76.8,112.9,M
+Rectangle,Zara,Regular Fit Pants,37.3,91.2,91.2,91.2,M
+Rectangle,SaasFaras,Regular Fit Jeans,39.8,80.7,80.7,80.7,XS
+Triangle,Marks & Spencers,Slim Fit T-Shirt,41.0,89.9,89.9,105.7,L
+Triangle,H&M,Oversized Jeans,37.1,81.0,81.0,95.2,L
+Apple,Marks & Spencers,Regular Fit Shirt,40.5,118.3,118.3,118.3,XL
+Hourglass,Forever 21,Regular Fit T-Shirt,44.4,100.2,75.1,95.2,S
+Hourglass,Marks & Spencers,Slim Fit Jeans,41.4,88.7,66.5,84.3,XS
+Rectangle,Marks & Spencers,Regular Fit Shirt,44.1,99.5,99.5,99.5,XS
+Hourglass,Calvin Klein,Slim Fit Jeans,44.2,86.0,64.5,81.7,XS
+Apple,VeroModa,Oversized Jeans,43.9,90.2,90.2,90.2,XS
+Apple,Only,Slim Fit Jeans,38.4,101.8,101.8,101.8,M
+Rectangle,VeroModa,Slim Fit T-Shirt,36.3,92.9,92.9,92.9,S
+Hourglass,Marks & Spencers,Oversized Pants,41.9,92.8,69.6,88.2,XS
+Triangle,Mango,Slim Fit Shirt,46.7,99.1,99.1,116.6,XL
+Hourglass,Forever 21,Regular Fit Shirt,46.4,89.3,66.9,84.8,XL
+Hourglass,Forever 21,Oversized Shirt,38.2,99.0,74.3,94.1,S
+Rectangle,Only,Slim Fit T-Shirt,44.6,83.8,83.8,83.8,L
+Pear,Zara,Slim Fit Pants,43.9,94.8,75.8,111.5,XS
+Pear,Only,Regular Fit Shirt,39.1,93.4,74.7,109.9,L
+Hourglass,Forever 21,Regular Fit Shirt,44.7,102.3,76.8,97.2,XS
+Hourglass,Only,Oversized Pants,46.4,91.6,68.7,87.0,L
+Rectangle,Calvin Klein,Slim Fit Jeans,41.9,90.3,90.3,90.3,S
+Hourglass,Calvin Klein,Regular Fit T-Shirt,42.7,92.4,69.3,87.8,L
+Hourglass,SaasFaras,Oversized Pants,35.7,99.1,74.3,94.1,XL
+Rectangle,SaasFaras,Slim Fit Pants,43.0,91.2,91.2,91.2,S
+Apple,Forever 21,Slim Fit Pants,46.4,93.6,93.6,93.6,M
+Apple,Mango,Slim Fit Shirt,36.4,117.4,117.4,117.4,XS
+Pear,VeroModa,Regular Fit Shirt,39.1,94.8,75.8,111.5,M
+Pear,Only,Regular Fit T-Shirt,48.1,82.9,66.3,97.5,L
+Rectangle,Forever 21,Oversized Pants,39.2,80.8,80.8,80.8,XL
+Rectangle,VeroModa,Slim Fit Shirt,42.8,80.4,80.4,80.4,XS
+Rectangle,VeroModa,Regular Fit Shirt,49.8,92.7,92.7,92.7,XL
+Hourglass,VeroModa,Oversized Shirt,45.0,95.4,71.6,90.7,S
+Rectangle,Zara,Slim Fit Jeans,48.9,99.8,99.8,99.8,L
+Pear,H&M,Slim Fit T-Shirt,49.1,88.4,70.7,103.9,XS
+Pear,Only,Oversized T-Shirt,37.7,96.4,77.1,113.4,L
+Rectangle,VeroModa,Slim Fit Jeans,48.3,82.6,82.6,82.6,M
+Pear,Zara,Oversized Jeans,46.1,88.6,70.9,104.2,M
+Triangle,Only,Regular Fit Shirt,46.2,95.7,95.7,112.6,XS
+Hourglass,H&M,Slim Fit Shirt,46.0,96.0,72.0,91.2,XS
+Apple,VeroModa,Oversized T-Shirt,44.2,96.8,96.8,96.8,L
+Triangle,H&M,Oversized T-Shirt,42.7,95.7,95.7,112.6,S
+Apple,Forever 21,Slim Fit Jeans,49.0,92.6,92.6,92.6,XS
+Triangle,H&M,Oversized Pants,36.9,84.1,84.1,99.0,L
+Rectangle,Marks & Spencers,Regular Fit Shirt,38.3,96.2,96.2,96.2,XL
+Hourglass,Only,Oversized Shirt,38.6,105.1,78.8,99.8,XL
+Apple,Marks & Spencers,Slim Fit Jeans,43.3,109.3,109.3,109.3,M
+Rectangle,SaasFaras,Regular Fit Pants,48.4,99.2,99.2,99.2,XL
+Pear,Marks & Spencers,Regular Fit Pants,43.0,86.1,68.8,101.2,L
+Triangle,Only,Regular Fit T-Shirt,43.3,97.3,97.3,114.4,S
+Rectangle,Only,Oversized Shirt,49.1,87.2,87.2,87.2,XL
+Rectangle,Zara,Regular Fit Jeans,44.5,83.4,83.4,83.4,S
+Apple,Zara,Oversized Shirt,37.8,113.5,113.5,113.5,S
+Rectangle,Forever 21,Regular Fit Shirt,36.9,83.4,83.4,83.4,L
+Rectangle,Zara,Slim Fit Pants,43.4,84.8,84.8,84.8,XS
+Rectangle,Calvin Klein,Oversized Pants,47.3,99.2,99.2,99.2,XS
+Apple,Marks & Spencers,Regular Fit Shirt,39.1,98.6,98.6,98.6,XL
+Hourglass,Marks & Spencers,Slim Fit Jeans,44.0,100.5,75.4,95.5,M
+Hourglass,Calvin Klein,Oversized Pants,41.4,85.1,63.9,80.9,XL
+Apple,VeroModa,Regular Fit Jeans,41.9,110.2,110.2,110.2,XS
+Pear,Zara,Slim Fit Pants,47.5,101.7,81.3,119.6,XL
+Triangle,Forever 21,Regular Fit T-Shirt,47.6,98.0,98.0,115.2,S
+Pear,Marks & Spencers,Slim Fit Jeans,42.6,84.0,67.2,98.8,L
+Rectangle,Only,Regular Fit T-Shirt,37.4,88.1,88.1,88.1,M
+Pear,VeroModa,Slim Fit Shirt,48.6,93.1,74.5,109.6,M
+Apple,SaasFaras,Slim Fit Shirt,39.9,90.7,90.7,90.7,M
+Pear,Calvin Klein,Slim Fit T-Shirt,43.0,94.2,75.4,110.9,XL
+Triangle,SaasFaras,Oversized Pants,48.9,99.9,99.9,117.5,L
+Triangle,VeroModa,Slim Fit Jeans,42.1,96.4,96.4,113.4,M
+Pear,Forever 21,Slim Fit Jeans,40.5,96.4,77.1,113.4,M
+Triangle,Zara,Slim Fit Jeans,45.5,95.5,95.5,112.4,S
+Triangle,Zara,Oversized Shirt,39.0,84.8,84.8,99.7,L
+Apple,Marks & Spencers,Slim Fit Jeans,48.2,111.5,111.5,111.5,L
+Hourglass,Calvin Klein,Regular Fit Jeans,49.8,93.9,70.4,89.2,L
+Triangle,Only,Oversized Jeans,37.7,87.8,87.8,103.3,M
+Apple,Calvin Klein,Oversized Jeans,39.8,118.7,118.7,118.7,XL
+Rectangle,Marks & Spencers,Oversized T-Shirt,49.6,96.2,96.2,96.2,XL
+Apple,Forever 21,Slim Fit T-Shirt,47.4,105.4,105.4,105.4,XL
+Apple,Mango,Regular Fit T-Shirt,47.3,108.3,108.3,108.3,XL
+Rectangle,Forever 21,Oversized Shirt,42.0,99.4,99.4,99.4,XL
+Apple,Zara,Slim Fit T-Shirt,35.3,108.9,108.9,108.9,XS
+Pear,Forever 21,Regular Fit Shirt,38.9,97.6,78.1,114.8,L
+Pear,Marks & Spencers,Oversized Pants,46.5,84.6,67.7,99.5,XL
+Rectangle,VeroModa,Regular Fit Shirt,40.2,85.4,85.4,85.4,M
+Pear,SaasFaras,Slim Fit Pants,36.5,92.5,74.0,108.9,S
+Apple,Marks & Spencers,Oversized Jeans,38.1,111.8,111.8,111.8,XL
+Rectangle,Zara,Oversized Shirt,49.1,83.6,83.6,83.6,M
+Pear,Only,Oversized Shirt,45.7,90.1,72.1,106.0,XS
+Apple,Zara,Oversized T-Shirt,49.6,109.0,109.0,109.0,XL
+Rectangle,VeroModa,Oversized Jeans,48.3,93.9,93.9,93.9,L
+Apple,Marks & Spencers,Slim Fit Shirt,44.1,97.5,97.5,97.5,S
+Apple,Mango,Oversized T-Shirt,40.2,93.4,93.4,93.4,M
+Apple,Zara,Regular Fit Jeans,37.4,115.1,115.1,115.1,XS
+Rectangle,SaasFaras,Regular Fit Jeans,43.2,82.3,82.3,82.3,M
+Hourglass,Marks & Spencers,Oversized Pants,47.0,86.7,65.1,82.4,L
+Rectangle,Zara,Regular Fit Jeans,37.9,95.6,95.6,95.6,L
+Hourglass,Marks & Spencers,Regular Fit Jeans,41.1,102.4,76.8,97.3,L
+Rectangle,Forever 21,Regular Fit Shirt,43.7,86.0,86.0,86.0,M
+Apple,Only,Regular Fit Jeans,47.2,116.4,116.4,116.4,L
+Hourglass,H&M,Regular Fit Pants,50.0,108.7,81.5,103.3,XL
+Apple,Marks & Spencers,Slim Fit T-Shirt,43.1,112.9,112.9,112.9,XS
+Triangle,Marks & Spencers,Regular Fit Pants,39.4,95.3,95.3,112.2,M
+Triangle,SaasFaras,Regular Fit Jeans,38.5,89.4,89.4,105.2,XS
+Hourglass,Forever 21,Oversized T-Shirt,45.1,88.9,66.7,84.5,L
+Apple,SaasFaras,Regular Fit Jeans,44.6,116.9,116.9,116.9,XL
+Rectangle,VeroModa,Slim Fit T-Shirt,38.2,80.2,80.2,80.2,XL
+Rectangle,SaasFaras,Slim Fit Pants,44.4,100.0,100.0,100.0,XL
+Rectangle,Forever 21,Oversized Shirt,37.8,96.5,96.5,96.5,XL
+Apple,Mango,Oversized Jeans,43.6,97.9,97.9,97.9,XS
+Triangle,VeroModa,Slim Fit T-Shirt,36.0,95.9,95.9,112.9,S
+Triangle,Mango,Regular Fit Jeans,39.8,87.6,87.6,103.1,S
+Triangle,Marks & Spencers,Oversized Pants,36.1,88.3,88.3,103.9,M
+Rectangle,Mango,Oversized T-Shirt,40.1,93.3,93.3,93.3,M
+Rectangle,Zara,Regular Fit T-Shirt,41.9,88.9,88.9,88.9,XS
+Apple,Mango,Slim Fit Shirt,42.7,117.3,117.3,117.3,XL
+Hourglass,Marks & Spencers,Regular Fit Shirt,47.2,108.0,81.0,102.6,L
+Pear,SaasFaras,Slim Fit Pants,36.7,83.0,66.4,97.6,S
+Triangle,Mango,Slim Fit Shirt,41.5,80.8,80.8,95.1,XS
+Hourglass,Marks & Spencers,Regular Fit T-Shirt,40.2,86.1,64.6,81.8,L
+Triangle,Zara,Regular Fit Shirt,42.0,82.3,82.3,96.9,S
+Hourglass,H&M,Slim Fit T-Shirt,49.3,98.6,74.0,93.7,L
+Rectangle,SaasFaras,Slim Fit T-Shirt,43.2,83.2,83.2,83.2,M
+Hourglass,H&M,Regular Fit Shirt,38.6,90.5,67.9,85.9,XS
+Hourglass,H&M,Regular Fit Shirt,44.2,93.1,69.8,88.4,L
+Pear,VeroModa,Oversized T-Shirt,48.4,90.5,72.4,106.5,S
+Triangle,H&M,Oversized T-Shirt,36.2,100.9,100.9,118.7,XS
+Triangle,Calvin Klein,Oversized Jeans,44.5,90.1,90.1,106.0,XS
+Apple,Only,Slim Fit Shirt,40.2,95.6,95.6,95.6,XL
+Triangle,H&M,Slim Fit Jeans,35.5,83.8,83.8,98.6,XL
+Rectangle,Marks & Spencers,Slim Fit Shirt,46.0,98.9,98.9,98.9,XS
+Rectangle,Zara,Regular Fit Shirt,42.6,85.5,85.5,85.5,S
+Rectangle,Zara,Regular Fit Jeans,45.4,81.4,81.4,81.4,L
+Hourglass,SaasFaras,Regular Fit Jeans,42.3,106.1,79.6,100.8,S
+Rectangle,SaasFaras,Oversized Jeans,45.3,84.1,84.1,84.1,S
+Rectangle,H&M,Regular Fit Shirt,49.3,83.1,83.1,83.1,S
+Pear,Mango,Oversized Jeans,41.3,84.0,67.2,98.8,XL
+Triangle,Marks & Spencers,Oversized Jeans,46.9,88.3,88.3,103.9,L
+Rectangle,H&M,Oversized Pants,38.9,87.9,87.9,87.9,S
+Rectangle,Zara,Regular Fit Jeans,35.3,88.0,88.0,88.0,M
+Hourglass,VeroModa,Oversized Shirt,47.4,94.0,70.5,89.3,XL
+Triangle,Calvin Klein,Regular Fit T-Shirt,47.9,84.0,84.0,98.8,S
+Hourglass,Marks & Spencers,Oversized T-Shirt,49.6,96.2,72.2,91.4,L
+Rectangle,SaasFaras,Oversized T-Shirt,37.9,94.4,94.4,94.4,S
+Hourglass,Calvin Klein,Slim Fit Pants,43.4,94.7,71.0,89.9,XL
+Pear,VeroModa,Regular Fit Shirt,49.3,101.9,81.5,119.9,M
+Hourglass,H&M,Oversized Shirt,39.1,107.8,80.9,102.4,M
+Hourglass,Calvin Klein,Slim Fit T-Shirt,47.0,100.1,75.1,95.1,XL
+Pear,Marks & Spencers,Oversized Pants,36.4,94.9,76.0,111.7,XS
+Rectangle,Zara,Regular Fit Pants,43.8,90.6,90.6,90.6,M
+Hourglass,Zara,Regular Fit Pants,38.7,89.0,66.8,84.6,XS
+Rectangle,Zara,Oversized Pants,48.5,87.5,87.5,87.5,S
+Rectangle,Calvin Klein,Oversized Shirt,48.1,88.0,88.0,88.0,XL
+Pear,Mango,Oversized Pants,35.7,96.6,77.3,113.6,XS
+Pear,SaasFaras,Slim Fit Jeans,42.7,93.0,74.4,109.4,XL
+Pear,VeroModa,Oversized T-Shirt,49.2,93.1,74.5,109.5,L
+Pear,Only,Regular Fit T-Shirt,45.8,87.7,70.1,103.1,S
+Triangle,Mango,Regular Fit T-Shirt,41.8,92.5,92.5,108.8,L
+Rectangle,Calvin Klein,Regular Fit Shirt,36.6,85.5,85.5,85.5,S
+Pear,H&M,Oversized T-Shirt,38.5,92.5,74.0,108.8,S
+Triangle,Calvin Klein,Oversized Jeans,46.7,97.9,97.9,115.2,XS
+Hourglass,Forever 21,Regular Fit T-Shirt,42.5,107.8,80.8,102.4,M
+Triangle,SaasFaras,Regular Fit Jeans,38.3,83.7,83.7,98.5,XL
+Apple,VeroModa,Oversized Pants,42.5,104.4,104.4,104.4,S
+Hourglass,Calvin Klein,Regular Fit T-Shirt,46.9,100.7,75.5,95.7,L
+Hourglass,H&M,Oversized T-Shirt,47.3,109.2,81.9,103.7,XL
+Apple,VeroModa,Slim Fit Jeans,46.2,94.2,94.2,94.2,L
+Triangle,Zara,Slim Fit T-Shirt,45.3,93.6,93.6,110.1,M
+Hourglass,Mango,Slim Fit Shirt,42.8,96.4,72.3,91.6,L
+Hourglass,VeroModa,Slim Fit Pants,36.6,93.6,70.2,88.9,L
+Pear,Calvin Klein,Regular Fit T-Shirt,36.2,86.0,68.8,101.2,L
+Apple,Mango,Slim Fit Pants,37.2,117.8,117.8,117.8,XL
+Triangle,Only,Slim Fit Pants,47.3,88.3,88.3,103.9,S
+Hourglass,Forever 21,Regular Fit Pants,47.3,96.9,72.7,92.1,M
+Rectangle,Mango,Oversized T-Shirt,43.0,93.6,93.6,93.6,M
+Rectangle,Marks & Spencers,Regular Fit Pants,44.2,88.0,88.0,88.0,L
+Apple,Zara,Slim Fit Jeans,49.1,110.9,110.9,110.9,XS
+Triangle,H&M,Regular Fit T-Shirt,38.2,82.6,82.6,97.2,XS
+Apple,SaasFaras,Slim Fit Pants,43.8,112.9,112.9,112.9,XS
+Hourglass,Mango,Regular Fit T-Shirt,44.7,108.1,81.1,102.7,L
+Pear,Forever 21,Regular Fit Shirt,37.0,85.0,68.0,100.0,XS
+Apple,Forever 21,Slim Fit Pants,38.8,99.1,99.1,99.1,S
+Hourglass,Forever 21,Oversized Shirt,44.9,91.5,68.6,86.9,M
+Rectangle,Marks & Spencers,Oversized Jeans,46.5,97.6,97.6,97.6,S
+Apple,Calvin Klein,Regular Fit Jeans,44.7,98.2,98.2,98.2,L
+Hourglass,Zara,Slim Fit T-Shirt,48.2,109.5,82.1,104.0,M
+Rectangle,Mango,Regular Fit Shirt,48.4,88.2,88.2,88.2,S
+Apple,Zara,Regular Fit Jeans,37.3,91.5,91.5,91.5,XL
+Apple,VeroModa,Slim Fit Shirt,47.4,102.3,102.3,102.3,S
+Triangle,SaasFaras,Oversized T-Shirt,44.3,82.6,82.6,97.1,XS
+Apple,H&M,Slim Fit Jeans,35.8,119.2,119.2,119.2,XS
+Hourglass,H&M,Oversized Pants,41.0,88.9,66.6,84.4,XL
+Apple,SaasFaras,Slim Fit Pants,45.9,119.3,119.3,119.3,L
+Hourglass,Zara,Oversized Pants,46.5,92.2,69.2,87.6,XL
+Rectangle,H&M,Slim Fit Pants,37.6,91.6,91.6,91.6,M
+Triangle,Only,Slim Fit Pants,45.8,88.7,88.7,104.3,L
+Rectangle,SaasFaras,Oversized Pants,49.5,91.3,91.3,91.3,S
+Pear,Forever 21,Regular Fit Pants,49.9,85.0,68.0,100.0,XL
+Pear,H&M,Regular Fit T-Shirt,45.2,96.0,76.8,112.9,XL
+Triangle,Mango,Regular Fit T-Shirt,37.2,88.7,88.7,104.3,XS
+Hourglass,Mango,Slim Fit T-Shirt,35.0,106.1,79.6,100.8,M
+Triangle,Marks & Spencers,Regular Fit Pants,46.3,83.5,83.5,98.2,XS
+Apple,H&M,Slim Fit T-Shirt,35.4,96.4,96.4,96.4,L
+Rectangle,Zara,Regular Fit Shirt,43.0,92.3,92.3,92.3,XS
+Pear,H&M,Regular Fit Shirt,39.7,97.2,77.8,114.4,XS
+Apple,SaasFaras,Regular Fit Pants,39.6,90.1,90.1,90.1,S
+Rectangle,Mango,Regular Fit Pants,38.0,93.5,93.5,93.5,XL
+Triangle,Marks & Spencers,Regular Fit T-Shirt,48.7,83.6,83.6,98.4,XL
+Rectangle,H&M,Slim Fit Pants,40.3,90.6,90.6,90.6,S
+Rectangle,Marks & Spencers,Regular Fit T-Shirt,46.4,94.8,94.8,94.8,M
+Hourglass,Mango,Regular Fit T-Shirt,43.6,99.7,74.8,94.7,M
+Rectangle,H&M,Oversized Pants,45.7,91.3,91.3,91.3,L
+Rectangle,Zara,Oversized Shirt,47.5,91.4,91.4,91.4,M
+Apple,Zara,Regular Fit Pants,40.8,104.1,104.1,104.1,L
+Pear,Forever 21,Oversized Pants,41.6,94.9,75.9,111.6,L
+Apple,Calvin Klein,Slim Fit T-Shirt,39.4,99.7,99.7,99.7,M
+Apple,Calvin Klein,Regular Fit Shirt,48.6,104.6,104.6,104.6,S
+Apple,SaasFaras,Oversized Pants,41.0,118.4,118.4,118.4,XS
+Triangle,H&M,Oversized T-Shirt,48.0,90.9,90.9,106.9,M
+Apple,VeroModa,Regular Fit Shirt,46.4,112.9,112.9,112.9,M
+Pear,VeroModa,Regular Fit T-Shirt,40.0,100.5,80.4,118.2,XS
+Pear,Marks & Spencers,Slim Fit T-Shirt,38.9,82.9,66.3,97.5,XL
+Rectangle,Marks & Spencers,Regular Fit Pants,46.0,80.2,80.2,80.2,L
+Apple,Only,Slim Fit Jeans,39.1,96.1,96.1,96.1,M
+Hourglass,SaasFaras,Oversized Jeans,44.9,107.4,80.5,102.0,S
+Triangle,Calvin Klein,Oversized Jeans,43.4,86.9,86.9,102.3,XL
+Hourglass,SaasFaras,Slim Fit Jeans,43.4,90.6,68.0,86.1,XS
+Pear,Marks & Spencers,Slim Fit Shirt,48.4,94.4,75.5,111.1,L
+Hourglass,Forever 21,Slim Fit Shirt,42.7,96.6,72.5,91.8,XL
+Triangle,H&M,Regular Fit Jeans,47.3,84.7,84.7,99.7,XL
+Pear,SaasFaras,Oversized T-Shirt,36.8,96.2,77.0,113.2,XS
+Rectangle,Marks & Spencers,Oversized Jeans,45.2,93.1,93.1,93.1,XL
+Hourglass,Forever 21,Oversized Shirt,49.0,107.4,80.5,102.0,M
+Hourglass,VeroModa,Slim Fit T-Shirt,39.1,109.6,82.2,104.1,L
+Triangle,H&M,Oversized Jeans,48.6,86.3,86.3,101.5,M
+Apple,Marks & Spencers,Slim Fit T-Shirt,46.4,102.5,102.5,102.5,XS
+Apple,Marks & Spencers,Regular Fit Pants,42.3,100.4,100.4,100.4,L
+Pear,Forever 21,Regular Fit Shirt,39.5,86.4,69.1,101.6,S
+Triangle,SaasFaras,Oversized Shirt,42.3,93.6,93.6,110.2,L
+Apple,VeroModa,Regular Fit T-Shirt,45.1,106.2,106.2,106.2,L
+Rectangle,SaasFaras,Regular Fit Shirt,45.6,80.7,80.7,80.7,XL
+Pear,Mango,Oversized Shirt,44.2,82.9,66.3,97.6,XS
+Hourglass,Marks & Spencers,Slim Fit Jeans,45.2,109.8,82.3,104.3,M
+Pear,Marks & Spencers,Oversized Shirt,49.9,95.2,76.2,112.0,XS
+Apple,Only,Regular Fit T-Shirt,35.2,91.2,91.2,91.2,XS
+Triangle,Marks & Spencers,Oversized Pants,48.7,86.9,86.9,102.2,S
+Hourglass,Forever 21,Slim Fit Jeans,47.9,98.0,73.5,93.1,S
+Triangle,Zara,Oversized Shirt,35.8,86.7,86.7,102.0,XL
+Triangle,Zara,Slim Fit Jeans,47.5,99.9,99.9,117.5,M
+Triangle,Only,Oversized Shirt,42.8,89.5,89.5,105.3,L
+Apple,Forever 21,Regular Fit Shirt,41.9,104.9,104.9,104.9,S
+Rectangle,Calvin Klein,Slim Fit Pants,41.4,89.5,89.5,89.5,XS
+Pear,Zara,Oversized Shirt,41.6,90.7,72.6,106.7,S
+Rectangle,Calvin Klein,Regular Fit Pants,40.6,87.8,87.8,87.8,S
+Triangle,Calvin Klein,Slim Fit Shirt,41.3,81.0,81.0,95.3,L
+Hourglass,H&M,Oversized T-Shirt,48.3,85.5,64.1,81.2,XS
+Hourglass,Forever 21,Oversized T-Shirt,38.0,104.1,78.0,98.9,XL
+Pear,H&M,Slim Fit Shirt,39.6,84.4,67.5,99.3,M
+Rectangle,Zara,Regular Fit T-Shirt,44.7,94.5,94.5,94.5,XS
+Hourglass,Zara,Regular Fit T-Shirt,36.8,93.3,70.0,88.6,XS
+Rectangle,Only,Slim Fit T-Shirt,43.1,86.3,86.3,86.3,XL
+Rectangle,Only,Regular Fit Jeans,48.1,84.8,84.8,84.8,M
+Hourglass,H&M,Slim Fit Pants,37.9,104.8,78.6,99.5,XS
+Triangle,Forever 21,Regular Fit T-Shirt,47.9,87.8,87.8,103.3,XL
+Pear,Calvin Klein,Slim Fit T-Shirt,46.6,93.1,74.5,109.5,L
+Rectangle,Marks & Spencers,Regular Fit Shirt,43.2,85.5,85.5,85.5,XS
+Hourglass,Forever 21,Slim Fit Shirt,37.4,109.2,81.9,103.7,XS
+Hourglass,Mango,Oversized Shirt,48.9,93.1,69.8,88.4,S
+Triangle,H&M,Slim Fit Jeans,43.8,81.0,81.0,95.3,XS
+Pear,Only,Oversized Jeans,45.2,95.2,76.2,112.0,XS
+Apple,SaasFaras,Oversized Jeans,42.1,91.3,91.3,91.3,L
+Apple,Calvin Klein,Oversized T-Shirt,48.8,92.7,92.7,92.7,S
+Rectangle,Forever 21,Regular Fit Shirt,47.0,92.1,92.1,92.1,S
+Rectangle,Only,Regular Fit Shirt,36.6,96.6,96.6,96.6,S
+Apple,Marks & Spencers,Oversized T-Shirt,37.2,108.6,108.6,108.6,L
+Pear,VeroModa,Oversized Jeans,40.3,93.0,74.4,109.4,XL
+Hourglass,Calvin Klein,Regular Fit Pants,37.3,98.6,74.0,93.7,L
+Pear,Marks & Spencers,Slim Fit Shirt,45.9,86.2,69.0,101.5,S
+Rectangle,Calvin Klein,Slim Fit Jeans,49.6,86.2,86.2,86.2,XL
+Apple,SaasFaras,Oversized T-Shirt,49.1,101.7,101.7,101.7,XS
+Rectangle,Marks & Spencers,Slim Fit Jeans,37.9,94.1,94.1,94.1,XL
