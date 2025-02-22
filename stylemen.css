@@ -1,25 +1,27 @@
 body {
-    font-family: 'Garamond', serif; /* Change font to Garamond for body text */
+    font-family: 'Georgia', serif; /* Basic serif font for body text */
     margin: 0;
     padding: 0;
-    background: #f5f5dc; /* Cream color */
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2); /* Gradient background */
+    color: #351D18; /* Dark brown text */
 }
 
 /* Header */
 header {
-    background: #3b2f2f; /* Dark brown */
+    background: #351D18; /* Dark brown */
     color: white;
     text-align: center;
     padding: 20px 0;
     font-size: 28px;
     font-weight: bold;
+    font-family: 'Georgia', serif; /* Basic serif font for header */
 }
 
 /* Fashion Background Section */
 .fashion-bg {
     width: 100%;
     height: 90vh;
-    background: url("man.jpg") no-repeat center center/cover;
+    background: url("mencover.jpg") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +37,6 @@ header {
     border-radius: 12px;
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
-    font-family: 'Benguiat Bold', cursive; /* Change font to Benguiat Bold for titles */
 }
 
 .fashion-bg:hover {
@@ -85,7 +86,7 @@ form:hover {
 .image-button {
     width: 200px; /* Increased size */
     height: 200px; /* Increased size */
-    background: #3b2f2f; /* Dark brown */
+    background: #351D18; /* Dark brown */
     color: white;
     border: none;
     cursor: pointer;
@@ -144,7 +145,7 @@ input, select {
     width: 100%;
     padding: 12px;
     font-size: 18px;
-    border: 2px solid #3b2f2f; /* Dark brown border */
+    border: 2px solid #351D18; /* Dark brown border */
     border-radius: 8px;
     outline: none;
     transition: 0.3s;
@@ -152,8 +153,8 @@ input, select {
 }
 
 input:focus, select:focus {
-    border-color: #ff69b4; /* Change focus color */
-    box-shadow: 0 0 12px rgba(255, 20, 147, 0.6);
+    border-color: #9F7A66; /* Light brown focus color */
+    box-shadow: 0 0 12px rgba(159, 122, 102, 0.6);
 }
 
 /* Body Type Images */
@@ -189,7 +190,7 @@ input:focus, select:focus {
 /* Button */
 .animated-button {
     width: 100%;
-    background: linear-gradient(135deg, #3b2f2f, #ff69b4); /* Dark brown to pink gradient */
+    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -201,7 +202,7 @@ input:focus, select:focus {
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #ff69b4, #3b2f2f); /* Pink to dark brown gradient on hover */
+    background: linear-gradient(135deg, #9F7A66, #351D18); /* Light brown to dark brown gradient on hover */
     transform: scale(1.08);
 }
 
