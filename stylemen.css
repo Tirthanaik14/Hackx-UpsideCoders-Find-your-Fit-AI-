@@ -6,16 +6,65 @@ body {
     color: #351D18; /* Dark brown text */
 }
 
-/* Header */
+/* Header & Navigation */
 header {
-    background: #351D18; /* Dark brown */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 28px;
-    font-weight: bold;
-    font-family: 'Georgia', serif; /* Basic serif font for header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: #9F7A66;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
 }
+
+/* Apply Limelight font to the logo */
+.logo {
+    font-family: 'Limelight', cursive; /* Use Limelight font */
+    font-size: 34px;
+    font-weight: bold; /* Make it bold */
+    color: #351D18; /* Slightly darker pastel purple */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #351D18;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* For underline effect */
+}
+
+nav ul li a:hover, .active {
+    color: #351D18; /* Keep the text color the same */
+}
+
+/* Pink underline on hover */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #351D18; /* Pink color */
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after, .active::after {
+    width: 100%; /* Full width underline on hover */
+}
+
 
 /* Fashion Background Section */
 .fashion-bg {
