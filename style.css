@@ -1,0 +1,232 @@
+/* Custom Font (Pistilli Roman) */
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('path/to/Pistilli-Roman.woff2') format('woff2'), /* Add the correct path to your font file */
+         url('path/to/Pistilli-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('path/to/Pistilli-Roman-Bold.woff2') format('woff2'), /* Add the correct path to your bold font file */
+         url('path/to/Pistilli-Roman-Bold.woff') format('woff');
+    font-weight: bold; /* For bold headings */
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pistilli Roman', sans-serif; /* Apply Pistilli Roman globally */
+}
+
+body {
+    background: linear-gradient(135deg, #D8BFD8, #FFFACD); /* Pastel Purple to Pastel Yellow */
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start; /* Changed to flex-start to allow footer to be pushed down */
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold; /* Make logo bold */
+    color: #f62b97; /* Slightly darker pastel purple */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* For underline effect */
+}
+
+nav ul li a:hover, .active {
+    color: #333; /* Keep the text color the same */
+}
+
+/* Pink underline on hover */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #f117a8; /* Pink color */
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after, .active::after {
+    width: 100%; /* Full width underline on hover */
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 80px; /* Space below the fixed navbar */
+    padding: 50px 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #6a5acd;
+    font-weight: bold; /* Make heading bold */
+}
+
+/* Carousel Section */
+.carousel-section {
+    margin-top: 50px; /* Space below the hero section */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.container {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: gallery 10s linear infinite;
+    padding-top: 115px; /* Adjust this if needed */
+    padding-left: 10px; /* Adjust this if needed */
+    transform-origin: center; /* Ensure rotation is centered */
+}
+
+.container span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+}
+
+.container span img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 6px ridge #ccc;
+    object-fit: cover;
+}
+
+@keyframes gallery {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(-360deg);
+    }
+}
+
+/* Features Section */
+.features {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    color: #ed16b3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold; /* Make heading bold */
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #27a2cb;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make heading bold */
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin-top: 50px; /* Ensure there's space above the footer */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the footer full width */
+    position: relative; /* Ensure it stays in the normal flow of the document */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+
+footer p {
+    font-size: 14px;
+    color: #333;
+}
+
+.social-links {
+    display: flex; /* Use flexbox for social links */
+    justify-content: center; /* Center the social links */
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #6a5acd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
