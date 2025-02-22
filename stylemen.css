@@ -5,8 +5,9 @@ body {
     background: #f4f4f4;
 }
 
+/* Header */
 header {
-    background: #6a5acd;
+    background: navy;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -14,6 +15,37 @@ header {
     font-weight: bold;
 }
 
+/* Fashion Background Section */
+.fashion-bg {
+    width: 100%;
+    height: 90vh;
+    background: url("man.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hover-text {
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.fashion-bg:hover .hover-text {
+    opacity: 1;
+}
+
+.fashion-bg:hover {
+    background: url('fashion-bg.jpg') no-repeat center center/cover;
+    filter: brightness(70%);
+}
+
+/* Fit Selection */
 .fit-selection {
     width: 100%;
     min-height: 100vh;
@@ -21,14 +53,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.fit-selection h1 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #6a5acd;
-    margin-bottom: 25px;
-    animation: fadeIn 1s ease-in-out;
 }
 
 /* Form Styling */
@@ -54,7 +78,7 @@ input, select {
     font-size: 18px;
     margin-top: 8px;
     margin-bottom: 18px;
-    border: 2px solid #6a5acd;
+    border: 2px solid navy;
     border-radius: 8px;
     outline: none;
     transition: 0.3s;
@@ -91,7 +115,7 @@ input:focus, select:focus {
     width: 100px;
     height: 120px;
     border-radius: 12px;
-    border: 3px solid #6a5acd;
+    border: 3px solid navy;
     padding: 6px;
     transition: transform 0.3s ease-in-out;
 }
@@ -100,10 +124,10 @@ input:focus, select:focus {
     transform: rotate(5deg) scale(1.1);
 }
 
-/* Button Animation */
+/* Button */
 .animated-button {
     width: 100%;
-    background: linear-gradient(135deg, #6a5acd, #ff69b4);
+    background: linear-gradient(135deg, navy, #ff69b4);
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -112,48 +136,18 @@ input:focus, select:focus {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    animation: bounceIn 1s ease-in-out;
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #ff69b4, #6a5acd);
+    background: linear-gradient(135deg, #ff69b4, navy);
     transform: scale(1.08);
-    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
 }
 
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes bounceIn {
-    0% {
-        transform: scale(0.8);
-        opacity: 0.5;
-    }
-    60% {
-        transform: scale(1.1);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes slideUp {
-    from {
-        transform: translateY(50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+/* Footer */
+footer {
+    text-align: center;
+    background: navy;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
 }
