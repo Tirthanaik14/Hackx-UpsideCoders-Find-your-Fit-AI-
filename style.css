@@ -1,6 +1,6 @@
 /* Custom Font (Pistilli Roman) */
 @font-face {
-    font-family: 'Pistilli Roman';
+    font-family: 'Limelight';
     src: url('path/to/Pistilli-Roman.woff2') format('woff2'), /* Add the correct path to your font file */
          url('path/to/Pistilli-Roman.woff') format('woff');
     font-weight: normal;
@@ -23,7 +23,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #D8BFD8, #FFFACD); /* Pastel Purple to Pastel Yellow */
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2); /* Pastel Purple to Pastel Yellow */
     color: #333;
     text-align: center;
     display: flex;
@@ -39,7 +39,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
-    background: rgba(255, 255, 255, 0.8);
+    background: #9F7A66;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -50,7 +50,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold; /* Make logo bold */
-    color: #f62b97; /* Slightly darker pastel purple */
+    color: #351D18; /* Slightly darker pastel purple */
 }
 
 nav ul {
@@ -64,14 +64,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: ##351D18;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     position: relative; /* For underline effect */
 }
 
 nav ul li a:hover, .active {
-    color: #333; /* Keep the text color the same */
+    color: #351D18; /* Keep the text color the same */
 }
 
 /* Pink underline on hover */
@@ -80,7 +80,7 @@ nav ul li a::after {
     position: absolute;
     width: 0;
     height: 2px;
-    background: #f117a8; /* Pink color */
+    background: #351D18; /* Pink color */
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease-in-out;
@@ -161,7 +161,7 @@ nav ul li a:hover::after, .active::after {
 
 .features h2 {
     font-size: 36px;
-    color: #ed16b3;
+    color: #351D18;
     margin-top: 40px;
     margin-bottom: 40px;
     font-weight: bold; /* Make heading bold */
@@ -175,7 +175,7 @@ nav ul li a:hover::after, .active::after {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.9);
+    background: #9F7A66;
     padding: 20px;
     border-radius: 12px;
     width: 280px;
@@ -188,19 +188,19 @@ nav ul li a:hover::after, .active::after {
 }
 
 .card h3 {
-    color: #27a2cb;
+    color: #351D18;
     margin-bottom: 10px;
     font-weight: bold; /* Make heading bold */
 }
 
 .card p {
     font-size: 14px;
-    color: #555;
+    color: #FFFF;
 }
 
 /* Footer */
 footer {
-    background: rgba(255, 255, 255, 0.9);
+    background: #9F7A66;
     padding: 15px;
     margin-top: 50px; /* Ensure there's space above the footer */
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
@@ -212,7 +212,7 @@ footer {
 
 footer p {
     font-size: 14px;
-    color: #333;
+    color: #351D18;
 }
 
 .social-links {
@@ -222,7 +222,7 @@ footer p {
 
 .social-links a {
     margin: 0 10px;
-    color: #6a5acd;
+    color: #FFFF;
     text-decoration: none;
     font-weight: 500;
 }
