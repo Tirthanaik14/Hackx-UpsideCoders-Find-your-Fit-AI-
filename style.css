@@ -47,9 +47,11 @@ header {
     z-index: 100;
 }
 
+/* Apply Limelight font to the logo */
 .logo {
-    font-size: 24px;
-    font-weight: bold; /* Make logo bold */
+    font-family: 'Limelight', cursive; /* Use Limelight font */
+    font-size: 34px;
+    font-weight: bold; /* Make it bold */
     color: #351D18; /* Slightly darker pastel purple */
 }
 
@@ -64,7 +66,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: ##351D18;
+    color: #351D18;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     position: relative; /* For underline effect */
@@ -142,6 +144,7 @@ nav ul li a:hover::after, .active::after {
     border-radius: 10px;
     border: 6px ridge #ccc;
     object-fit: cover;
+    
 }
 
 @keyframes gallery {
@@ -151,6 +154,22 @@ nav ul li a:hover::after, .active::after {
     100% {
         transform: perspective(1000px) rotateY(-360deg);
     }
+}
+
+/* Tagline Section */
+.tagline {
+    text-align: center;
+    margin-top: 100px; /* Adjust spacing below the fixed navbar */
+    margin-bottom: 20px; /* Space between tagline and carousel */
+    padding: 0 5%; /* Add padding for responsiveness */
+}
+
+.tagline h2 {
+    font-size: 3.5rem;
+    color: #351D18; /* Match your theme color */
+    font-weight: bold; /* Make it bold */
+    font-family: 'Dancing Script', cursive; /* Use a cursive font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 /* Features Section */
