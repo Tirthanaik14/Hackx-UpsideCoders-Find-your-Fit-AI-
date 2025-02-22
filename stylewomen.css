@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdf2f8;
+}
+
+header {
+    background: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fit-selection {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fit-selection h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-bottom: 25px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Form Styling */
+form {
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease-in-out;
+    animation: slideUp 1s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.03);
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #6a5acd;
+    box-shadow: 0 0 12px rgba(106, 90, 205, 0.6);
+}
+
+/* Body Type Selection */
+.body-types {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.body-types label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+.body-types label:hover {
+    transform: scale(1.1);
+}
+
+/* Updated Body Type Selection */
+.body-types img {
+    width: 110px;  /* Slightly wider */
+    height: 160px; /* More elongated */
+    border-radius: 14px;
+    border: 3px solid #ff69b4;
+    padding: 6px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.body-types img:hover {
+    transform: rotate(5deg) scale(1.12);
+}
+
+
+
+.body-types img:hover {
+    transform: rotate(5deg) scale(1.1);
+}
+
+/* Button Animation */
+.animated-button {
+    width: 100%;
+    background: linear-gradient(135deg, #ff69b4, #6a5acd);
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    animation: bounceIn 1s ease-in-out;
+}
+
+.animated-button:hover {
+    background: linear-gradient(135deg, #6a5acd, #ff69b4);
+    transform: scale(1.08);
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
