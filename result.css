@@ -24,6 +24,7 @@ body {
     margin-bottom: 20px;
     color: #3b2f2f; /* Dark brown */
     opacity: 0;
+    font-family: 'Limelight';
     animation: slideDown 0.8s ease-in-out forwards;
 }
 
