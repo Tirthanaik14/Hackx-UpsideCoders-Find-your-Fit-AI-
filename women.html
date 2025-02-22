@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women's Fit</title>
+    <title>Find Your Fit - Women</title>
     <link rel="stylesheet" href="stylewomen.css">
 </head>
 <body>
@@ -11,23 +11,26 @@
         <div class="logo">👗 Find Your Fit AI</div>
     </header>
 
+    <section class="fashion-bg">
+        <h1 class="hover-text">Style, Comfort, Confidence!</h1>
+    </section>
+
     <section class="fit-selection">
-        <h1>Find Your Perfect Fit</h1>
         <form>
             <label for="height">Height (cm):</label>
             <input type="number" id="height" required placeholder="Enter your height">
 
-            <label>Body Type:</label>
+            <label for="bodyType">Body Type:</label>
             <div class="body-types">
                 <label>
-                    <input type="radio" name="bodyType" value="inverted-triangle">
-                    <img src="invertedwomen.jpg" alt="Inverted Triangle">
-                    <span>Inverted Triangle</span>
+                    <input type="radio" name="bodyType" value="hourglass">
+                    <img src="hourglass.jpg" alt="Hourglass">
+                    <span>Hourglass</span>
                 </label>
                 <label>
-                    <input type="radio" name="bodyType" value="rectangle">
-                    <img src="recwomen.jpg" alt="Rectangle">
-                    <span>Rectangle</span>
+                    <input type="radio" name="bodyType" value="pear">
+                    <img src="peach.jpg" alt="Pear">
+                    <span>Pear</span>
                 </label>
                 <label>
                     <input type="radio" name="bodyType" value="apple">
@@ -35,36 +38,36 @@
                     <span>Apple</span>
                 </label>
                 <label>
-                    <input type="radio" name="bodyType" value="peach">
-                    <img src="peach.jpg" alt="Peach">
-                    <span>Peach</span>
+                    <input type="radio" name="bodyType" value="rectangle">
+                    <img src="recwomen.jpg" alt="Rectangle">
+                    <span>Rectangle</span>
                 </label>
                 <label>
-                    <input type="radio" name="bodyType" value="hourglass">
-                    <img src="hourglass.jpg" alt="Hourglass">
-                    <span>Hourglass</span>
+                    <input type="radio" name="bodyType" value="inverted-triangle">
+                    <img src="invertedwomen.jpg" alt="Inverted Triangle">
+                    <span>Inverted Triangle</span>
                 </label>
             </div>
 
             <label for="clothingType">Clothing Type:</label>
-            <select id="clothingType" onchange="updateBrands()">
-                <option value="" disabled selected>Select an option</option>
-                <option value="tops">Tops</option>
-                <option value="shirts">Shirts</option>
-                <option value="pants">Pants</option>
+            <select id="clothingType" onchange="updateBrandOptions()">
+                <option value="" disabled selected>Select the option</option>
+                <option value="dress">Dress</option>
+                <option value="top">Top</option>
+                <option value="jeans">Jeans</option>
             </select>
 
             <label for="brand">Brand Preference:</label>
             <select id="brand">
-                <option value="" disabled selected>Select an option</option>
+                <option value="" disabled selected>Select the option</option>
             </select>
 
             <label for="fit">Preferred Fit:</label>
             <select id="fit">
-                <option value="" disabled selected>Select an option</option>
-                <option>Slim Fit</option>
+                <option value="" disabled selected>Select the option</option>
+                <option>Bodycon Fit</option>
                 <option>Regular Fit</option>
-                <option>Loose Fit</option>
+                <option>Oversized Fit</option>
             </select>
 
             <button type="submit" class="animated-button">Find My Fit</button>
@@ -72,30 +75,32 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Find Your Fit AI | Smart Shopping for Women</p>
+        <p>&copy; 2025 Find Your Fit AI | Style Meets Comfort</p>
     </footer>
 
     <script>
-        function updateBrands() {
+        function updateBrandOptions() {
             const clothingType = document.getElementById("clothingType").value;
-            const brandDropdown = document.getElementById("brand");
-            brandDropdown.innerHTML = `<option value="" disabled selected>Select an option</option>`;
+            const brandSelect = document.getElementById("brand");
 
-            let brands = [];
-            if (clothingType === "tops") {
-                brands = ["Sassfaras", "Calvin Klein", "Forever 21"];
-            } else if (clothingType === "shirts") {
-                brands = ["H&M", "Zara", "Vero Moda"];
-            } else if (clothingType === "pants") {
-                brands = ["Only", "Kotty", "Marks & Spencer"];
+            brandSelect.innerHTML = '<option value="" disabled selected>Select the option</option>';
+
+            const brandOptions = {
+                dress: ["Zara", "H&M", "Forever 21"],
+                top: ["Mango", "Vero Moda", "Fabindia"],
+                jeans: ["Levi's", "Only", "Pepe Jeans"]
+            };
+
+            if (brandOptions[clothingType]) {
+                brandOptions[clothingType].forEach(brand => {
+                    let option = document.createElement("option");
+                    option.value = brand.toLowerCase();
+                    option.textContent = brand;
+                    brandSelect.appendChild(option);
+                });
             }
-
-            brands.forEach(brand => {
-                let option = document.createElement("option");
-                option.textContent = brand;
-                brandDropdown.appendChild(option);
-            });
         }
     </script>
 </body>
 </html>
+
