@@ -3,75 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Your Fit</title>
+    <title>Find Your Fit - Men</title>
     <link rel="stylesheet" href="stylemen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Benguiat:wght@700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
 </head>
 <body>
     <header>
-        <div class="logo">👕 Find Your Fit AI</div>
+        <div class="logo">👕 Pic2Fit</div>
     </header>
 
     <section class="fashion-bg">
-        <h1 class="hover-text">Your Perfect Fit Starts Here</h1>
+        <h1 class="hover-text">Discover Your Style!</h1>
     </section>
 
-    <section class="fit-selection">
-        <form>
-            <label for="height">Height (cm):</label>
-            <input type="number" id="height" required placeholder="Enter your height">
+    <section class="fit-container">
+        <!-- Form -->
+        <div class="fit-selection">
+            <form>
+                <div class="input-group">
+                    <!-- Image Capture Button -->
+                    <div class="scan-section">
+                        <button class="image-button">
+                            <img src="scan-icon.png" alt="Scan Icon" class="scan-icon"> <!-- Add your image here -->
+                            <span class="scan-label">Scan My Size</span> <!-- Wrap the text in a span -->
+                        </button>
+                    </div>
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" required placeholder="Enter your height">
+                </div>
 
-            <label for="bodyType">Body Type:</label>
-            <div class="body-types">
-                <label>
-                    <input type="radio" name="bodyType" value="rectangle">
-                    <img src="rectangle.jpg" alt="Rectangle">
-                    <span>Rectangle</span>
-                </label>
-                <label>
-                    <input type="radio" name="bodyType" value="triangle">
-                    <img src="triangle.jpg" alt="Triangle">
-                    <span>Triangle</span>
-                </label>
-                <label>
-                    <input type="radio" name="bodyType" value="inverted-triangle">
-                    <img src="invertedtri.jpg" alt="Inverted Triangle">
-                    <span>Inverted Triangle</span>
-                </label>
-                <label>
-                    <input type="radio" name="bodyType" value="oval">
-                    <img src="oval.jpg" alt="Oval">
-                    <span>Oval</span>
-                </label>
-                <label>
-                    <input type="radio" name="bodyType" value="trapezoid">
-                    <img src="trapezoid.jpg" alt="Trapezoid">
-                    <span>Trapezoid</span>
-                </label>
-            </div>
+                <label for="bodyType">Body Type:</label>
+                <div class="body-types">
+                    <label>
+                        <input type="radio" name="bodyType" value="rectangle">
+                        <img src="rectangle.jpg" alt="Rectangle">
+                        <span>Rectangle</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="bodyType" value="triangle">
+                        <img src="triangle.jpg" alt="Triangle">
+                        <span>Triangle</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="bodyType" value="inverted-triangle">
+                        <img src="invertedtri.jpg" alt="Inverted Triangle">
+                        <span>Inverted Triangle</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="bodyType" value="oval">
+                        <img src="oval.jpg" alt="Oval">
+                        <span>Oval</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="bodyType" value="trapezoid">
+                        <img src="trapezoid.jpg" alt="Trapezoid">
+                        <span>Trapezoid</span>
+                    </label>
+                </div>
 
-            <label for="clothingType">Clothing Type:</label>
-            <select id="clothingType" onchange="updateBrandOptions()">
-                <option value="" disabled selected>Select the option</option>
-                <option value="tshirt">T-Shirt</option>
-                <option value="shirt">Shirt</option>
-                <option value="pants">Pants</option>
-            </select>
+                <label for="clothingType">Clothing Type:</label>
+                <select id="clothingType" onchange="updateBrandOptions()">
+                    <option value="" disabled selected>Select the option</option>
+                    <option value="tshirt">T-Shirt</option>
+                    <option value="shirt">Shirt</option>
+                    <option value="pants">Pants</option>
+                </select>
 
-            <label for="brand">Brand Preference:</label>
-            <select id="brand">
-                <option value="" disabled selected>Select the option</option>
-            </select>
+                <label for="brand">Brand Preference:</label>
+                <select id="brand">
+                    <option value="" disabled selected>Select the option</option>
+                </select>
 
-            <label for="fit">Preferred Fit:</label>
-            <select id="fit">
-                <option value="" disabled selected>Select the option</option>
-                <option>Slim Fit</option>
-                <option>Regular Fit</option>
-                <option>Loose Fit</option>
-            </select>
+                <label for="fit">Preferred Fit:</label>
+                <select id="fit">
+                    <option value="" disabled selected>Select the option</option>
+                    <option>Slim Fit</option>
+                    <option>Regular Fit</option>
+                    <option>Loose Fit</option>
+                </select>
 
-            <button type="submit" class="animated-button">Find My Fit</button>
-        </form>
+                <button type="submit" class="animated-button">Find My Fit</button>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -103,4 +116,3 @@
     </script>
 </body>
 </html>
-
