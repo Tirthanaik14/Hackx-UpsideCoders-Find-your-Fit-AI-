@@ -1,72 +1,76 @@
 from flask import Flask, request, jsonify
-import pandas as pd
-import numpy as np
-import pickle
+import os
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
-# Load the trained Logistic Regression model
-with open('size_prediction_model.pkl', 'rb') as model_file:
-    model = pickle.load(model_file)
+# Define upload folder for photos
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Load brand-specific size charts
-brand_size_chart = pd.read_csv('brand_size_chart.csv')
+# Simulate measurement extraction from photo (replace with actual AI logic)
+def extract_measurements_from_photo(photo_path):
+    # Placeholder logic
+    return {
+        'shoulder': 42.5,
+        'waist': 78.0,
+        'bust': 92.0,
+        'hip': 95.0,
+    }
 
-# Function to predict body measurements & clothing size
-def predict_size(height, body_type, brand, fit_type, clothing_type):
-    input_data = pd.DataFrame([[height, body_type, brand, fit_type, clothing_type]],
-                              columns=['height', 'body_type', 'brand', 'fit_type', 'clothing_type'])
+# Simulate size prediction (replace with actual brand-specific logic)
+def predict_size(shoulder, waist, bust, hip, brand, body_type):
+    # Placeholder logic
+    return {
+        'size': 'M',
+        'accuracy': 95.0,  # Example accuracy
+    }
 
-    # Predict measurements (shoulder width, chest, waist)
-    predicted_measurements = model.predict(input_data)
-
-    # Extract measurements
-    shoulder_width, chest, waist = predicted_measurements[0]
-
-    # Find the recommended size using the brand size chart
-    size_chart = brand_size_chart[
-        (brand_size_chart['brand'] == brand) & 
-        (brand_size_chart['clothing_type'] == clothing_type)
-    ]
-    
-    # Find the closest size match
-    size = size_chart.loc[
-        (size_chart['shoulder_width_min'] <= shoulder_width) & (size_chart['shoulder_width_max'] >= shoulder_width) &
-        (size_chart['chest_min'] <= chest) & (size_chart['chest_max'] >= chest) &
-        (size_chart['waist_min'] <= waist) & (size_chart['waist_max'] >= waist),
-        'size'
-    ].values
-
-    # Default size if no exact match
-    recommended_size = size[0] if len(size) > 0 else "Unknown"
-
-    return shoulder_width, chest, waist, recommended_size
-
-# API Endpoint: Accepts height, body type, brand, fit type, clothing type
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
+        # Get JSON data from the request
         data = request.json
-        height = float(data['height'])
-        body_type = data['body_type']
-        brand = data['brand']
-        fit_type = data['fit_type']
-        clothing_type = data['clothing_type']
 
-        shoulder_width, chest, waist, size = predict_size(height, body_type, brand, fit_type, clothing_type)
+        # Extract inputs
+        height = data.get('height')
+        body_type = data.get('body_type')
+        brand = data.get('brand')
+        clothing_type = data.get('clothing_type')
+        photo = data.get('photo')  # Base64-encoded photo or file path
 
+        # Save the photo (if provided as a file)
+        if photo and isinstance(photo, str):
+            photo_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename('user_photo.jpg'))
+            with open(photo_path, 'wb') as f:
+                f.write(photo.encode('utf-8'))
+        else:
+            return jsonify({'error': 'Photo is required'}), 400
+
+        # Extract measurements from the photo
+        measurements = extract_measurements_from_photo(photo_path)
+
+        # Predict the size
+        size_result = predict_size(
+            measurements['shoulder'],
+            measurements['waist'],
+            measurements['bust'],
+            measurements['hip'],
+            brand,
+            body_type
+        )
+
+        # Prepare the response
         response = {
-            "shoulder_width": shoulder_width,
-            "chest": chest,
-            "waist": waist,
-            "recommended_size": size
+            'measurements': measurements,
+            'size': size_result['size'],
+            'accuracy': size_result['accuracy'],
         }
-
-        return jsonify(response)
+        return jsonify(response), 200
 
     except Exception as e:
-        return jsonify({"error": str(e)})
+        return jsonify({'error': str(e)}), 500
 
-# Run Flask App
 if __name__ == '__main__':
     app.run(debug=True)
