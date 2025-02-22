@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fdf2f8;
+    background: #f4f4f4;
 }
 
+/* Header */
 header {
-    background: #ff69b4;
+    background: #d63384; /* Pink shade */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -14,6 +15,38 @@ header {
     font-weight: bold;
 }
 
+/* Fashion Background Section */
+.fashion-bg {
+    width: 100%;
+    height: 90vh;
+    background: url("fashionbg.jpeg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: filter 0.5s ease-in-out;
+}
+
+.hover-text {
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 12px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.fashion-bg:hover .hover-text {
+    opacity: 1;
+}
+
+.fashion-bg:hover {
+    background: url('fashion-bg.jpg') no-repeat center center/cover;
+    filter: brightness(70%);
+}
+
+/* Fit Selection */
 .fit-selection {
     width: 100%;
     min-height: 100vh;
@@ -21,14 +54,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.fit-selection h1 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #ff69b4;
-    margin-bottom: 25px;
-    animation: fadeIn 1s ease-in-out;
 }
 
 /* Form Styling */
@@ -54,7 +79,7 @@ input, select {
     font-size: 18px;
     margin-top: 8px;
     margin-bottom: 18px;
-    border: 2px solid #ff69b4;
+    border: 2px solid #d63384; /* Pink shade */
     border-radius: 8px;
     outline: none;
     transition: 0.3s;
@@ -87,30 +112,23 @@ input:focus, select:focus {
     transform: scale(1.1);
 }
 
-/* Updated Body Type Selection */
 .body-types img {
-    width: 110px;  /* Slightly wider */
-    height: 160px; /* More elongated */
-    border-radius: 14px;
-    border: 3px solid #ff69b4;
+    width: 100px;
+    height: 120px;
+    border-radius: 12px;
+    border: 3px solid #d63384;
     padding: 6px;
     transition: transform 0.3s ease-in-out;
 }
 
 .body-types img:hover {
-    transform: rotate(5deg) scale(1.12);
-}
-
-
-
-.body-types img:hover {
     transform: rotate(5deg) scale(1.1);
 }
 
-/* Button Animation */
+/* Button */
 .animated-button {
     width: 100%;
-    background: linear-gradient(135deg, #ff69b4, #6a5acd);
+    background: linear-gradient(135deg, #d63384, #6a5acd);
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -119,41 +137,23 @@ input:focus, select:focus {
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    animation: bounceIn 1s ease-in-out;
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #6a5acd, #ff69b4);
+    background: linear-gradient(135deg, #6a5acd, #d63384);
     transform: scale(1.08);
-    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #d63384;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
 }
 
 /* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes bounceIn {
-    0% {
-        transform: scale(0.8);
-        opacity: 0.5;
-    }
-    60% {
-        transform: scale(1.1);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
 @keyframes slideUp {
     from {
         transform: translateY(50px);
