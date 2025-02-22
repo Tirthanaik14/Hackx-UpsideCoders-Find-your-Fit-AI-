@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Georgia', serif; /* Serif font for text */
     margin: 0;
@@ -31,6 +32,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -65,7 +68,6 @@ nav ul li a:hover::after, .active::after {
     width: 100%; /* Full width underline on hover */
 }
 
-
 /* Fashion Background Section */
 .fashion-bg {
     width: 100%;
@@ -89,7 +91,7 @@ nav ul li a:hover::after, .active::after {
 }
 
 .fashion-bg:hover {
-    background: rgba(0, 0, 0, 0.9); /* Background disappears on hover */
+    background: rgba(0, 0, 0, 0.9); /* Background darkens on hover */
 }
 
 .fashion-bg:hover .hover-text {
