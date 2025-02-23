@@ -1,59 +1,69 @@
-from flask import Flask, request, render_template, jsonify
-import os
-import base64
-from werkzeug.utils import secure_filename
+from flask import Flask, render_template, request, jsonify
+import cv2
+import mediapipe as mp
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'uploads'
-os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
+mp_pose = mp.solutions.pose
+pose = mp_pose.Pose()
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/men')
-def men():
-    return render_template('men.html')
+@app.route('/measure', methods=['POST'])
+def measure():
+    cap = cv2.VideoCapture(0)
+    
+    if not cap.isOpened():
+        return jsonify({'error': 'Could not open webcam'})
 
-@app.route('/women')
-def women():
-    return render_template('women.html')
+    ret, frame = cap.read()
+    cap.release()
 
-@app.route('/process', methods=['POST'])
-def process():
-    if 'image_data' not in request.form or 'height' not in request.form:
-        return "Missing image or height input", 400
+    if not ret:
+        return jsonify({'error': 'Failed to capture image'})
 
-    # Extract form data
-    user_height_cm = float(request.form['height'])
-    body_type = request.form.get("bodyType")
-    clothing_type = request.form.get("clothingType")
-    brand = request.form.get("brand")
-    fit = request.form.get("fit")
-    source = request.form.get("source")  # Determine if it's from men.html or women.html
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    results = pose.process(frame_rgb)
 
-    # Process the image (Base64 decoding)
-    image_data = request.form['image_data']
-    image_data = image_data.replace("data:image/png;base64,", "")  # Remove header
-    image_bytes = base64.b64decode(image_data)
+    if not results.pose_landmarks:
+        return jsonify({'error': 'No pose detected'})
 
-    image_path = os.path.join(app.config['UPLOAD_FOLDER'], "captured_image.png")
-    with open(image_path, "wb") as f:
-        f.write(image_bytes)
+    landmarks = results.pose_landmarks.landmark
 
-    # Import the correct backend processing file
-    if source == "men":
-        from backend_men import process_image
-    else:
-        from backend_women import process_image
+    shoulder_width = abs(landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER].x -
+                         landmarks[mp_pose.PoseLandmark.RIGHT_SHOULDER].x) * frame.shape[1]
 
-    # Call the processing function
-    measurements, size_prediction = process_image(image_path, user_height_cm, body_type, clothing_type, brand, fit)
+    bust_size = abs(landmarks[mp_pose.PoseLandmark.LEFT_HIP].x -
+                    landmarks[mp_pose.PoseLandmark.RIGHT_HIP].x) * frame.shape[1]
 
-    if measurements is None:
-        return "Error: No pose detected.", 400  
+    waist_size = bust_size * 0.9  # Example approximation
+    hips_size = bust_size * 1.1  # Example approximation
 
-    return render_template('result.html', measurements=measurements, size=size_prediction)
+    size_chart = {
+        'XS': (30, 32),
+        'S': (33, 35),
+        'M': (36, 38),
+        'L': (39, 41),
+        'XL': (42, 44)
+    }
+
+    recommended_size = 'Unknown'
+    for size, (min_bust, max_bust) in size_chart.items():
+        if min_bust <= bust_size <= max_bust:
+            recommended_size = size
+            break
+
+    measurements = {
+        'shoulder': round(shoulder_width, 2),
+        'bust': round(bust_size, 2),
+        'waist': round(waist_size, 2),
+        'hips': round(hips_size, 2)
+    }
+
+    return render_template('result.html', measurements=measurements, size=recommended_size)
 
 if __name__ == '__main__':
     app.run(debug=True)
+
