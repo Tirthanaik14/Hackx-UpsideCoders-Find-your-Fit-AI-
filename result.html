@@ -14,44 +14,45 @@
             <div class="measurements">
                 <h2 class="measurements-heading">Your Measurements</h2>
                 <ul>
-                    <li><span>Height:</span> <span id="height-result"></span></li>
-                    <li><span>Body Type:</span> <span id="bodyType-result"></span></li>
-                    <li><span>Clothing Type:</span> <span id="clothingType-result"></span></li>
-                    <li><span>Brand:</span> <span id="brand-result"></span></li>
-                    <li><span>Preferred Fit:</span> <span id="fit-result"></span></li>
+                    <li><span>Shoulder Width:</span> <span id="shoulder">{{ measurements.shoulder }}</span></li>
+                    <li><span>Bust Size:</span> <span id="bust">{{ measurements.bust }}</span></li>
+                    <li><span>Waist Size:</span> <span id="waist">{{ measurements.waist }}</span></li>
+                    <li><span>Hips Size:</span> <span id="hips">{{ measurements.hips }}</span></li>
                 </ul>
             </div>
             <div class="recommended-size">
                 <h2>Recommended Size</h2>
-                <div class="size-box" id="size-box">M</div>
+                <div class="size-box" id="size-box">{{ size }}</div>
             </div>
         </div>
-        <button class="animated-button" onclick="window.location.href='men.html'">Back to Home</button>
+        <button class="animated-button" onclick="window.location.href='/'">Back to Home</button>
     </div>
 
     <script>
-        window.onload = function() {
-            // Get query parameters from the URL
-            const urlParams = new URLSearchParams(window.location.search);
-            const height = urlParams.get('height');
-            const bodyType = urlParams.get('bodyType');
-            const clothingType = urlParams.get('clothingType');
-            const brand = urlParams.get('brand');
-            const fit = urlParams.get('fit');
-
-            // Populate the results with data
-            document.getElementById("height-result").textContent = height;
-            document.getElementById("bodyType-result").textContent = bodyType;
-            document.getElementById("clothingType-result").textContent = clothingType;
-            document.getElementById("brand-result").textContent = brand;
-            document.getElementById("fit-result").textContent = fit;
-
-            // Add sequential animations
-            const elements = document.querySelectorAll('.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button');
-            elements.forEach((element, index) => {
-                element.style.animationDelay = `${index * 0.3}s`;
-            });
+    window.onload = function() {
+        // Get data from Flask backend
+        const measurements = {
+            shoulder: "{{ measurements.shoulder }}",
+            bust: "{{ measurements.bust }}",
+            waist: "{{ measurements.waist }}",
+            hips: "{{ measurements.hips }}",
+            size: "{{ size }}"
         };
+
+        // Populate the results with data
+        document.getElementById("shoulder").textContent = measurements.shoulder;
+        document.getElementById("bust").textContent = measurements.bust;
+        document.getElementById("waist").textContent = measurements.waist;
+        document.getElementById("hips").textContent = measurements.hips;
+        document.getElementById("size-box").textContent = measurements.size;
+
+        // Add sequential animations
+        const elements = document.querySelectorAll('.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button');
+        elements.forEach((element, index) => {
+            element.style.animationDelay = `${index * 0.3}s`;
+        });
+    };
     </script>
+
 </body>
 </html>
