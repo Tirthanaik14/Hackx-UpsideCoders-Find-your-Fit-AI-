@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Georgia&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div class="logo">Your Logo</div>
         <nav>
@@ -21,7 +20,6 @@
         </nav>
     </header>
 
-    <!-- Results Section -->
     <div class="results-container">
         <h1 class="results-title">Your Perfect Fit</h1>
         <div class="results-card">
@@ -42,7 +40,6 @@
         <button class="animated-button" onclick="window.location.href='/'">Back to Home</button>
     </div>
 
-    <!-- Footer Section -->
     <footer>
         <div class="social-links">
             <a href="#">Facebook</a>
@@ -51,31 +48,5 @@
         </div>
         <p>&copy; 2023 Your Brand. All rights reserved.</p>
     </footer>
-
-    <script>
-    window.onload = function() {
-        // Get data from Flask backend
-        const measurements = {
-            shoulder: "{{ measurements.shoulder }}",
-            bust: "{{ measurements.bust }}",
-            waist: "{{ measurements.waist }}",
-            hips: "{{ measurements.hips }}",
-            size: "{{ size }}"
-        };
-
-        // Populate the results with data
-        document.getElementById("shoulder").textContent = measurements.shoulder;
-        document.getElementById("bust").textContent = measurements.bust;
-        document.getElementById("waist").textContent = measurements.waist;
-        document.getElementById("hips").textContent = measurements.hips;
-        document.getElementById("size-box").textContent = measurements.size;
-
-        // Add sequential animations
-        const elements = document.querySelectorAll('.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button');
-        elements.forEach((element, index) => {
-            element.style.animationDelay = `${index * 0.3}s`;
-        });
-    };
-    </script>
 </body>
 </html>
