@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify
 import os
+import base64
 from werkzeug.utils import secure_filename
-from mediapipe_processing import process_image  # Assuming this is where the MediaPipe code is
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
@@ -21,25 +21,34 @@ def women():
 
 @app.route('/process', methods=['POST'])
 def process():
-    if 'image' not in request.files or 'height' not in request.form:
+    if 'image_data' not in request.form or 'height' not in request.form:
         return "Missing image or height input", 400
 
-    file = request.files['image']
-    if file.filename == '':
-        return "No selected file", 400
-
+    # Extract form data
     user_height_cm = float(request.form['height'])
-    filename = secure_filename(file.filename)
-    image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-    file.save(image_path)
-
     body_type = request.form.get("bodyType")
     clothing_type = request.form.get("clothingType")
     brand = request.form.get("brand")
     fit = request.form.get("fit")
+    source = request.form.get("source")  # Determine if it's from men.html or women.html
 
+    # Process the image (Base64 decoding)
+    image_data = request.form['image_data']
+    image_data = image_data.replace("data:image/png;base64,", "")  # Remove header
+    image_bytes = base64.b64decode(image_data)
+
+    image_path = os.path.join(app.config['UPLOAD_FOLDER'], "captured_image.png")
+    with open(image_path, "wb") as f:
+        f.write(image_bytes)
+
+    # Import the correct backend processing file
+    if source == "men":
+        from backend_men import process_image
+    else:
+        from backend_women import process_image
+
+    # Call the processing function
     measurements, size_prediction = process_image(image_path, user_height_cm, body_type, clothing_type, brand, fit)
-
 
     if measurements is None:
         return "Error: No pose detected.", 400  
