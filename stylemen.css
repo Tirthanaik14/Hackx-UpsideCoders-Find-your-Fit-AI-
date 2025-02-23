@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #351D18;
+    color: #9F7A66;
 }
 
 nav ul li a::after {
@@ -65,37 +65,16 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* Fashion Background Section */
-.fashion-bg {
-    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.hover-text {
-    font-size: 48px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
-}
-
-.hover-text:hover {
-    transform: scale(1.1);
-}
-
 /* Fit Container */
 .fit-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px;
+    padding: 100px 20px 40px; /* Added padding for header */
 }
 
 .fit-selection {
-    width: 70%;
+    width: 100%;
     max-width: 800px;
     background: white;
     padding: 30px;
