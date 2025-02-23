@@ -1,9 +1,36 @@
-body {
-    font-family: 'Poppins', sans-serif;
+/* Custom Font (Pistilli Roman) */
+@font-face {
+    font-family: 'Limelight';
+    src: url('path/to/Pistilli-Roman.woff2') format('woff2'), /* Add the correct path to your font file */
+         url('path/to/Pistilli-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('path/to/Pistilli-Roman-Bold.woff2') format('woff2'), /* Add the correct path to your bold font file */
+         url('path/to/Pistilli-Roman-Bold.woff') format('woff');
+    font-weight: bold; /* For bold headings */
+    font-style: normal;
+}
+
+* {
     margin: 0;
     padding: 0;
-    background: linear-gradient(125deg, #F2E8DB, #D4B6A2);
-    color: #351D18;
+    box-sizing: border-box;
+    font-family: 'Pistilli Roman', sans-serif; /* Apply Pistilli Roman globally */
+}
+
+body {
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2); /* Pastel Purple to Pastel Yellow */
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start; /* Changed to flex-start to allow footer to be pushed down */
 }
 
 /* Header & Navigation */
@@ -20,18 +47,17 @@ header {
     z-index: 100;
 }
 
+/* Apply Limelight font to the logo */
 .logo {
-    font-family: 'Limelight', cursive;
+    font-family: 'Limelight', cursive; /* Use Limelight font */
     font-size: 34px;
-    font-weight: bold;
-    color: #351D18;
+    font-weight: bold; /* Make it bold */
+    color: #351D18; /* Slightly darker pastel purple */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -43,35 +69,36 @@ nav ul li a {
     color: #351D18;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    position: relative;
+    position: relative; /* For underline effect */
 }
 
-nav ul li a:hover {
-    color: #9F7A66;
+nav ul li a:hover, .active {
+    color: #351D18; /* Keep the text color the same */
 }
 
+/* Pink underline on hover */
 nav ul li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background: #351D18;
+    background: #351D18; /* Pink color */
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease-in-out;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
+nav ul li a:hover::after, .active::after {
+    width: 100%; /* Full width underline on hover */
 }
 
 /* Fit Container */
 .fit-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px; /* Space below the fixed navbar */
     align-items: flex-start;
-    padding: 100px 20px 40px; /* Added padding for header */
+    padding: 20px; /* Adjust padding as needed */
 }
 
 .fit-selection {
@@ -212,9 +239,33 @@ input:focus, select:focus {
 
 /* Footer */
 footer {
-    text-align: center;
-    background: #3b2f2f;
-    color: white;
+    background: #9F7A66;
     padding: 15px;
-    font-size: 16px;
+    margin-top: 50px; /* Ensure there's space above the footer */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the footer full width */
+    position: relative; /* Ensure it stays in the normal flow of the document */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+
+footer p {
+    font-size: 14px;
+    color: #351D18;
+}
+
+.social-links {
+    display: flex; /* Use flexbox for social links */
+    justify-content: center; /* Center the social links */
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #FFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
 }
