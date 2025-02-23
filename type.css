@@ -133,14 +133,14 @@ h2 {
 
 .intro {
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     margin-bottom: 30px;
     color: #9F7A66;
 }
 
 .intro strong {
     color: #351D18;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #351D18; /* Match your theme color */
     font-weight: bold; /* Make it bold */
     font-family: 'Dancing Script', cursive; /* Use a cursive font */
