@@ -69,6 +69,7 @@ nav ul li a:hover::after {
 .fit-container {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
     align-items: flex-start;
     padding: 100px 20px 40px; /* Added padding for header */
 }
