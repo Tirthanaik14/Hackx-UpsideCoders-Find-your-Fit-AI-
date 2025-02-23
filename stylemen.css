@@ -1,21 +1,40 @@
+@font-face {
+    font-family: 'Limelight';
+    src: url('path/to/Pistilli-Roman.woff2') format('woff2'), /* Add the correct path to your font file */
+         url('path/to/Pistilli-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('path/to/Pistilli-Roman-Bold.woff2') format('woff2'), /* Add the correct path to your bold font file */
+         url('path/to/Pistilli-Roman-Bold.woff') format('woff');
+    font-weight: bold; /* For bold headings */
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Pistilli Roman', sans-serif; /* Apply Pistilli Roman globally */
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(125deg, #F2E8DB, #D4B6A2);
-    color: #351D18;
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2); /* Pastel Purple to Pastel Yellow */
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start; /* Changed to flex-start to allow footer to be pushed down */
 }
 
 /* Header & Navigation */
 header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
@@ -27,18 +46,17 @@ header {
     z-index: 100;
 }
 
+/* Apply Limelight font to the logo */
 .logo {
-    font-family: 'Limelight', cursive;
+    font-family: 'Limelight', cursive; /* Use Limelight font */
     font-size: 34px;
-    font-weight: bold;
-    color: #351D18;
+    font-weight: bold; /* Make it bold */
+    color: #351D18; /* Slightly darker pastel purple */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -50,26 +68,27 @@ nav ul li a {
     color: #351D18;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    position: relative;
+    position: relative; /* For underline effect */
 }
 
-nav ul li a:hover {
-    color: #9F7A66;
+nav ul li a:hover, .active {
+    color: #351D18; /* Keep the text color the same */
 }
 
+/* Pink underline on hover */
 nav ul li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background: #351D18;
+    background: #351D18; /* Pink color */
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease-in-out;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
+nav ul li a:hover::after, .active::after {
+    width: 100%; /* Full width underline on hover */
 }
 
 /* Fit Container */
