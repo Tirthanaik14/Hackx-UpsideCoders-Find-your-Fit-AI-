@@ -42,7 +42,7 @@ def process_image():
     # Dummy values for now
     estimated_size = "M"
 
-    return render_template('res.html', bust_width=bust_width_cm, estimated_size=estimated_size)
+    return render_template('result.html', bust_width=bust_width_cm, estimated_size=estimated_size)
 
 if __name__ == '__main__':
     app.run(debug=True)
