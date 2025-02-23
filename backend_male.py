@@ -1,60 +1,6 @@
-
-from IPython.display import display, Javascript
-from google.colab.output import eval_js
-from base64 import b64decode
 import cv2
 import numpy as np
-import PIL.Image
-import io
-
-def take_photo(filename='photo.jpg', quality=0.8):
-    js = Javascript('''
-        async function takePhoto(quality) {
-            const div = document.createElement('div');
-            const video = document.createElement('video');
-            const btn = document.createElement('button');
-            btn.textContent = 'Capture Image';
-            div.appendChild(video);
-            div.appendChild(btn);
-            document.body.appendChild(div);
-
-            const stream = await navigator.mediaDevices.getUser Media({ video: true });
-            video.srcObject = stream;
-            await new Promise((resolve) => (video.onloadedmetadata = resolve));
-            video.play();
-
-            await new Promise((resolve) => btn.onclick = resolve);
-
-            const canvas = document.createElement('canvas');
-            canvas.width = video.videoWidth;
-            canvas.height = video.videoHeight;
-            const ctx = canvas.getContext('2d');
-            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-            stream.getTracks().forEach(track => track.stop());
-            div.remove();
-
-            return canvas.toDataURL('image/jpeg', quality);
-        }
-    ''')
-
-    display(js)
-    data = eval_js('takePhoto({})'.format(quality))
-    binary = b64decode(data.split(',')[1])
-
-    with open(filename, 'wb') as f:
-        f.write(binary)
-
-    return filename
-
-# Take a photo
-image_path = take_photo()
-print(f"Image saved as {image_path}")
-
-!pip install opencv-python mediapipe numpy
-
 import mediapipe as mp
-import cv2
-import numpy as np
 from google.colab.patches import cv2_imshow
 
 # Load MediaPipe Pose model
@@ -77,9 +23,6 @@ def calculate_distance(p1, p2):
 
 def estimate_size(user_choice, user_brand, user_fit, bust_width_cm):
     """Estimate clothing size based on user preferences and bust width."""
-    if user_choice not in ('tops', 'shirts', 'pants'):
-        return None, "Invalid choice"
-
     size_chart = {
         ('tops', 'shirts'): {
             'puma': {
@@ -117,8 +60,8 @@ def estimate_size(user_choice, user_brand, user_fit, bust_width_cm):
         }
     }
 
-    if user_brand in size_chart and user_fit in size_chart[user_brand]:
-        for lower, upper, size in size_chart[user_brand][user_fit]:
+    if user_choice in size_chart and user_brand in size_chart[user_choice] and user_fit in size_chart[user_choice][user_brand]:
+        for lower, upper, size in size_chart[user_choice][user_brand][user_fit]:
             if lower <= bust_width_cm <= upper:
                 return size, None  # Return size and None for message
 
@@ -158,10 +101,10 @@ if results.pose_landmarks:
     body_height_px = int(calculate_distance(top_head, feet))  # Full body pixel height
 
     # Ask user for their real height in cm
-    #user_height_cm = float(input("Enter your height in cm: "))
-    #user_brand = input("Enter your preferred brand: ")
-    #user_choice = input("Enter your preferred cloth type: ")
-    #user_fit = input("Enter your preferred fit: ")
+    user_height_cm = float(input("Enter your height in cm: "))
+    user_brand = input("Enter your preferred brand: ")
+    user_choice = input("Enter your preferred cloth type: ")
+    user_fit = input("Enter your preferred fit: ")
 
     # Convert pixel distances to real-world cm
     shoulder_width_cm = int((shoulder_width_px / body_height_px) * user_height_cm)
@@ -174,3 +117,4 @@ if results.pose_landmarks:
 
     # Call the estimate_size function
     estimated_size, message = estimate_size(user_choice, user_brand, user_fit, bust_width_cm)
+    print(f"Estimated Size: {estimated_size}, Message: {message}")
