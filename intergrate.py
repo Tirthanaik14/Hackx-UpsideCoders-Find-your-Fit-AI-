@@ -1,76 +1,45 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, render_template, jsonify
 import os
 from werkzeug.utils import secure_filename
+from mediapipe_processing import process_image  # Assuming this is where the MediaPipe code is
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'uploads'
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Define upload folder for photos
-UPLOAD_FOLDER = 'uploads'
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-# Simulate measurement extraction from photo (replace with actual AI logic)
-def extract_measurements_from_photo(photo_path):
-    # Placeholder logic
-    return {
-        'shoulder': 42.5,
-        'waist': 78.0,
-        'bust': 92.0,
-        'hip': 95.0,
-    }
+@app.route('/men')
+def men():
+    return render_template('men.html')
 
-# Simulate size prediction (replace with actual brand-specific logic)
-def predict_size(shoulder, waist, bust, hip, brand, body_type):
-    # Placeholder logic
-    return {
-        'size': 'M',
-        'accuracy': 95.0,  # Example accuracy
-    }
+@app.route('/women')
+def women():
+    return render_template('women.html')
 
-@app.route('/predict', methods=['POST'])
-def predict():
-    try:
-        # Get JSON data from the request
-        data = request.json
+@app.route('/process', methods=['POST'])
+def process():
+    if 'image' not in request.files or 'height' not in request.form:
+        return "Missing image or height input", 400
 
-        # Extract inputs
-        height = data.get('height')
-        body_type = data.get('body_type')
-        brand = data.get('brand')
-        clothing_type = data.get('clothing_type')
-        photo = data.get('photo')  # Base64-encoded photo or file path
+    file = request.files['image']
+    if file.filename == '':
+        return "No selected file", 400
 
-        # Save the photo (if provided as a file)
-        if photo and isinstance(photo, str):
-            photo_path = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename('user_photo.jpg'))
-            with open(photo_path, 'wb') as f:
-                f.write(photo.encode('utf-8'))
-        else:
-            return jsonify({'error': 'Photo is required'}), 400
+    user_height_cm = float(request.form['height'])
+    filename = secure_filename(file.filename)
+    image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    file.save(image_path)
 
-        # Extract measurements from the photo
-        measurements = extract_measurements_from_photo(photo_path)
+    # Call MediaPipe processing function
+    measurements, size_prediction = process_image(image_path, user_height_cm)
 
-        # Predict the size
-        size_result = predict_size(
-            measurements['shoulder'],
-            measurements['waist'],
-            measurements['bust'],
-            measurements['hip'],
-            brand,
-            body_type
-        )
+    if measurements is None:
+        return "Error: No pose detected.", 400  
 
-        # Prepare the response
-        response = {
-            'measurements': measurements,
-            'size': size_result['size'],
-            'accuracy': size_result['accuracy'],
-        }
-        return jsonify(response), 200
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+    return render_template('result.html', measurements=measurements, size=size_prediction)
 
 if __name__ == '__main__':
     app.run(debug=True)
