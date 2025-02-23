@@ -3,50 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Fit Results</title>
-    <link rel="stylesheet" href="result.css">
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Georgia&display=swap" rel="stylesheet">
+    <title>Measurement Result</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Your Logo</div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="results-container">
-        <h1 class="results-title">Your Perfect Fit</h1>
-        <div class="results-card">
-            <div class="measurements">
-                <h2 class="measurements-heading">Your Measurements</h2>
-                <ul>
-                    <li><span>Shoulder Width:</span> <span id="shoulder">{{ measurements.shoulder }}</span></li>
-                    <li><span>Bust Size:</span> <span id="bust">{{ measurements.bust }}</span></li>
-                    <li><span>Waist Size:</span> <span id="waist">{{ measurements.waist }}</span></li>
-                    <li><span>Hips Size:</span> <span id="hips">{{ measurements.hips }}</span></li>
-                </ul>
-            </div>
-            <div class="recommended-size">
-                <h2>Recommended Size</h2>
-                <div class="size-box" id="size-box">{{ size }}</div>
-            </div>
-        </div>
-        <button class="animated-button" onclick="window.location.href='/'">Back to Home</button>
-    </div>
-
-    <footer>
-        <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-        <p>&copy; 2023 Your Brand. All rights reserved.</p>
-    </footer>
+    <h2>Measurement Results</h2>
+    <p>Shoulder Width: {{ measurements['shoulder'] }} cm</p>
+    <p>Bust Size: {{ measurements['bust'] }} cm</p>
+    <p>Waist Size: {{ measurements['waist'] }} cm</p>
+    <p>Hips Size: {{ measurements['hips'] }} cm</p>
+    <h3>Recommended Size: {{ size }}</h3>
 </body>
 </html>
+
