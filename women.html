@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Your Fit - Women</title>
     <link rel="stylesheet" href="stylewomen.css">
-    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet"> <!-- Serif font for text -->
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <!-- Navigation Bar -->
     <header>
         <div class="logo">👕 Pic2Fit</div>
@@ -22,88 +21,87 @@
         </nav>
     </header>
 
-    <section class="fashion-bg">
-        <h1 class="hover-text">Style, Comfort, Confidence!</h1>
-    </section>
+    <main>
+        <section class="fit-container">
+            <!-- Form -->
+            <div class="fit-selection">
+                <form id="fitForm">
+                    <div class="input-group">
+                        <!-- Image Capture Button -->
+                        <div class="scan-section">
+                            <button class="image-button" type="button" onclick="openCamera()">
+                                <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/scan-icon.png" alt="Scan Icon" class="scan-icon">
+                                <span class="scan-label">Scan My Size</span>
+                            </button>
+                        </div>
+                        <!-- Camera Capture Elements -->
+                        <video id="camera" autoplay style="display: none;"></video>
+                        <canvas id="canvas" style="display: none;"></canvas>
+                        <img id="captured-image" style="display: none; width: 200px; height: auto;"/>
+                        <input type="hidden" id="captured-image-data" name="captured_image">
 
-    <section class="fit-container">
-        <!-- Form -->
-        <div class="fit-selection">
-            <form>
-                <div class="input-group">
-                    <!-- Image Capture Button -->
-                    <div class="scan-section">
-                        <button class="image-button" type="button" onclick="openCamera()">
-                              <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/scan-icon.png" alt="Scan Icon" class="scan-icon">
-                              <span class="scan-label">Scan My Size</span>
-                        </button>
+                        <label for="height">Height (cm):</label>
+                        <input type="number" id="height" required placeholder="Enter your height" min="50" max="250">
                     </div>
-                    <!-- Camera Capture Elements -->
-                    <video id="camera" autoplay style="display: none;"></video> 
-                    <canvas id="canvas" style="display: none;"></canvas>
-                    <img id="captured-image" style="display: none; width: 200px; height: auto;"/>
-                    <input type="hidden" id="captured-image-data" name="captured_image">
 
-                    <label for="height">Height (cm):</label>
-                    <input type="number" id="height" required placeholder="Enter your height">
-                </div>
-                <label for="bodyType">Body Type:</label>
-                <div class="body-types">
-                    <label>
-                        <input type="radio" name="bodyType" value="hourglass">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/hourglass.jpg" alt="Hourglass">
-                        <span>Hourglass</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="pear">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/peach.jpg" alt="Pear">
-                        <span>Pear</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="apple">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/apple.jpg" alt="Apple">
-                        <span>Apple</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="rectangle">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/recwomen.jpg" alt="Rectangle">
-                        <span>Rectangle</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="inverted-triangle">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedwomen.jpg" alt="Inverted Triangle">
-                        <span>Inverted Triangle</span>
-                    </label>
-                </div>
+                    <label for="bodyType">Body Type:</label>
+                    <div class="body-types">
+                        <label>
+                            <input type="radio" name="bodyType" value="hourglass" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/hourglass.jpg" alt="Hourglass.jpg">
+                            <span>Hourglass</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="triangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/peach.jpg" alt="Triangle Body Type">
+                            <span>Triangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="apple" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/apple.jpg" alt="Inverted Triangle Body Type">
+                            <span>Apple</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="rectangle" required>
+                            <img src=""https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/apple.jpg"" alt="Rectangle Body Type">
+                            <span>Rectangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="inverted" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedwomen.jpg" alt="Inverted Body Type">
+                            <span>Inverted</span>
+                        </label>
+                    </div>
 
-                <label for="clothingType">Clothing Type:</label>
-                <select id="clothingType" onchange="updateBrandOptions()">
-                    <option value="" disabled selected>Select the option</option>
-                    <option value="Tops">Tops</option>
-                    <option value="Shirts">Shirts</option>
-                    <option value="Pants">Pants</option>
-                </select>
+                    <label for="clothingType">Clothing Type:</label>
+                    <select id="clothingType" onchange="updateBrandOptions()" required>
+                        <option value="" disabled selected>Select the option</option>
+                        <option value="tshirt">T-Shirt</option>
+                        <option value="shirt">Shirt</option>
+                        <option value="pants">Pants</option>
+                    </select>
 
-                <label for="brand">Brand Preference:</label>
-                <select id="brand">
-                    <option value="" disabled selected>Select the option</option>
-                </select>
+                    <label for="brand">Brand Preference:</label>
+                    <select id="brand" required>
+                        <option value="" disabled selected>Select the option</option>
+                    </select>
 
-                <label for="fit">Preferred Fit:</label>
-                <select id="fit">
-                    <option value="" disabled selected>Select the option</option>
-                    <option>Slim Fit</option>
-                    <option>Regular Fit</option>
-                    <option>Loose Fit</option>
-                </select>
+                    <label for="fit">Preferred Fit:</label>
+                    <select id="fit" required>
+                        <option value="" disabled selected>Select the option</option>
+                        <option>Slim Fit</option>
+                        <option>Regular Fit</option>
+                        <option>Loose Fit</option>
+                    </select>
 
-                <button type="submit" class="animated-button">Find My Fit</button>
-            </form>
-        </div>
-    </section>
+                    <button type="submit" class="animated-button">Find My Fit</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Pic2Fit| Style Meets Comfort</p>
+        <p>&copy; 2025 Pic2Fit | Built for Smart Shopping</p>
     </footer>
 
     <script>
@@ -114,9 +112,9 @@
             brandSelect.innerHTML = '<option value="" disabled selected>Select the option</option>';
 
             const brandOptions = {
-                Tops: ["Sassfaras", "Calvin Klein", "Forever 21"],
-                Shirts: ["H&M", "Zara", "Vero Moda"],
-                Pants: ["Kotty", "Only", "Marks & Spencers"]
+                tshirt: ["Puma", "Adidas", "Souled Store"],
+                shirt: ["US Polo", "Louis Philippe", "Raymond"],
+                pants: ["Woodland", "Peter England", "Allen Solly"]
             };
 
             if (brandOptions[clothingType]) {
@@ -128,36 +126,37 @@
                 });
             }
         }
-    function openCamera() {
-        let video = document.getElementById('camera');
-        let canvas = document.getElementById('canvas');
-        let capturedImage = document.getElementById('captured-image');
-        let capturedImageData = document.getElementById('captured-image-data');
 
-        navigator.mediaDevices.getUserMedia({ video: true })
-            .then(stream => {
-                video.style.display = "block";
-                video.srcObject = stream;
-            })
-            .catch(err => console.error("Error accessing camera:", err));
+        function openCamera() {
+            let video = document.getElementById('camera');
+            let canvas = document.getElementById('canvas');
+            let capturedImage = document.getElementById('captured-image');
+            let capturedImageData = document.getElementById('captured-image-data');
 
-        // Capture the image when the video is clicked
-        video.addEventListener('click', function () {
-            canvas.width = video.videoWidth;
-            canvas.height = video.videoHeight;
-            let ctx = canvas.getContext('2d');
-            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            navigator.mediaDevices.getUser Media({ video: true })
+                .then(stream => {
+                    video.style.display = "block";
+                    video.srcObject = stream;
+                })
+                .catch(err => console.error("Error accessing camera:", err));
 
-            let imageDataURL = canvas.toDataURL('image/png');
-            capturedImage.src = imageDataURL;
-            capturedImage.style.display = "block";
+            // Capture the image when the video is clicked
+            video.addEventListener('click', function () {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                let ctx = canvas.getContext('2d');
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-            capturedImageData.value = imageDataURL;
+                let imageDataURL = canvas.toDataURL('image/png');
+                capturedImage.src = imageDataURL;
+                capturedImage.style.display = "block";
 
-            video.style.display = "none";
-            video.srcObject.getTracks().forEach(track => track.stop()); // Stop the camera
-        });
-    }
+                capturedImageData.value = imageDataURL;
+
+                video.style.display = "none";
+                video.srcObject.getTracks().forEach(track => track.stop()); // Stop the camera
+            });
+        }
     </script>
 </body>
 </html>
