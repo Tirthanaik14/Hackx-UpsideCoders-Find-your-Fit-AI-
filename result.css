@@ -1,28 +1,110 @@
-body {
-    font-family: 'Georgia', serif; /* Serif font for text */
-    margin: 0;
-    padding: 0;
-    background: #f5f5dc; /* Creme background */
-    color: #3b2f2f; /* Dark brown text */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* Custom Font (Pistilli Roman) */
+@font-face {
+    font-family: 'Limelight';
+    src: url('path/to/Pistilli-Roman.woff2') format('woff2'),
+         url('path/to/Pistilli-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pistilli Roman';
+    src: url('path/to/Pistilli-Roman-Bold.woff2') format('woff2'),
+         url('path/to/Pistilli-Roman-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pistilli Roman', sans-serif;
+}
+
+body {
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2);
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: #9F7A66;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-family: 'Limelight', cursive;
+    font-size: 34px;
+    font-weight: bold;
+    color: #351D18;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #351D18;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+nav ul li a:hover, .active {
+    color: #351D18;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #351D18;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after, .active::after {
+    width: 100%;
+}
+
+/* Results Container */
 .results-container {
     text-align: center;
-    background: white; /* White background for the card */
+    background: white;
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     animation: fadeIn 1s ease-in-out;
+    margin-top: 100px; /* Adjust for fixed header */
 }
 
 .results-title {
-    font-size: 48px; /* Increased size */
+    font-size: 48px;
     margin-bottom: 20px;
-    color: #3b2f2f; /* Dark brown */
+    color: #3b2f2f;
     opacity: 0;
     font-family: 'Limelight';
     animation: slideDown 0.8s ease-in-out forwards;
@@ -41,17 +123,17 @@ body {
 }
 
 .measurements-heading {
-    font-size: 32px; /* Increased size */
+    font-size: 32px;
     margin-bottom: 20px;
-    color: #3b2f2f; /* Dark brown */
+    color: #3b2f2f;
     opacity: 0;
     animation: fadeIn 0.8s ease-in-out forwards;
     transition: transform 0.3s ease-in-out;
 }
 
 .measurements-heading:hover {
-    transform: scale(1.05); /* Hover effect */
-    color: #8b7355; /* Light brown on hover */
+    transform: scale(1.05);
+    color: #8b7355;
 }
 
 .measurements ul {
@@ -60,17 +142,17 @@ body {
 }
 
 .measurements ul li {
-    font-size: 20px; /* Increased size */
+    font-size: 20px;
     margin-bottom: 15px;
-    color: #3b2f2f; /* Dark brown */
+    color: #3b2f2f;
     opacity: 0;
     animation: fadeIn 0.8s ease-in-out forwards;
     transition: all 0.3s ease-in-out;
 }
 
 .measurements ul li:hover {
-    transform: scale(1.05); /* Hover effect */
-    color: #8b7355; /* Light brown on hover */
+    transform: scale(1.05);
+    color: #8b7355;
 }
 
 .measurements ul li span {
@@ -81,9 +163,9 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
-    width: 120px; /* Increased size */
-    height: 120px; /* Increased size */
+    background: linear-gradient(135deg, #3b2f2f, #8b7355);
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,15 +176,15 @@ body {
 }
 
 .size-box:hover {
-    transform: scale(1.1); /* Hover effect */
+    transform: scale(1.1);
 }
 
 .animated-button {
-    width: 220px; /* Increased size */
-    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
+    width: 220px;
+    background: linear-gradient(135deg, #3b2f2f, #8b7355);
     color: white;
-    padding: 15px 30px; /* Increased padding */
-    font-size: 22px; /* Increased size */
+    padding: 15px 30px;
+    font-size: 22px;
     font-weight: bold;
     border: none;
     border-radius: 8px;
@@ -113,40 +195,20 @@ body {
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #8b7355, #3b2f2f); /* Light brown to dark brown gradient on hover */
+    background: linear-gradient(135deg, #8b7355, #3b2f2f);
     transform: scale(1.08);
 }
 
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* Footer */
+footer {
+    background: #9F7A66;
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
 }
 
-@keyframes slideDown {
-    from {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes popIn {
-    from {
-        transform: scale(0);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
+footer p {
+    font-size: 14px;
+    color
