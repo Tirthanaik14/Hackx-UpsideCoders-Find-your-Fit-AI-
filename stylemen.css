@@ -237,11 +237,31 @@ input:focus, select:focus {
 
 /* Footer */
 footer {
-    text-align: center;
-    background: #3b2f2f;
-    color: white;
+    background: #9F7A66;
     padding: 15px;
-    font-size: 16px;
+    margin-top: 50px; /* Ensure there's space above the footer */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the footer full width */
+    position: relative; /* Ensure it stays in the normal flow of the document */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+
+footer p {
+    font-size: 14px;
+    color: #351D18;
+}
+
+.social-links {
+    display: flex; /* Use flexbox for social links */
+    justify-content: center; /* Center the social links */
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #FFFF;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .social-links a:hover {
