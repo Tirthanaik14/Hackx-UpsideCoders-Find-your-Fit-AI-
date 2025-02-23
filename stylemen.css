@@ -1,9 +1,9 @@
 body {
-    font-family: 'Georgia', serif; /* Basic serif font for body text */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(125deg, #F2E8DB, #D4B6A2); /* Gradient background */
-    color: #351D18; /* Dark brown text */
+    background: linear-gradient(125deg, #F2E8DB, #D4B6A2);
+    color: #351D18;
 }
 
 /* Header & Navigation */
@@ -20,17 +20,18 @@ header {
     z-index: 100;
 }
 
-/* Apply Limelight font to the logo */
 .logo {
-    font-family: 'Limelight', cursive; /* Use Limelight font */
+    font-family: 'Limelight', cursive;
     font-size: 34px;
-    font-weight: bold; /* Make it bold */
-    color: #351D18; /* Slightly darker pastel purple */
+    font-weight: bold;
+    color: #351D18;
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -42,72 +43,82 @@ nav ul li a {
     color: #351D18;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    position: relative; /* For underline effect */
+    position: relative;
 }
 
-nav ul li a:hover, .active {
-    color: #351D18; /* Keep the text color the same */
+nav ul li a:hover {
+    color: #351D18;
 }
 
-/* Pink underline on hover */
 nav ul li a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2px;
-    background: #351D18; /* Pink color */
+    background: #351D18;
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease-in-out;
 }
 
-nav ul li a:hover::after, .active::after {
-    width: 100%; /* Full width underline on hover */
+nav ul li a:hover::after {
+    width: 100%;
 }
 
+/* Fashion Background Section */
+.fashion-bg {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
 
+.hover-text {
+    font-size: 48px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
 
+.hover-text:hover {
+    transform: scale(1.1);
+}
 
 /* Fit Container */
 .fit-container {
     display: flex;
-    justify-content: center; /* Center the form */
+    justify-content: center;
     align-items: flex-start;
     padding: 40px;
 }
 
-/* Form (Right Side) */
 .fit-selection {
-    width: 70%; /* Adjusted width */
-    display: flex;
-    justify-content: flex-start; /* Shifted to the left */
-}
-
-form {
-    width: 100%; /* Full width */
+    width: 70%;
     max-width: 800px;
-    background: white; /* White background for the form */
-    padding: 25px;
+    background: white;
+    padding: 30px;
     border-radius: 16px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.4s ease-in-out;
 }
 
-form:hover {
+.fit-selection:hover {
     transform: scale(1.03);
 }
 
 /* Input Group */
 .input-group {
     display: flex;
-    align-items: center; /* Align items vertically */
-    margin-bottom: 20px; /* Space between input groups */
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .image-button {
-    width: 200px; /* Increased size */
-    height: 200px; /* Increased size */
-    background: #351D18; /* Dark brown */
+    width: 200px;
+    height: 200px;
+    background: #351D18;
     color: white;
     border: none;
     cursor: pointer;
@@ -115,76 +126,68 @@ form:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px; /* Space between button and input */
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
 }
 
 .image-button img {
-    width: 100%; /* Image fills the button */
-    height: 100%; /* Image fills the button */
-    object-fit: cover; /* Ensures the image scales properly */
-}
-
-/* Scan Button */
-.image-button {
-    position: relative; /* Position relative to allow absolute positioning of the text */
-    overflow: hidden; /* Ensure the text doesn't overflow the button */
-}
-
-.image-button img {
-    transition: opacity 0.3s ease; /* Smooth transition for the image */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
 }
 
 .scan-label {
-    position: absolute; /* Position the text absolutely within the button */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for centering */
-    color: white; /* Text color */
-    font-size: 18px; /* Text size */
-    font-weight: bold; /* Text weight */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition for the text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-/* Hover Effect */
 .image-button:hover img {
-    opacity: 0; /* Hide the image on hover */
+    opacity: 0;
 }
 
 .image-button:hover .scan-label {
-    opacity: 1; /* Show the text on hover */
+    opacity: 1;
 }
 
-/* Label Spacing */
+/* Labels and Inputs */
 label {
-    margin-bottom: 10px; /* Space between label and input/select */
-    font-weight: bold; /* Optional: Make labels bold for better visibility */
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
 }
 
-/* Input Fields */
 input, select {
     width: 100%;
     padding: 12px;
-    font-size: 18px;
-    border: 2px solid #351D18; /* Dark brown border */
+    font-size: 16px;
+    border: 2px solid #351D18;
     border-radius: 8px;
     outline: none;
     transition: 0.3s;
-    margin-bottom: 20px; /* Space below each input/select field */
+    margin-bottom: 20px;
 }
 
 input:focus, select:focus {
-    border-color: #9F7A66; /* Light brown focus color */
+    border-color: #9F7A66;
     box-shadow: 0 0 12px rgba(159, 122, 102, 0.6);
 }
 
 /* Body Type Images */
 .body-types {
     display: flex;
-    justify-content: space-between; /* Distribute space evenly */
-    gap: 10px; /* Space between images */
-    flex-wrap: nowrap; /* Prevent wrapping to the next line */
-    overflow-x: auto; /* Add horizontal scroll if needed */
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .body-types label {
@@ -192,29 +195,29 @@ input:focus, select:focus {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex: 1; /* Ensure equal width for all labels */
-    min-width: 80px; /* Minimum width for each label */
+    flex: 1;
+    min-width: 80px;
 }
 
 .body-types img {
-    width: 80px; /* Fixed width for images */
-    height: 80px; /* Fixed height for images */
+    width: 80px;
+    height: 80px;
     border-radius: 8px;
-    object-fit: cover; /* Ensure images scale properly */
+    object-fit: cover;
 }
 
 .body-types span {
-    margin-top: 8px; /* Space between image and text */
-    font-size: 14px; /* Adjust font size */
+    margin-top: 8px;
+    font-size: 14px;
 }
 
 /* Button */
 .animated-button {
     width: 100%;
-    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
+    background: linear-gradient(135deg, #3b2f2f, #8b7355);
     color: white;
     padding: 12px 24px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 8px;
@@ -223,14 +226,14 @@ input:focus, select:focus {
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #9F7A66, #351D18); /* Light brown to dark brown gradient on hover */
-    transform: scale(1.08);
+    background: linear-gradient(135deg, #9F7A66, #351D18);
+    transform: scale(1.05);
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background: #3b2f2f; /* Dark brown */
+    background: #3b2f2f;
     color: white;
     padding: 15px;
     font-size: 16px;
