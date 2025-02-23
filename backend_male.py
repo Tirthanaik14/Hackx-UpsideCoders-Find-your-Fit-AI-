@@ -26,7 +26,7 @@ def take_photo(filename='photo.jpg', quality=0.8):
             div.appendChild(btn);
             document.body.appendChild(div);
 
-            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+            const stream = await navigator.mediaDevices.getUser Media({ video: true });
             video.srcObject = stream;
             await new Promise((resolve) => (video.onloadedmetadata = resolve));
             video.play();
@@ -56,7 +56,7 @@ def take_photo(filename='photo.jpg', quality=0.8):
 
 # Take a photo
 image_path = take_photo()
-print(f"Image saved as {image_path}")
+print(f"Image saved as {image_path}")
 
 !pip install opencv-python mediapipe numpy
 
@@ -79,6 +79,60 @@ image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 # Process with Pose Estimation
 results = pose.process(image_rgb)
 
+def calculate_distance(p1, p2):
+    """Calculate the Euclidean distance between two points."""
+    return np.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
+
+def estimate_size(user_choice, user_brand, user_fit, bust_width_cm):
+    """Estimate clothing size based on user preferences and bust width."""
+    if user_choice not in ('tops', 'shirts', 'pants'):
+        return None, "Invalid choice"
+
+    size_chart = {
+        ('tops', 'shirts'): {
+            'puma': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            },
+            'nike': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            },
+            'adidas': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            }
+        },
+        'pants': {
+            'puma': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            },
+            'nike': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            },
+            'adidas': {
+                'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
+                'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
+                'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
+            }
+        }
+    }
+
+    if user_brand in size_chart and user_fit in size_chart[user_brand]:
+        for lower, upper, size in size_chart[user_brand][user_fit]:
+            if lower <= bust_width_cm <= upper:
+                return size, None  # Return size and None for message
+
+    return None, "Size not found"  # Return None for size and message
+
+# Process the image and extract measurements
 if results.pose_landmarks:
     # Draw landmarks on image
     mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
@@ -98,108 +152,4 @@ if results.pose_landmarks:
 
     # Approximate waist using a point between the bust and hips
     left_waist = (left_shoulder[0] * 0.4 + left_hip[0] * 0.6, left_shoulder[1] * 0.4 + left_hip[1] * 0.6)
-    right_waist = (right_shoulder[0] * 0.4 + right_hip[0] * 0.6, right_shoulder[1] * 0.4 + right_hip[1] * 0.6)
-
-    # Extend hip measurement to the PELVIC WIDTH
-
-    left_outer_thigh = (left_hip[0], left_hip[1])
-    right_outer_thigh = (right_hip[0], right_hip[1])
-
-    # Correct distance calculation function
-    def calculate_distance(p1, p2):
-        return np.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
-
-    # Get pixel measurements
-    shoulder_width_px = calculate_distance(left_shoulder, right_shoulder)
-    hip_width_px = calculate_distance(left_outer_thigh, right_outer_thigh)*3 # Improved hip width
-    bust_width_px = calculate_distance(left_bust, right_bust)
-    waist_width_px = calculate_distance(left_waist, right_waist)
-    body_height_px = calculate_distance(top_head, feet)  # Full body pixel height
-
-    # Ask user for their real height in cm
-    user_height_cm = float(input("Enter your height in cm: "))
-    user_brand = input("Enter your preferred brand: ")
-    user_choice = input("Enter your preferred cloth type: ")
-    user_fit = input("Enter your preferred fit: ")
-
-    # Convert pixel distances to real-world cm
-    shoulder_width_cm = (shoulder_width_px / body_height_px) * user_height_cm
-    hip_width_cm = (hip_width_px / body_height_px) * user_height_cm
-    bust_width_cm = (bust_width_px / body_height_px) * user_height_cm*4
-    waist_width_cm = (waist_width_px / body_height_px) * user_height_cm
-
-    # Display results
-    print(f"✅ Estimated Shoulder Width: {shoulder_width_cm:.2f} cm")
-    print(f"✅ Estimated Bust Width: {bust_width_cm:.2f} cm")
-    print(f"✅ Estimated Waist Width: {waist_width_cm:.2f} cm")
-    print(f"✅ Estimated Hip Width: {hip_width_cm:.2f} cm")
-    size = estimate_size(user_choice, user_brand, user_fit, bust_width_cm)
-    print(f"Size got: {size}")
-
-
-
-# Show the processed image with landmarks
-cv2_imshow(image)
-
-def estimate_size(user_choice, user_brand, user_fit, bust_width_cm):
-    if user_choice not in ('tops', 'shirts', 'pants'):
-
-        return "Invalid choice"
-
-    size_chart = {
-        ('tops', 'shirts'): {
-        'puma': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        },
-        'nike': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        },
-        'adidas': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        }
-    },
-        'pants': {
-        'puma': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        },
-        'nike': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        },
-        'adidas': {
-            'slim': [(70, 81, 'XS'), (81, 90, 'S'), (91, 95, 'M'), (96, 100, 'L'), (101, 110, 'XL')],
-            'oversized': [(90, 95, 'XS'), (96, 101, 'S'), (102, 107, 'M'), (112, 119, 'L'), (119, 126, 'XL')],
-            'regular': [(81, 88, 'XS'), (89, 96, 'S'), (97, 104, 'M'), (105, 113, 'L'), (114, 123, 'XL')]
-        }
-    }
-    }
-
-    if user_brand in size_chart and user_fit in size_chart[user_brand]:
-        for lower, upper, size in size_chart[user_brand][user_fit]:
-            if lower <= bust_width_cm <= upper:
-                print(f"Estimated size: {size}")
-                return size
-
-    return "Size not found"
-
-
-
-
-
-
-
-
-
-
-
-
-
+    right_waist = (right_shoulder[0] * 0.4 + right_hip[0] * 0.6, right_shoulder[1] * 0.4 + right_
