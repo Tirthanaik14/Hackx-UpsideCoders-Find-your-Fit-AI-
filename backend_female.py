@@ -128,4 +128,4 @@ if results.pose_landmarks:
     cv2_imshow(image)
 
     # Call the estimate_size function
-    estimated_size, message = estimate_size(user_choice, user_brand, user_fit, bust_width_cm
+    estimated_size, message = estimate_size(user_choice, user_brand, user_fit, bust_width_cm)
