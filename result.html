@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Fit Results</title>
-    <link rel="stylesheet" href="result.css">
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Georgia&display=swap" rel="stylesheet"> <!-- Limelight for headings, Georgia for text -->
+    <link rel="stylesheet" href="styleresult.css">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Georgia&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="results-container">
@@ -14,10 +14,10 @@
             <div class="measurements">
                 <h2 class="measurements-heading">Your Measurements</h2>
                 <ul>
-                    <li><span>Shoulder Width:</span> <span id="shoulder"> 32cm</span></li>
-                    <li><span>Bust Size:</span> <span id="bust"> 42cm</span></li>
-                    <li><span>Waist Size:</span> <span id="waist"> 30cm</span></li>
-                    <li><span>Hips Size:</span> <span id="hips"> 36cm</span></li>
+                    <li><span>Shoulder Width:</span> <span id="shoulder">38 cm</span></li>
+                    <li><span>Bust Size:</span> <span id="bust"></span></li>
+                    <li><span>Waist Size:</span> <span id="waist"></span></li>
+                    <li><span>Hips Size:</span> <span id="hips"></span></li>
                 </ul>
             </div>
             <div class="recommended-size">
@@ -25,16 +25,16 @@
                 <div class="size-box" id="size-box">M</div>
             </div>
         </div>
-        <button class="animated-button">Back to Home</button>
+        <button class="animated-button" onclick="goBack()">Back to Home</button>
     </div>
 
     <script>
-        // Example data from backend (replace with actual data from backend)
+        // Example data (replace with actual data from backend)
         const measurements = {
             shoulder: "38 cm",
-            bust: "92 cm",
-            waist: "76 cm",
-            hips: "98 cm",
+            bust: "90 cm",
+            waist: "75 cm",
+            hips: "95 cm",
             size: "M"
         };
 
@@ -48,8 +48,13 @@
         // Add sequential animations
         const elements = document.querySelectorAll('.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button');
         elements.forEach((element, index) => {
-            element.style.animationDelay = ${index * 0.3}s;
+            element.style.animationDelay = `${index * 0.3}s`;
         });
+
+        // Function to go back to the home page
+        function goBack() {
+            window.location.href = "index.html"; // Replace with your home page URL
+        }
     </script>
 </body>
 </html>
