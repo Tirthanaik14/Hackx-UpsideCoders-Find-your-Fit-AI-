@@ -130,6 +130,7 @@ h2 {
     font-weight: bold; /* Make heading bold */
 }
 
+
 .intro {
     text-align: center;
     font-size: 1.2rem;
@@ -139,7 +140,13 @@ h2 {
 
 .intro strong {
     color: #351D18;
+    font-size: 3.5rem;
+    color: #351D18; /* Match your theme color */
+    font-weight: bold; /* Make it bold */
+    font-family: 'Dancing Script', cursive; /* Use a cursive font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */   
 }
+
 
 /* Flexbox Container */
 .container {
