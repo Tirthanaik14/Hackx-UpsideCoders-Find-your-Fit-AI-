@@ -12,7 +12,7 @@
         <div class="logo">👕 Pic2Fit</div>
         <nav>
             <ul>
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="women.html">Women</a></li>
                 <li><a href="men.html">Men</a></li>
                 <li><a href="type.html">FitCheck</a></li>
@@ -32,8 +32,8 @@
                     <!-- Image Capture Button -->
                     <div class="scan-section">
                         <button class="image-button" type="button" onclick="openCamera()">
-                            <img src="scan-icon.png" alt="Scan Icon" class="scan-icon"> <!-- Add your image here -->
-                            <span class="scan-label">Scan My Size</span> <!-- Wrap the text in a span -->
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/scan-icon.png" alt="Scan Icon" class="scan-icon">
+                            <span class="scan-label">Scan My Size</span>
                         </button>
                     </div>
                     <!-- Camera Capture Elements -->
@@ -50,27 +50,27 @@
                 <div class="body-types">
                     <label>
                         <input type="radio" name="bodyType" value="rectangle">
-                        <img src="rectangle.jpg" alt="Rectangle">
+                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/rectangle.jpg" alt="Rectangle">
                         <span>Rectangle</span>
                     </label>
                     <label>
                         <input type="radio" name="bodyType" value="triangle">
-                        <img src="triangle.jpg" alt="Triangle">
+                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/triangle.jpg" alt="Triangle">
                         <span>Triangle</span>
                     </label>
                     <label>
                         <input type="radio" name="bodyType" value="inverted-triangle">
-                        <img src="invertedtri.jpg" alt="Inverted Triangle">
+                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedtri.jpg" alt="Inverted Triangle">
                         <span>Inverted Triangle</span>
                     </label>
                     <label>
                         <input type="radio" name="bodyType" value="oval">
-                        <img src="oval.jpg" alt="Oval">
+                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/oval.jpg" alt="Oval">
                         <span>Oval</span>
                     </label>
                     <label>
                         <input type="radio" name="bodyType" value="trapezoid">
-                        <img src="trapezoid.jpg" alt="Trapezoid">
+                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/trapezoid.jpg" alt="Trapezoid">
                         <span>Trapezoid</span>
                     </label>
                 </div>
@@ -128,35 +128,35 @@
             }
         }
         function openCamera() {
-        let video = document.getElementById('camera');
-        let canvas = document.getElementById('canvas');
-        let capturedImage = document.getElementById('captured-image');
-        let capturedImageData = document.getElementById('captured-image-data');
+            let video = document.getElementById('camera');
+            let canvas = document.getElementById('canvas');
+            let capturedImage = document.getElementById('captured-image');
+            let capturedImageData = document.getElementById('captured-image-data');
 
-        navigator.mediaDevices.getUserMedia({ video: true })
-            .then(stream => {
-                video.style.display = "block";
-                video.srcObject = stream;
-            })
-            .catch(err => console.error("Error accessing camera:", err));
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(stream => {
+                    video.style.display = "block";
+                    video.srcObject = stream;
+                })
+                .catch(err => console.error("Error accessing camera:", err));
 
-        // Capture the image when the video is clicked
-        video.addEventListener('click', function () {
-            canvas.width = video.videoWidth;
-            canvas.height = video.videoHeight;
-            let ctx = canvas.getContext('2d');
-            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+            // Capture the image when the video is clicked
+            video.addEventListener('click', function () {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                let ctx = canvas.getContext('2d');
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-            let imageDataURL = canvas.toDataURL('image/png');
-            capturedImage.src = imageDataURL;
-            capturedImage.style.display = "block";
+                let imageDataURL = canvas.toDataURL('image/png');
+                capturedImage.src = imageDataURL;
+                capturedImage.style.display = "block";
 
-            capturedImageData.value = imageDataURL;
+                capturedImageData.value = imageDataURL;
 
-            video.style.display = "none";
-            video.srcObject.getTracks().forEach(track => track.stop()); // Stop the camera
-        });
-    }
+                video.style.display = "none";
+                video.srcObject.getTracks().forEach(track => track.stop()); // Stop the camera
+            });
+        }
     </script>
 </body>
 </html>
