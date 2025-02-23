@@ -33,8 +33,13 @@ def process():
     image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     file.save(image_path)
 
-    # Call MediaPipe processing function
-    measurements, size_prediction = process_image(image_path, user_height_cm)
+    body_type = request.form.get("bodyType")
+    clothing_type = request.form.get("clothingType")
+    brand = request.form.get("brand")
+    fit = request.form.get("fit")
+
+    measurements, size_prediction = process_image(image_path, user_height_cm, body_type, clothing_type, brand, fit)
+
 
     if measurements is None:
         return "Error: No pose detected.", 400  
