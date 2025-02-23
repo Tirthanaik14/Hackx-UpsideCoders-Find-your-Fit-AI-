@@ -151,4 +151,45 @@
 
                             // Draw the current video frame onto the canvas
                             const ctx = canvas.getContext('2d');
-                            ctx.drawImage(video,
+                            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                            // Convert the canvas image to a data URL
+                            const imageDataURL = canvas.toDataURL('image/png');
+
+                            // Display the captured image
+                            capturedImage.src = imageDataURL;
+                            capturedImage.style.display = "block";
+
+                            // Store the image data in the hidden input field
+                            capturedImageData.value = imageDataURL;
+
+                            // Stop the video stream
+                            video.style.display = "none";
+                            video.srcObject.getTracks().forEach(track => track.stop());
+                        });
+                    })
+                    .catch(err => {
+                        console.error("Error accessing the camera:", err);
+                        alert("Unable to access the camera. Please ensure you have granted permission.");
+                    });
+            } else {
+                alert("Your browser does not support camera access.");
+            }
+        }
+
+        document.getElementById("fitForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Get form data
+            const height = document.getElementById("height").value;
+            const bodyType = document.querySelector('input[name="bodyType"]:checked').value;
+            const clothingType = document.getElementById("clothingType").value;
+            const brand = document.getElementById("brand").value;
+            const fit = document.getElementById("fit").value;
+
+            // Redirect to result.html with query parameters
+            window.location.href = `result.html?height=${height}&bodyType=${bodyType}&clothingType=${clothingType}&brand=${brand}&fit=${fit}`;
+        });
+    </script>
+</body>
+</html>
