@@ -113,10 +113,10 @@ if results.pose_landmarks:
     body_height_px = calculate_distance(top_head, feet)  # Full body pixel height
 
     # Ask user for their real height in cm
-    user_height_cm = float(input("Enter your height in cm: "))
-    user_brand = input("Enter your preferred brand: ")
-    user_choice = input("Enter your preferred cloth type: ")
-    user_fit = input("Enter your preferred fit: ")
+    #user_height_cm = float(input("Enter your height in cm: "))
+    #user_brand = input("Enter your preferred brand: ")
+    #user_choice = input("Enter your preferred cloth type: ")
+    #user_fit = input("Enter your preferred fit: ")
 
     # Convert pixel distances to real-world cm
     shoulder_width_cm = (shoulder_width_px / body_height_px) * user_height_cm
