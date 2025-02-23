@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Result</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Fit Results</title>
+    <link rel="stylesheet" href="styleresult.css">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Georgia&display=swap" rel="stylesheet"> <!-- Limelight for headings, Georgia for text -->
 </head>
 <body>
-    <h2>Measurement Results</h2>
-    <p><strong>Bust Width:</strong> {{ bust_width }} cm</p>
-    <p><strong>Estimated Clothing Size:</strong> {{ estimated_size }}</p>
+    <div class="results-container">
+        <h1 class="results-title">Your Perfect Fit</h1>
+        <div class="results-card">
+            <div class="measurements">
+                <h2 class="measurements-heading">Your Measurements</h2>
+                <ul>
+                    <li><span>Shoulder Width:</span> <span id="shoulder">38 cm</span></li>
+                    <li><span>Bust Size:</span> <span id="bust">92 cm</span></li>
+                    <li><span>Waist Size:</span> <span id="waist">76 cm</span></li>
+                    <li><span>Hips Size:</span> <span id="hips">98 cm</span></li>
+                </ul>
+            </div>
+            <div class="recommended-size">
+                <h2>Recommended Size</h2>
+                <div class="size-box" id="size-box">M</div>
+            </div>
+        </div>
+        <button class="animated-button">Back to Home</button>
+    </div>
+
+    <script>
+        // Example data from backend (replace with actual data from backend)
+        const measurements = {
+            shoulder: "38 cm",
+            bust: "92 cm",
+            waist: "76 cm",
+            hips: "98 cm",
+            size: "M"
+        };
+
+        // Populate the results with data
+        document.getElementById("shoulder").textContent = measurements.shoulder;
+        document.getElementById("bust").textContent = measurements.bust;
+        document.getElementById("waist").textContent = measurements.waist;
+        document.getElementById("hips").textContent = measurements.hips;
+        document.getElementById("size-box").textContent = measurements.size;
+
+        // Add sequential animations
+        const elements = document.querySelectorAll('.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button');
+        elements.forEach((element, index) => {
+            element.style.animationDelay = ${index * 0.3}s;
+        });
+    </script>
 </body>
 </html>
 
