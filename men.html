@@ -21,86 +21,84 @@
         </nav>
     </header>
 
-    <section class="fashion-bg">
-        <h1 class="hover-text">Discover Your Style!</h1>
-    </section>
+    <main>
+        <section class="fit-container">
+            <!-- Form -->
+            <div class="fit-selection">
+                <form id="fitForm">
+                    <div class="input-group">
+                        <!-- Image Capture Button -->
+                        <div class="scan-section">
+                            <button class="image-button" type="button" onclick="openCamera()">
+                                <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/scan-icon.png" alt="Scan Icon" class="scan-icon">
+                                <span class="scan-label">Scan My Size</span>
+                            </button>
+                        </div>
+                        <!-- Camera Capture Elements -->
+                        <video id="camera" autoplay style="display: none;"></video>
+                        <canvas id="canvas" style="display: none;"></canvas>
+                        <img id="captured-image" style="display: none; width: 200px; height: auto;"/>
+                        <input type="hidden" id="captured-image-data" name="captured_image">
 
-    <section class="fit-container">
-        <!-- Form -->
-        <div class="fit-selection">
-            <form>
-                <div class="input-group">
-                    <!-- Image Capture Button -->
-                    <div class="scan-section">
-                        <button class="image-button" type="button" onclick="openCamera()">
-                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/scan-icon.png" alt="Scan Icon" class="scan-icon">
-                            <span class="scan-label">Scan My Size</span>
-                        </button>
+                        <label for="height">Height (cm):</label>
+                        <input type="number" id="height" required placeholder="Enter your height" min="50" max="250">
                     </div>
-                    <!-- Camera Capture Elements -->
-                    <video id="camera" autoplay style="display: none;"></video>
-                    <canvas id="canvas" style="display: none;"></canvas>
-                    <img id="captured-image" style="display: none; width: 200px; height: auto;"/>
-                    <input type="hidden" id="captured-image-data" name="captured_image">
 
-                    <label for="height">Height (cm):</label>
-                    <input type="number" id="height" required placeholder="Enter your height">
-                </div>
+                    <label for="bodyType">Body Type:</label>
+                    <div class="body-types">
+                        <label>
+                            <input type="radio" name="bodyType" value="rectangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/rectangle.jpg" alt="Rectangle Body Type">
+                            <span>Rectangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="triangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/triangle.jpg" alt="Triangle Body Type">
+                            <span>Triangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="inverted-triangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedtri.jpg" alt="Inverted Triangle Body Type">
+                            <span>Inverted Triangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="oval" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/oval.jpg" alt="Oval Body Type">
+                            <span>Oval</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="trapezoid" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/trapezoid.jpg" alt="Trapezoid Body Type">
+                            <span>Trapezoid</span>
+                        </label>
+                    </div>
 
-                <label for="bodyType">Body Type:</label>
-                <div class="body-types">
-                    <label>
-                        <input type="radio" name="bodyType" value="rectangle">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/rectangle.jpg" alt="Rectangle">
-                        <span>Rectangle</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="triangle">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/triangle.jpg" alt="Triangle">
-                        <span>Triangle</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="inverted-triangle">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedtri.jpg" alt="Inverted Triangle">
-                        <span>Inverted Triangle</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="oval">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/oval.jpg" alt="Oval">
-                        <span>Oval</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="bodyType" value="trapezoid">
-                        <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/trapezoid.jpg" alt="Trapezoid">
-                        <span>Trapezoid</span>
-                    </label>
-                </div>
+                    <label for="clothingType">Clothing Type:</label>
+                    <select id="clothingType" onchange="updateBrandOptions()" required>
+                        <option value="" disabled selected>Select the option</option>
+                        <option value="tshirt">T-Shirt</option>
+                        <option value="shirt">Shirt</option>
+                        <option value="pants">Pants</option>
+                    </select>
 
-                <label for="clothingType">Clothing Type:</label>
-                <select id="clothingType" onchange="updateBrandOptions()">
-                    <option value="" disabled selected>Select the option</option>
-                    <option value="tshirt">T-Shirt</option>
-                    <option value="shirt">Shirt</option>
-                    <option value="pants">Pants</option>
-                </select>
+                    <label for="brand">Brand Preference:</label>
+                    <select id="brand" required>
+                        <option value="" disabled selected>Select the option</option>
+                    </select>
 
-                <label for="brand">Brand Preference:</label>
-                <select id="brand">
-                    <option value="" disabled selected>Select the option</option>
-                </select>
+                    <label for="fit">Preferred Fit:</label>
+                    <select id="fit" required>
+                        <option value="" disabled selected>Select the option</option>
+                        <option>Slim Fit</option>
+                        <option>Regular Fit</option>
+                        <option>Loose Fit</option>
+                    </select>
 
-                <label for="fit">Preferred Fit:</label>
-                <select id="fit">
-                    <option value="" disabled selected>Select the option</option>
-                    <option>Slim Fit</option>
-                    <option>Regular Fit</option>
-                    <option>Loose Fit</option>
-                </select>
-
-                <button type="submit" class="animated-button">Find My Fit</button>
-            </form>
-        </div>
-    </section>
+                    <button type="submit" class="animated-button">Find My Fit</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Pic2Fit | Built for Smart Shopping</p>
@@ -128,13 +126,14 @@
                 });
             }
         }
+
         function openCamera() {
             let video = document.getElementById('camera');
             let canvas = document.getElementById('canvas');
             let capturedImage = document.getElementById('captured-image');
             let capturedImageData = document.getElementById('captured-image-data');
 
-            navigator.mediaDevices.getUserMedia({ video: true })
+            navigator.mediaDevices.getUser Media({ video: true })
                 .then(stream => {
                     video.style.display = "block";
                     video.srcObject = stream;
