@@ -1,51 +1,152 @@
-/* General Styles */
 body {
     font-family: 'Georgia', serif; /* Serif font for text */
     margin: 0;
     padding: 0;
-    background-color: #f5f5dc; /* Creme background */
+    background: #f5f5dc; /* Creme background */
     color: #3b2f2f; /* Dark brown text */
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-header .logo {
-    font-family: 'Limelight', cursive;
-    font-size: 24px;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin-left: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.upload-container {
-    margin: 50px auto;
-    text-align: center;
+    height: 100vh;
 }
 
 .results-container {
-    max-width: 800
+    text-align: center;
+    background: white; /* White background for the card */
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.results-title {
+    font-size: 48px; /* Increased size */
+    margin-bottom: 20px;
+    color: #3b2f2f; /* Dark brown */
+    opacity: 0;
+    font-family: 'Limelight';
+    animation: slideDown 0.8s ease-in-out forwards;
+}
+
+.results-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.measurements, .recommended-size {
+    text-align: left;
+}
+
+.measurements-heading {
+    font-size: 32px; /* Increased size */
+    margin-bottom: 20px;
+    color: #3b2f2f; /* Dark brown */
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+    transition: transform 0.3s ease-in-out;
+}
+
+.measurements-heading:hover {
+    transform: scale(1.05); /* Hover effect */
+    color: #8b7355; /* Light brown on hover */
+}
+
+.measurements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.measurements ul li {
+    font-size: 20px; /* Increased size */
+    margin-bottom: 15px;
+    color: #3b2f2f; /* Dark brown */
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+    transition: all 0.3s ease-in-out;
+}
+
+.measurements ul li:hover {
+    transform: scale(1.05); /* Hover effect */
+    color: #8b7355; /* Light brown on hover */
+}
+
+.measurements ul li span {
+    font-weight: bold;
+}
+
+.size-box {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    animation: popIn 0.8s ease-in-out forwards;
+    transition: transform 0.3s ease-in-out;
+}
+
+.size-box:hover {
+    transform: scale(1.1); /* Hover effect */
+}
+
+.animated-button {
+    width: 220px; /* Increased size */
+    background: linear-gradient(135deg, #3b2f2f, #8b7355); /* Dark brown to light brown gradient */
+    color: white;
+    padding: 15px 30px; /* Increased padding */
+    font-size: 22px; /* Increased size */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in-out forwards;
+    transition: all 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+    background: linear-gradient(135deg, #8b7355, #3b2f2f); /* Light brown to dark brown gradient on hover */
+    transform: scale(1.08);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
