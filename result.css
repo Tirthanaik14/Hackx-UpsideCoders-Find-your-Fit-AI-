@@ -1,214 +1,133 @@
-/* Custom Font (Pistilli Roman) */
-@font-face {
-    font-family: 'Limelight';
-    src: url('path/to/Pistilli-Roman.woff2') format('woff2'),
-         url('path/to/Pistilli-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Pistilli Roman';
-    src: url('path/to/Pistilli-Roman-Bold.woff2') format('woff2'),
-         url('path/to/Pistilli-Roman-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-* {
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Pistilli Roman', sans-serif;
-}
-
-body {
-    background: linear-gradient(125deg, #F2E8DB, #D4B6A2);
+    background-color: #f9f9f9;
     color: #333;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    justify-content: flex-start;
 }
 
-/* Header & Navigation */
 header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 5%;
-    background: #9F7A66;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 100;
 }
 
-.logo {
+header .logo {
     font-family: 'Limelight', cursive;
-    font-size: 34px;
-    font-weight: bold;
-    color: #351D18;
+    font-size: 24px;
 }
 
-nav ul {
-    list-style: none;
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-nav ul li {
-    margin: 0 15px;
+header nav ul li {
+    margin-left: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #351D18;
-    font-weight: 500;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+    font-size: 16px;
 }
 
-nav ul li a:hover, .active {
-    color: #351D18;
-}
-
-nav ul li a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background: #351D18;
-    bottom: -5px;
-    left: 0;
-    transition: width 0.3s ease-in-out;
-}
-
-nav ul li a:hover::after, .active::after {
-    width: 100%;
-}
-
-/* Results Container */
 .results-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     text-align: center;
-    background: white;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    animation: fadeIn 1s ease-in-out;
-    margin-top: 100px; /* Adjust for fixed header */
 }
 
 .results-title {
-    font-size: 48px;
+    font-family: 'Limelight', cursive;
+    font-size: 36px;
     margin-bottom: 20px;
-    color: #3b2f2f;
-    opacity: 0;
-    font-family: 'Limelight';
-    animation: slideDown 0.8s ease-in-out forwards;
-}
-
-.results-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 30px;
-}
-
-.measurements, .recommended-size {
-    text-align: left;
-}
-
-.measurements-heading {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #3b2f2f;
-    opacity: 0;
-    animation: fadeIn 0.8s ease-in-out forwards;
-    transition: transform 0.3s ease-in-out;
-}
-
-.measurements-heading:hover {
-    transform: scale(1.05);
-    color: #8b7355;
 }
 
 .measurements ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 .measurements ul li {
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: #3b2f2f;
-    opacity: 0;
-    animation: fadeIn 0.8s ease-in-out forwards;
-    transition: all 0.3s ease-in-out;
-}
-
-.measurements ul li:hover {
-    transform: scale(1.05);
-    color: #8b7355;
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 .measurements ul li span {
     font-weight: bold;
 }
 
-.size-box {
-    font-size: 48px;
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(135deg, #3b2f2f, #8b7355);
-    width: 120px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    opacity: 0;
-    animation: popIn 0.8s ease-in-out forwards;
-    transition: transform 0.3s ease-in-out;
+.recommended-size {
+    margin-top: 20px;
 }
 
-.size-box:hover {
-    transform: scale(1.1);
+.size-box {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
 }
 
 .animated-button {
-    width: 220px;
-    background: linear-gradient(135deg, #3b2f2f, #8b7355);
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
     color: white;
-    padding: 15px 30px;
-    font-size: 22px;
-    font-weight: bold;
     border: none;
-    border-radius: 8px;
     cursor: pointer;
-    opacity: 0;
-    animation: fadeIn 0.8s ease-in-out forwards;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .animated-button:hover {
-    background: linear-gradient(135deg, #8b7355, #3b2f2f);
-    transform: scale(1.08);
+    background-color: #0056b3;
 }
 
-/* Footer */
 footer {
-    background: #9F7A66;
-    padding: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
     margin-top: 50px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    position: relative;
 }
 
-footer p {
-    font-size: 14px;
-    color
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.results-title, .measurements-heading, .measurements ul li, .recommended-size h2, .size-box, .animated-button {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
