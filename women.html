@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Your Fit - Women</title>
-    <link rel="stylesheet" href="stylewomen.css">
+    <title>Find Your Fit - Men</title>
+    <link rel="stylesheet" href="stylemen.css">
     <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -47,29 +47,29 @@
                     <label for="bodyType">Body Type:</label>
                     <div class="body-types">
                         <label>
-                            <input type="radio" name="bodyType" value="hourglass" required>
-                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/hourglass.jpg" alt="Hourglass.jpg">
-                            <span>Hourglass</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="bodyType" value="triangle" required>
-                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/peach.jpg" alt="Triangle Body Type">
-                            <span>Triangle</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="bodyType" value="apple" required>
-                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/apple.jpg" alt="Inverted Triangle Body Type">
-                            <span>Apple</span>
-                        </label>
-                        <label>
                             <input type="radio" name="bodyType" value="rectangle" required>
-                            <img src=""https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/apple.jpg"" alt="Rectangle Body Type">
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/rectangle.jpg" alt="Rectangle Body Type">
                             <span>Rectangle</span>
                         </label>
                         <label>
-                            <input type="radio" name="bodyType" value="inverted" required>
-                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedwomen.jpg" alt="Inverted Body Type">
-                            <span>Inverted</span>
+                            <input type="radio" name="bodyType" value="triangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/triangle.jpg" alt="Triangle Body Type">
+                            <span>Triangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="inverted-triangle" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/invertedtri.jpg" alt="Inverted Triangle Body Type">
+                            <span>Inverted Triangle</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="oval" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/oval.jpg" alt="Oval Body Type">
+                            <span>Oval</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="bodyType" value="trapezoid" required>
+                            <img src="https://github.com/Tirthanaik14/UpsideCoders/raw/main/images/trapezoid.jpg" alt="Trapezoid Body Type">
+                            <span>Trapezoid</span>
                         </label>
                     </div>
 
@@ -112,9 +112,9 @@
             brandSelect.innerHTML = '<option value="" disabled selected>Select the option</option>';
 
             const brandOptions = {
-                tshirt: ["Puma", "Adidas", "Souled Store"],
-                shirt: ["US Polo", "Louis Philippe", "Raymond"],
-                pants: ["Woodland", "Peter England", "Allen Solly"]
+                tshirt: ["Nike", "Puma", "Polo"],
+                shirt: ["Nike", "Puma", "Polo"],
+                pants: ["Nike", "Puma", "Polo"]
             };
 
             if (brandOptions[clothingType]) {
@@ -128,35 +128,68 @@
         }
 
         function openCamera() {
-            let video = document.getElementById('camera');
-            let canvas = document.getElementById('canvas');
-            let capturedImage = document.getElementById('captured-image');
-            let capturedImageData = document.getElementById('captured-image-data');
+            const video = document.getElementById('camera');
+            const canvas = document.getElementById('canvas');
+            const capturedImage = document.getElementById('captured-image');
+            const capturedImageData = document.getElementById('captured-image-data');
 
-            navigator.mediaDevices.getUser Media({ video: true })
-                .then(stream => {
-                    video.style.display = "block";
-                    video.srcObject = stream;
-                })
-                .catch(err => console.error("Error accessing camera:", err));
+            // Check if the browser supports mediaDevices and getUserMedia
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                // Request access to the camera
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(stream => {
+                        // Display the video stream
+                        video.style.display = "block";
+                        video.srcObject = stream;
+                        video.play();
 
-            // Capture the image when the video is clicked
-            video.addEventListener('click', function () {
-                canvas.width = video.videoWidth;
-                canvas.height = video.videoHeight;
-                let ctx = canvas.getContext('2d');
-                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+                        // Add a click event to capture the image
+                        video.addEventListener('click', () => {
+                            // Set canvas dimensions to match the video
+                            canvas.width = video.videoWidth;
+                            canvas.height = video.videoHeight;
 
-                let imageDataURL = canvas.toDataURL('image/png');
-                capturedImage.src = imageDataURL;
-                capturedImage.style.display = "block";
+                            // Draw the current video frame onto the canvas
+                            const ctx = canvas.getContext('2d');
+                            ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-                capturedImageData.value = imageDataURL;
+                            // Convert the canvas image to a data URL
+                            const imageDataURL = canvas.toDataURL('image/png');
 
-                video.style.display = "none";
-                video.srcObject.getTracks().forEach(track => track.stop()); // Stop the camera
-            });
+                            // Display the captured image
+                            capturedImage.src = imageDataURL;
+                            capturedImage.style.display = "block";
+
+                            // Store the image data in the hidden input field
+                            capturedImageData.value = imageDataURL;
+
+                            // Stop the video stream
+                            video.style.display = "none";
+                            video.srcObject.getTracks().forEach(track => track.stop());
+                        });
+                    })
+                    .catch(err => {
+                        console.error("Error accessing the camera:", err);
+                        alert("Unable to access the camera. Please ensure you have granted permission.");
+                    });
+            } else {
+                alert("Your browser does not support camera access.");
+            }
         }
+
+        document.getElementById("fitForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Get form data
+            const height = document.getElementById("height").value;
+            const bodyType = document.querySelector('input[name="bodyType"]:checked').value;
+            const clothingType = document.getElementById("clothingType").value;
+            const brand = document.getElementById("brand").value;
+            const fit = document.getElementById("fit").value;
+
+            // Redirect to result.html with query parameters
+            window.location.href = `result.html?height=${height}&bodyType=${bodyType}&clothingType=${clothingType}&brand=${brand}&fit=${fit}`;
+        });
     </script>
 </body>
 </html>
